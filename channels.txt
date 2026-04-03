@@ -3,9 +3,11 @@
 #27mc
 #70cm
 #a28
+#adsb
 #ai
 #alert
 #alkmaar
+#almelo
 #almere
 #amersfoort
 #amradio
@@ -21,6 +23,7 @@
 #beds-bucks-northants
 #bemesh
 #betuwe
+#blabla
 #blubb
 #bochum
 #boe
@@ -44,6 +47,7 @@
 #delft
 #denhaag
 #denhelder
+#deutschland
 #devnull
 #dinteloord
 #dme
@@ -69,6 +73,7 @@
 #fosdem
 #friesland
 #gelderland
+#germany
 #gezellig
 #gj
 #goedenavond
@@ -90,6 +95,7 @@
 #hellevoetsluis
 #hertford
 #hetweerinjegemeente
+#hi
 #hilversum
 #houten
 #hsnl
@@ -133,10 +139,12 @@
 #noodkanaal
 #noordbrabant
 #noordholland
+#nov
 #nrw
 #nsagov
 #odido
 #overijssel
+#pd7lj
 #pi4hm
 #pi4utr
 #pi6mep

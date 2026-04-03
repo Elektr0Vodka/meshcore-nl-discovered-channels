@@ -11,17 +11,22 @@ This repository contains an **alphabetically sorted list of channels** discovere
 
 This project exists to document and preserve a visible snapshot of channels currently discoverable through the MeshCore network, with a focus on **The Netherlands and surrounding regions**.
 
-Because these results are gathered from active discovery, the contents of this list may change over time.
+Because most of these results are gathered from active discovery, the contents of this list may change over time.
+
+## Public Channels Only
+
+This repository contains only publicly accessible channels. Private or encrypted channels are not included unless explicitly shared by their owners or creators. Channels that require special access, passwords, or encryption keys will not be added.
+This ensures the repository remains a reference for community-discoverable MeshCore channels without violating privacy or security.
 
 ## Source
 
 Generated using:
 
 * **Remote-Terminal-for-MeshCore-Channel Finder**
-
+* **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 195
+* **Total discovered channels:** 200
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -39,9 +44,11 @@ Generated using:
 #27mc
 #70cm
 #a28
+#adsb
 #ai
 #alert
 #alkmaar
+#almelo
 #almere
 #amersfoort
 #amradio
@@ -57,6 +64,7 @@ Generated using:
 #beds-bucks-northants
 #bemesh
 #betuwe
+#blabla
 #blubb
 #bochum
 #boe
@@ -80,6 +88,7 @@ Generated using:
 #delft
 #denhaag
 #denhelder
+#deutschland
 #devnull
 #dinteloord
 #dme
@@ -105,6 +114,7 @@ Generated using:
 #fosdem
 #friesland
 #gelderland
+#germany
 #gezellig
 #gj
 #goedenavond
@@ -126,6 +136,7 @@ Generated using:
 #hellevoetsluis
 #hertford
 #hetweerinjegemeente
+#hi
 #hilversum
 #houten
 #hsnl
@@ -169,10 +180,12 @@ Generated using:
 #noodkanaal
 #noordbrabant
 #noordholland
+#nov
 #nrw
 #nsagov
 #odido
 #overijssel
+#pd7lj
 #pi4hm
 #pi4utr
 #pi6mep
