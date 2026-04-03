@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 202
+* **Total discovered channels:** 205
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -140,6 +140,7 @@ Generated using:
 #hi
 #hilversum
 #houten
+#hsluis
 #hsnl
 #hvm
 #ijsselstein
@@ -188,6 +189,7 @@ Generated using:
 #odido
 #overijssel
 #pd7lj
+#pi2dev
 #pi4hm
 #pi4utr
 #pi6mep
@@ -235,6 +237,7 @@ Generated using:
 #wezep
 #wiet
 #wetter
+#xrwf
 #yorkshire
 #zaanstreek-waterland
 #zeeland
