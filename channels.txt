@@ -51,6 +51,7 @@
 #devnull
 #dinteloord
 #dme
+#domoticz
 #dordrecht
 #drenthe
 #drechtsteden
@@ -133,6 +134,7 @@
 #nieuws
 #nijmegen
 #nijverdal
+#nl
 #nl-alert
 #nl-gtb-bs
 #nl-prio

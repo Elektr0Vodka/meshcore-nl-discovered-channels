@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 200
+* **Total discovered channels:** 202
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -92,6 +92,7 @@ Generated using:
 #devnull
 #dinteloord
 #dme
+#domoticz
 #dordrecht
 #drenthe
 #drechtsteden
@@ -174,6 +175,7 @@ Generated using:
 #nieuws
 #nijmegen
 #nijverdal
+#nl
 #nl-alert
 #nl-gtb-bs
 #nl-prio
