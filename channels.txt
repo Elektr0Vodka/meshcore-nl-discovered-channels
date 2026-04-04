@@ -4,6 +4,7 @@
 #70cm
 #a28
 #adsb
+#afrithonbot
 #ai
 #alert
 #alkmaar
@@ -198,6 +199,7 @@
 #wetter
 #xrwf
 #yorkshire
+#zaandam
 #zaanstreek-waterland
 #zeeland
 #zuid-holland

@@ -45,6 +45,7 @@ Generated using:
 #70cm
 #a28
 #adsb
+#afrithonbot
 #ai
 #alert
 #alkmaar
@@ -239,6 +240,7 @@ Generated using:
 #wetter
 #xrwf
 #yorkshire
+#zaandam
 #zaanstreek-waterland
 #zeeland
 #zuid-holland
