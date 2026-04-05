@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 209
+* **Total discovered channels:** 216
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -43,6 +43,7 @@ Generated using:
 #1191
 #27mc
 #70cm
+#73s
 #a28
 #adsb
 #afrithonbot
@@ -55,8 +56,8 @@ Generated using:
 #amradio
 #amstelland
 #amsterdam
-#angrynerds
 #analyser
+#angrynerds
 #antwerpen
 #apeldoorn
 #arnhem
@@ -81,23 +82,25 @@ Generated using:
 #chatgpt
 #cornwall
 #custom-firmware
-#darkroom
 #dares
+#darkroom
 #de
 #deil
 #dekroeg
 #delft
+#den-helder
 #denhaag
 #denhelder
 #deutschland
 #devnull
+#dhr
 #dinteloord
 #dirage
 #dme
 #domoticz
 #dordrecht
-#drenthe
 #drechtsteden
+#drenthe
 #dtis
 #dtv
 #duisburg
@@ -111,8 +114,8 @@ Generated using:
 #enschede
 #essen
 #evenvroegopstaan
-#flightradar24
 #flevoland
+#flightradar24
 #flood
 #fosdem
 #friesland
@@ -120,27 +123,30 @@ Generated using:
 #germany
 #gezellig
 #gj
-#goedenavond
-#goedemorgen
-#gouda
 #gmr
 #gmrbot
+#goedemorgen
+#goedenavond
+#gouda
 #grunn
 #gsn
 #gunmen
 #gwnl
 #gyverbot
-#hahab
+#haarlem
 #hackerspacenijmegen
+#hahab
 #hamradio
 #hamradionederland
-#haarlem
 #hashtags
 #hellevoetsluis
+#hengelo
 #hertford
 #hetweerinjegemeente
 #hi
 #hilversum
+#home
+#homeassistant
 #houten
 #hsluis
 #hsnl
@@ -151,8 +157,8 @@ Generated using:
 #kanalen
 #katwijk
 #kees
-#koffie
 #koeln
+#koffie
 #leiden
 #leverkusen
 #limburg
@@ -175,6 +181,7 @@ Generated using:
 #nedap
 #nederland
 #nerd
+#nhn
 #nieuws
 #nijmegen
 #nijverdal
@@ -199,7 +206,7 @@ Generated using:
 #ping
 #pingbot
 #politie
-#public
+#prut
 #putyourspamhere
 #radar
 #radio-zend-amateurs
@@ -215,8 +222,8 @@ Generated using:
 #survival
 #tech
 #test
-#testn
 #testing
+#testn
 #tilburg
 #twente
 #uitdagingen
@@ -225,21 +232,21 @@ Generated using:
 #valleirug
 #venlo
 #vlaardingen
-#vlissingen
 #vleesboek
+#vlissingen
 #voorburg
 #voorne-putten
 #vught
 #walcheren
+#wales
 #wardrive
 #wardriving
-#wales
 #weather
 #weer
 #west-friesland
+#wetter
 #wezep
 #wiet
-#wetter
 #xrwf
 #yorkshire
 #zaandam
@@ -280,7 +287,15 @@ These are kept intentionally because they were discovered as separate channels:
 </details>
 
 ---
+### Importing and Exporting channels
+<details>
+<summary><strong>Click to expand Importing and Exporting Channels </strong></summary>
+The file name meshcore_channels_2026-x-x.txt can be imported using this version of remote term:
+https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore/tree/main
 
+</details>
+
+---
 ## Contributing
 
 <details>
