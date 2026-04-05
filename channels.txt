@@ -149,6 +149,7 @@
 #nsagov
 #odido
 #overijssel
+#pd0kmd
 #pd7lj
 #pi2dev
 #pi4hm

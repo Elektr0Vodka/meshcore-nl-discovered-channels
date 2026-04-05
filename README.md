@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 208
+* **Total discovered channels:** 209
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -190,6 +190,7 @@ Generated using:
 #nsagov
 #odido
 #overijssel
+#pd0kmd
 #pd7lj
 #pi2dev
 #pi4hm
