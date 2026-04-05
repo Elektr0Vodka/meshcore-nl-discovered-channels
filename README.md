@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 216
+* **Total discovered channels:** 217
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -154,6 +154,7 @@ Generated using:
 #ijsselstein
 #john
 #jokes
+#kampen
 #kanalen
 #katwijk
 #kees

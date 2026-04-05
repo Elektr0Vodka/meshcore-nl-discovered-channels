@@ -117,6 +117,7 @@
 #ijsselstein - d2915a2757417b48c650b2bccc968088
 #john - 8183daf27f7ee7a327284981ef74b319
 #jokes - abe610d61dee508c0ac18793c36c41c3
+#kampen - 85380619f133fc80298a20ef8ce6f1b0
 #kanalen - 59970dddfc3a87fa99f3eceeefa4cc17
 #katwijk - 3f97d51e77a8d317182e0cfd65f66864
 #kees - 05ca87b37be595155ae8d6eceba2bc8d
