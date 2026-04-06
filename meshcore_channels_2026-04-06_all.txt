@@ -214,6 +214,7 @@
 #wetter - afc5276e0d18bdeddbda96dcd722b60e
 #wezep - fc0099d7f9162dcb867fd9ab56573adf
 #wiet - 298d6aba9a1f29bcf41e286ba1adcf71
+#xr - 30137ea30ff793a4119e26673494beb1
 #xrwf - a7d8b654f3a7ab216249cc89c6e74e82
 #yorkshire - ea19e9567eec1b148c174f0cb9d04dd7
 #zaandam - 8dc77176a7e54ccf7a048793e63927c2
