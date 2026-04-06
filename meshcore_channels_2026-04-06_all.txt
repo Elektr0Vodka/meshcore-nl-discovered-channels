@@ -1,4 +1,4 @@
-# MeshCore Channel Export - 2026-04-05
+# MeshCore Channel Export - 2026-04-06
 # Format: #channel-name - 32-char-hex-key
 # Import this file in Remote Terminal for MeshCore via Channels → Import
 
@@ -37,6 +37,7 @@
 #bot - eb50a1bcb3e4e5d7bf69a57c9dada211
 #bots - 0d24f5830b449668b8c221759b6c50d2
 #brabant - 7eeb6cd1af4560658fb99e4e4b512865
+#brandstofprijzen - 9b366b8b5063c8c16ce7af53ae07d5f1
 #buch - 13bbca5cd40e82b83c494a3a99c9c1a8
 #burgernet - 0e7835b51405a691abc1c38c8b9f830c
 #capb1 - 89553259f4b7a4adfabe9321001a52d8
@@ -123,6 +124,8 @@
 #kees - 05ca87b37be595155ae8d6eceba2bc8d
 #koeln - cc2de011842824b10ee2e28e97f91339
 #koffie - 88e3fb0b5ca9fbd7af99efb413cfeed3
+#kubecon - 09158f8a8c526f69169ad9bdb8b1031f
+#leerdam - 745da437a3ed5fcac8236336cc912836
 #leiden - 0f97ae3aefdf34e4c38b7d79f0575c3d
 #leverkusen - 3bc7032c813e014b5142b9198f65873d
 #limburg - a1354f99a1e3fb4c59212ed72a0af9bb
