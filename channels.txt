@@ -119,6 +119,7 @@
 #kanalen
 #katwijk
 #kees
+#kernow
 #koeln
 #koffie
 #kubecon
@@ -156,11 +157,13 @@
 #noodkanaal
 #noordbrabant
 #noordholland
+#northwest
 #nov
 #nrw
 #nsagov
 #odido
 #overijssel
+#p2000
 #pd0kmd
 #pd7lj
 #pi2dev
@@ -182,6 +185,7 @@
 #scouting
 #sensemakers
 #sion
+#solent
 #sports
 #survival
 #tech

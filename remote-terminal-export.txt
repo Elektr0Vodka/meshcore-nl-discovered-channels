@@ -123,6 +123,7 @@
 #kanalen - 59970dddfc3a87fa99f3eceeefa4cc17
 #katwijk - 3f97d51e77a8d317182e0cfd65f66864
 #kees - 05ca87b37be595155ae8d6eceba2bc8d
+#kernow - c5af70d0cd3ffe5e298c64b96d385587
 #koeln - cc2de011842824b10ee2e28e97f91339
 #koffie - 88e3fb0b5ca9fbd7af99efb413cfeed3
 #kubecon - 09158f8a8c526f69169ad9bdb8b1031f
@@ -160,11 +161,13 @@
 #noodkanaal - 31edc84037d3eac3a258e0f45f226016
 #noordbrabant - cd7f105d202f74a928c78eda211de4ac
 #noordholland - 53feb654c06deec33576c78090956b90
+#northwest - bd7631b07e8a3e59d0d3b74d87761e26
 #nov - abdfa709c55ed619aa73f32f5b8f7e44
 #nrw - 482281b86496e41d93083ebd4e40f03e
 #nsagov - 6e2d80683c05f2e3b29cac68748a5ec9
 #odido - 50674d5b00ccd08abe8a2c988d1491f2
 #overijssel - 65dc44cb887bfd6595d07d69bdf2ca71
+#p2000 - 569dc229b286f06ae8fab74b9db923a3
 #pd0kmd - 77d2807d4bf6d7b366c5e7d774990a1d
 #pd7lj - 36b6aaeec51d5e36f6a8cd5e69a8a954
 #pi2dev - 506ea80aff99fabf399b3756360831df
@@ -186,6 +189,7 @@
 #scouting - 77b6b86aa73343a0b07d448313b0c914
 #sensemakers - 2470c61f38561689c12b2a87b0abfce5
 #sion - 8db3340e782810bbea0468a82b9d72b6
+#solent - 3c7404c4b8c52ed4a270e39af58c1ad1
 #sports - e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #survival - e1f465ea51df09fc901389758f1c5f01
 #tech - 5177b749eefbfab3c90a21b4e2518c5f
