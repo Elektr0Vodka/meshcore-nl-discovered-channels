@@ -59,10 +59,13 @@ These are kept intentionally because they were discovered as separate channels:
 </details>
 
 ---
+
 ### Importing and Exporting channels
+
 <details>
 <summary><strong>Click to expand Importing and Exporting Channels </strong></summary>
-The file name meshcore_channels_2026-x-x.txt can be imported using this version of remote term:
+
+The file named remote-terminal-export.txt can be imported using this version of remote term:
 https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore/tree/main
 
 </details>
