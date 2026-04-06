@@ -15,6 +15,7 @@
 #alkmaar - 1110447e9244642327062a5884618f0e
 #almelo - 0ed2d4570fb9612201e9bfde8ed9f852
 #almere - d67016a5b1da57f54b3a96edea9e8757
+#alphen - 1ca2285aa7d45853e96512c2198c2c1f
 #amersfoort - 541beab0e7587095d0ecfad330e0f630
 #amradio - b633a431dd3511bd280ec7912431f182
 #amstelland - 4c8f7039d51b73717c2faac253a1f042
@@ -28,6 +29,7 @@
 #bami - c99f1457e9b8887ff2ce87e4dd8c9fb7
 #beds-bucks-northants - 338060482e29d5772d8309001d29c8fe
 #bemesh - 4e92675e10b4a5b3df305e86a6f4f8fa
+#berks - 1c6a0bf7d1e692a6bd9e92c87b518727
 #betuwe - d2ff0bb0b31ed2445e2926b76ca537c6
 #blabla - 9aa65cf8b22fd4762fc1d2f7c4f9ebba
 #blubb - 279b1c651f25cde7689d88280eaecc5a
@@ -68,6 +70,7 @@
 #dtis - 0b540e14e0afb7b708c079fb21a8938f
 #dtv - bb89af838292935560a94444082376fe
 #duisburg - 4955adcb1122bfe266747dddeb78d6cb
+#eastbourne - 9a3db5b00e19b7d2dcc7248dde719bde
 #echo - 5d25cf40b1f5b4a7eb0cf9703634a948
 #ede - 41161d7c49634f0a8685259f2a95c19c
 #ei - 680fec37a56be6f264cc3daf7b21419c
@@ -129,6 +132,7 @@
 #kubecon - 09158f8a8c526f69169ad9bdb8b1031f
 #leerdam - 745da437a3ed5fcac8236336cc912836
 #leiden - 0f97ae3aefdf34e4c38b7d79f0575c3d
+#leidschendam - 0eeb1e972966da3418cc776d30a634f4
 #leverkusen - 3bc7032c813e014b5142b9198f65873d
 #limburg - a1354f99a1e3fb4c59212ed72a0af9bb
 #linux - 02c74eda5d8ec8b9bb945049fb2f55c6
@@ -142,8 +146,10 @@
 #malden - 43e5073ada9271170a394a1d153c3ccc
 #mc-radar - f27acf0bf185c2ec4b9fd36bf12fa1ee
 #meshcore - 2fa78a5aef618e7c2a78f0ab5c8869b3
+#meshoe - eab624506e43e28dd8e18f64fcfbd227
 #meshtastic - 73a2e13ff0dea9ed19b24b2ab753650f
 #middelburg - efb542910a2a41810be08f87c1009d52
+#midlands - ba3707a0760d156169aea2a6c82e2d6a
 #mierlo - 19cea0be81d10022682af04ffef1007b
 #mnot - 5b8a4e82b19059bd08b973d0ec8a91c0
 #n44 - 6a236062980403127b739751f228279b
@@ -190,7 +196,9 @@
 #sensemakers - 2470c61f38561689c12b2a87b0abfce5
 #sion - 8db3340e782810bbea0468a82b9d72b6
 #solent - 3c7404c4b8c52ed4a270e39af58c1ad1
+#somerset - 1e13916ca19d4954e469d7cfc1781c0d
 #sports - e8ee81f3aabf105d9ba2d2d4bd94fe4a
+#suffolk - 63dc928c56eaa67ae6fabf2b24ff425e
 #survival - e1f465ea51df09fc901389758f1c5f01
 #tech - 5177b749eefbfab3c90a21b4e2518c5f
 #test - 9cd8fcf22a47333b591d96a2b848b73f
@@ -226,6 +234,7 @@
 #zaanstreek-waterland - 0f3a11f7693fb1e9414882c9a4ce5549
 #zeeland - d49981832e87495678ab1624fe0a6d29
 #zeist - 3953aa201e82f1db016d94d07175924f
+#zelhem - 04b4b56b3bc87c521e8bad51a1a7d2ca
 #zuid-holland - a242466a8c438797955eb6704bf20fe0
 #zuidholland - 9f5752f1e25a6ad90b075a425d4cffe5
 #zwolle - d65fabeef323a4b9ec18fa5b761ceba4

@@ -11,6 +11,7 @@
 #alkmaar
 #almelo
 #almere
+#alphen
 #amersfoort
 #amradio
 #amstelland
@@ -24,6 +25,7 @@
 #bami
 #beds-bucks-northants
 #bemesh
+#berks
 #betuwe
 #blabla
 #blubb
@@ -64,6 +66,7 @@
 #dtis
 #dtv
 #duisburg
+#eastbourne
 #echo
 #ede
 #ei
@@ -125,6 +128,7 @@
 #kubecon
 #leerdam
 #leiden
+#leidschendam
 #leverkusen
 #limburg
 #linux
@@ -138,8 +142,10 @@
 #malden
 #mc-radar
 #meshcore
+#meshoe
 #meshtastic
 #middelburg
+#midlands
 #mierlo
 #mnot
 #n44
@@ -186,7 +192,9 @@
 #sensemakers
 #sion
 #solent
+#somerset 
 #sports
+#suffolk
 #survival
 #tech
 #test
@@ -220,8 +228,9 @@
 #yorkshire
 #zaandam
 #zaanstreek-waterland
-#zeist
 #zeeland
+#zeist
+#zelhem
 #zuid-holland
 #zuidholland
 #zwolle
