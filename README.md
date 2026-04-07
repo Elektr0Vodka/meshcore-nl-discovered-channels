@@ -26,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 236
+* **Total discovered channels:** 240
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels

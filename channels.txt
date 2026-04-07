@@ -36,6 +36,7 @@
 #bots
 #brabant
 #brandstofprijzen
+#bristol
 #buch
 #burgernet
 #capb1
@@ -133,6 +134,7 @@
 #limburg
 #linux
 #lisse
+#local
 #lohmar
 #londen
 #london
@@ -141,6 +143,7 @@
 #maastricht-hl
 #malden
 #mc-radar
+#mesh
 #meshcore
 #meshoe
 #meshtastic
@@ -187,12 +190,13 @@
 #rheinland
 #rijnmond
 #rotterdam
+#s62
 #schagen
 #scouting
 #sensemakers
 #sion
 #solent
-#somerset 
+#somerset
 #sports
 #suffolk
 #survival

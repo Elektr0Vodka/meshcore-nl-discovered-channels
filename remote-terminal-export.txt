@@ -40,6 +40,7 @@
 #bots - 0d24f5830b449668b8c221759b6c50d2
 #brabant - 7eeb6cd1af4560658fb99e4e4b512865
 #brandstofprijzen - 9b366b8b5063c8c16ce7af53ae07d5f1
+#bristol - 493486a739c99b6dbd2f0307165fcd4e
 #buch - 13bbca5cd40e82b83c494a3a99c9c1a8
 #burgernet - 0e7835b51405a691abc1c38c8b9f830c
 #capb1 - 89553259f4b7a4adfabe9321001a52d8
@@ -137,6 +138,7 @@
 #limburg - a1354f99a1e3fb4c59212ed72a0af9bb
 #linux - 02c74eda5d8ec8b9bb945049fb2f55c6
 #lisse - 71da4b7274f6aed4339ca4b100c689f9
+#local - d2d35fa76be9875ed254db80397483a5
 #lohmar - 603300eec8e34af50bb9f2230e649697
 #londen - 024b50917ac8a2e7e702435813e04ee3
 #london - 9881d2b7ab9105a41a8d0f6ba449447e
@@ -145,6 +147,7 @@
 #maastricht-hl - 42ca665b63456ee7403431fa46f65de8
 #malden - 43e5073ada9271170a394a1d153c3ccc
 #mc-radar - f27acf0bf185c2ec4b9fd36bf12fa1ee
+#mesh - 5b664cde0b08b220612113db980650f3
 #meshcore - 2fa78a5aef618e7c2a78f0ab5c8869b3
 #meshoe - eab624506e43e28dd8e18f64fcfbd227
 #meshtastic - 73a2e13ff0dea9ed19b24b2ab753650f
@@ -191,6 +194,7 @@
 #rheinland - d2d23db125a0c2e7058420d23ce11f9e
 #rijnmond - 213582a3820c0b4d875f8d8ef0c284c2
 #rotterdam - e3f3ad251e512a029bd27161b14f0bdd
+#s62 - 13aae1cac1aae69cd461c71aff486a05
 #schagen - f1fa325a8fa98cb04e034fcf95b72d35
 #scouting - 77b6b86aa73343a0b07d448313b0c914
 #sensemakers - 2470c61f38561689c12b2a87b0abfce5
