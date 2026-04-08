@@ -520,20 +520,20 @@ function renderCard(c) {
   const nameNohash = c.channel.replace(/^#/, '');
   return `<div class="${classes}">
   <div class="card-head">
-    <span class="channel-name" onclick="copyDisplay(this,${JSON.stringify(nameNohash)})" title="Click to copy name">${esc(c.channel)}</span>
+    <span class="channel-name" onclick="copyDisplay(this,${esc(JSON.stringify(nameNohash))})" title="Click to copy name">${esc(c.channel)}</span>
     <div class="badges">${verBadge}${recBadge}${bareBadge}</div>
   </div>
-  <div class="hex-key" onclick="copyDisplay(this,${JSON.stringify(c._key||'')})" title="Click to copy key">${esc(c._key)}</div>
+  <div class="hex-key" onclick="copyDisplay(this,${esc(JSON.stringify(c._key||''))})" title="Click to copy key">${esc(c._key)}</div>
   ${metaHtml ? `<div class="card-meta">${metaHtml}</div>` : ''}
   ${scopesHtml}${tagsHtml}${notesHtml}
   <div class="card-actions">
-    <button class="act" onclick="copyText(this,${JSON.stringify(c.channel)})">
+    <button class="act" onclick="copyText(this,${esc(JSON.stringify(c.channel))})">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
       Copy name</button>
-    <button class="act" onclick="copyText(this,${JSON.stringify(importLine)})">
+    <button class="act" onclick="copyText(this,${esc(JSON.stringify(importLine))})">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
       Copy import</button>
-    <button class="act edit-btn" onclick="openEdit(${JSON.stringify(c.channel)})">
+    <button class="act edit-btn" onclick="openEdit(${esc(JSON.stringify(c.channel))})">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
       ${hasMeta ? 'Edit' : 'Add info'}</button>
   </div>
@@ -550,17 +550,17 @@ function renderList() {
     const rec = c.recommended ? `<span title="Recommended" style="color:var(--yellow)">★</span>` : '';
     const nameNohash = c.channel.replace(/^#/, '');
     return `<tr class="${rowClass}">
-      <td><span class="lt-name" onclick="copyDisplay(this,${JSON.stringify(nameNohash)})" title="Click to copy name">${esc(c.channel)}</span></td>
-      <td><span class="lt-key" onclick="copyDisplay(this,${JSON.stringify(c._key||'')})" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
+      <td><span class="lt-name" onclick="copyDisplay(this,${esc(JSON.stringify(nameNohash))})" title="Click to copy name">${esc(c.channel)}</span></td>
+      <td><span class="lt-key" onclick="copyDisplay(this,${esc(JSON.stringify(c._key||''))})" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
       <td><span class="lt-cat">${esc(c.category||'')}</span></td>
       <td style="color:var(--muted);font-size:12px">${esc(c.subcategory||'')}</td>
       <td><span class="lt-region">${esc(c.region||'')}</span></td>
       <td><span class="lt-scope" title="${esc((c.scopes||[]).join(', '))}">${esc(scopes)}</span></td>
       <td><span class="lt-flags">${ver}${rec}</span></td>
       <td><div class="lt-acts">
-        <button class="act" onclick="copyText(this,${JSON.stringify(c.channel)})">Copy</button>
-        <button class="act" onclick="copyText(this,${JSON.stringify(importLine)})">Import</button>
-        <button class="act edit-btn" onclick="openEdit(${JSON.stringify(c.channel)})">${c._hasMeta?'Edit':'Add'}</button>
+        <button class="act" onclick="copyText(this,${esc(JSON.stringify(c.channel))})">Copy</button>
+        <button class="act" onclick="copyText(this,${esc(JSON.stringify(importLine))})">Import</button>
+        <button class="act edit-btn" onclick="openEdit(${esc(JSON.stringify(c.channel))})">${c._hasMeta?'Edit':'Add'}</button>
       </div></td>
     </tr>`;
   }).join('');
