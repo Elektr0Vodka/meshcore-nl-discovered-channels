@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MeshCore NL Discovered Channels</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header>
+<h1>MeshCore NL Discovered Channels</h1>
+<p>Searchable directory of publicly discovered channels.</p>
+</header>
+
+<main>
+<section class="controls">
+<input type="text" id="search" placeholder="Search channels, notes, tags..." />
+<select id="categoryFilter"><option value="">All categories</option></select>
+<select id="regionFilter"><option value="">All regions</option></select>
+<select id="languageFilter"><option value="">All languages</option></select>
+</section>
+
+<section class="stats" id="stats"></section>
+<section id="channelList" class="channel-list"></section>
+</main>
+
+<footer>
+<p>Generated from repository metadata. Raw import files remain untouched.</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
