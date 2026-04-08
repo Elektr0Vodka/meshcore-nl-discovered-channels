@@ -5,7 +5,9 @@
 #024-bot - f5920e8b7ba3573602eac69d4daa13bf
 #1191 - 389bc1fa20e9516fb0e0a26daf8417f0
 #27mc - 519cb5036755a21aaa4d9d668da58d96
+#3625 - 50d9dac9ce971a61ef5fff51a25e2368
 #70cm - f06fc8136e31fa9246ec166074e808e8
+#73 - e097a0f7a63e65275ac4083a077bd5e5
 #73s - b69caf217779e6988cd3eb27c9b60fa7
 #a28 - 838b2fd885fc57e5e5f9e7c2472febe6
 #adsb - 6ebe7453ded3b8991cdbb53029b46068
@@ -47,7 +49,9 @@
 #capelleaandenijssel - bdbe92e1922848b6cef05dadf9c1cd2d
 #chat - d0bdd6d71538138ed979eec00d98ad97
 #chatgpt - 6eebf621279e56212faca4cb31b09ee6
+#chesterfield - c548ff109210c348dea9a6fd02d9f216
 #cornwall - 88b113ee8130e832d0bf15a5c7be0ddd
+#cruxin - aee071029fbd660b1c665a38eed1ba83
 #custom-firmware - 970e21d4c9fce8c7b72e607552268ddc
 #dares - 9a25f99aa7255090e6e17896a48c2873
 #darkroom - 5f08dfe2cdd8e77429ffbe40cc145656
@@ -58,6 +62,7 @@
 #den-helder - fa4f1897bdb4a0c2cadab553197f896a
 #denhaag - 84eed36f62c7b22527dbf8883585ad14
 #denhelder - e9cb0ef4dbd25d2d95ef1f3290ecc37e
+#derbyshire - 4c3e09555ad74fde17f3a82febb610c4
 #deutschland - 6870d6013221f0278122cb8c88990794
 #devnull - 591885133038ed54f1a6d579a95aecfb
 #dhr - 20b453662d185051cbddf72989379d64
@@ -88,6 +93,7 @@
 #fosdem - e9737d9ed4eddb7d2c80c0f712a846a9
 #friesland - 7d228e0aa32ce2cceff5480b825ba11d
 #gelderland - 7c5f276b6ace11177427bae7f5190b61
+#gent - 82f82c2835bd5fbda1ab0eb134364532
 #germany - 0a834b4687fd4e09f72f6eeb3191ee25
 #gezellig - a9719d35c2f9ffbb8e317ce9dcff3cc3
 #gj - 154d1b04624d110e6fa35e96f03fbbd8
@@ -118,6 +124,7 @@
 #houten - e404c32d5ba63ddd0a55814a5363b7ef
 #hsluis - 4cd48c75477367037eedff921d9a1608
 #hsnl - 3208ba4ddfb19c5047ef9cad62601db1
+#huddersfield - 549a4cd97d96c130d359748c72f0e321
 #hvm - 8a989d7ded529bd04ec77d05a770d822
 #ijsselstein - d2915a2757417b48c650b2bccc968088
 #isleofwight - 61c443367875ab5fed500c6c7d88b6ae
@@ -177,6 +184,7 @@
 #odido - 50674d5b00ccd08abe8a2c988d1491f2
 #overijssel - 65dc44cb887bfd6595d07d69bdf2ca71
 #p2000 - 569dc229b286f06ae8fab74b9db923a3
+#pa3ang - c2dd0c6b7d7cfec474442b195d27e394
 #pd0kmd - 77d2807d4bf6d7b366c5e7d774990a1d
 #pd7lj - 36b6aaeec51d5e36f6a8cd5e69a8a954
 #pi2dev - 506ea80aff99fabf399b3756360831df
@@ -201,6 +209,7 @@
 #sion - 8db3340e782810bbea0468a82b9d72b6
 #solent - 3c7404c4b8c52ed4a270e39af58c1ad1
 #somerset - 1e13916ca19d4954e469d7cfc1781c0d
+#spire - 692e0d5a7bc25196af4da578850f9b21
 #sports - e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #suffolk - 63dc928c56eaa67ae6fabf2b24ff425e
 #survival - e1f465ea51df09fc901389758f1c5f01

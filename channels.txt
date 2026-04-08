@@ -1,7 +1,9 @@
 #024-bot
 #1191
 #27mc
+#3625
 #70cm
+#73
 #73s
 #a28
 #adsb
@@ -43,7 +45,9 @@
 #capelleaandenijssel
 #chat
 #chatgpt
+#chesterfield
 #cornwall
+#cruxin
 #custom-firmware
 #dares
 #darkroom
@@ -54,6 +58,7 @@
 #den-helder
 #denhaag
 #denhelder
+#derbyshire
 #deutschland
 #devnull
 #dhr
@@ -84,6 +89,7 @@
 #fosdem
 #friesland
 #gelderland
+#gent
 #germany
 #gezellig
 #gj
@@ -114,6 +120,7 @@
 #houten
 #hsluis
 #hsnl
+#huddersfield
 #hvm
 #ijsselstein
 #isleofwight
@@ -173,6 +180,7 @@
 #odido
 #overijssel
 #p2000
+#pa3ang
 #pd0kmd
 #pd7lj
 #pi2dev
@@ -197,6 +205,7 @@
 #sion
 #solent
 #somerset
+#spire
 #sports
 #suffolk
 #survival
