@@ -1,0 +1,5370 @@
+[
+  {
+    "channel": "#024-bot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#1191",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#27mc",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#3625",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#70cm",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#73",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#73s",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#a28",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#adsb",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#afrithonbot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#ai",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#alert",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#alkmaar",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Alkmaar area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-alk"
+    ]
+  },
+  {
+    "channel": "#almelo",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Almelo area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-alm"
+    ]
+  },
+  {
+    "channel": "#almere",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Flevoland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Almere area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-fl",
+      "nl-fl-alm"
+    ]
+  },
+  {
+    "channel": "#alphen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#amersfoort",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Amersfoort area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-amf"
+    ]
+  },
+  {
+    "channel": "#amradio",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#amstelland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh"
+    ]
+  },
+  {
+    "channel": "#amsterdam",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Amsterdam area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-ams"
+    ]
+  },
+  {
+    "channel": "#analyser",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#angrynerds",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#antwerpen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#apeldoorn",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Apeldoorn area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-apd"
+    ]
+  },
+  {
+    "channel": "#arnhem",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Arnhem area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-arn"
+    ]
+  },
+  {
+    "channel": "#autism",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bami",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#beds-bucks-northants",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bemesh",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#berks",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#betuwe",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#blabla",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#blubb",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bochum",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#boe",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bonn",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bots",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#brabant",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Brabant area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb"
+    ]
+  },
+  {
+    "channel": "#brandstofprijzen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#bristol",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#buch",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#burgernet",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#capb1",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#capelleaandenijssel",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Capelleaandenijssel area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-cap"
+    ]
+  },
+  {
+    "channel": "#chat",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#chatgpt",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#chesterfield",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#cornwall",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#cruxin",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#custom-firmware",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dares",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#darkroom",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#de",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#deil",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dekroeg",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#delft",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Delft area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-dlf"
+    ]
+  },
+  {
+    "channel": "#den-helder",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Den Helder area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-dhr"
+    ]
+  },
+  {
+    "channel": "#denhaag",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Denhaag area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-dhh"
+    ]
+  },
+  {
+    "channel": "#denhelder",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Denhelder area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-dhr"
+    ]
+  },
+  {
+    "channel": "#derbyshire",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#deutschland",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#devnull",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dhr",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dinteloord",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Dinteloord area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-dto"
+    ]
+  },
+  {
+    "channel": "#dirage",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dme",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#domoticz",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dordrecht",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Dordrecht area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-ddr"
+    ]
+  },
+  {
+    "channel": "#drechtsteden",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#drenthe",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Drenthe",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Drenthe area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-dr"
+    ]
+  },
+  {
+    "channel": "#dtis",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#dtv",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#duisburg",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#eastbourne",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#echo",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#ede",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Ede area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-ede"
+    ]
+  },
+  {
+    "channel": "#ei",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#eindhoven",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Eindhoven area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-ehv"
+    ]
+  },
+  {
+    "channel": "#elburg",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Elburg area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-elb"
+    ]
+  },
+  {
+    "channel": "#emergency",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#english",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#enschede",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Enschede area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-ens"
+    ]
+  },
+  {
+    "channel": "#essen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#evenvroegopstaan",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#flevoland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Flevoland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Flevoland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-fl"
+    ]
+  },
+  {
+    "channel": "#flightradar24",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#flood",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#fosdem",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#friesland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Friesland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Friesland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-fr"
+    ]
+  },
+  {
+    "channel": "#gelderland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Gelderland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge"
+    ]
+  },
+  {
+    "channel": "#gent",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#germany",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gezellig",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gj",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gmr",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gmrbot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#goedemorgen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#goedenavond",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gouda",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Gouda area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-gda"
+    ]
+  },
+  {
+    "channel": "#grunn",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gsn",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gunmen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gwnl",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#gyverbot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#haarlem",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Haarlem area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-hrl"
+    ]
+  },
+  {
+    "channel": "#hackerspacenijmegen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hahab",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hamradio",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hamradionederland",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hashtags",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hellevoetsluis",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Hellevoetsluis area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-hel"
+    ]
+  },
+  {
+    "channel": "#hengelo",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Hengelo area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-hgl"
+    ]
+  },
+  {
+    "channel": "#hertford",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hetweerinjegemeente",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hi",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hilversum",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Hilversum area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-hlv"
+    ]
+  },
+  {
+    "channel": "#home",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#homeassistant",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#houten",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Houten area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-htn"
+    ]
+  },
+  {
+    "channel": "#hsluis",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hsnl",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#huddersfield",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#hvm",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#ijsselstein",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Ijsselstein area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-ijs"
+    ]
+  },
+  {
+    "channel": "#isleofwight",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#john",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#jokes",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#kampen",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Kampen area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-kmp"
+    ]
+  },
+  {
+    "channel": "#kanalen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#katwijk",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Katwijk area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-ktw"
+    ]
+  },
+  {
+    "channel": "#kees",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#kernow",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#koeln",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#koffie",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#kubecon",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#leerdam",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Leerdam area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-lrd"
+    ]
+  },
+  {
+    "channel": "#leiden",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Leiden area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-ldn"
+    ]
+  },
+  {
+    "channel": "#leidschendam",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Leidschendam area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-lsd"
+    ]
+  },
+  {
+    "channel": "#leverkusen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#limburg",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Limburg",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Limburg area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-li"
+    ]
+  },
+  {
+    "channel": "#linux",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#lisse",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#local",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#lohmar",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#londen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#london",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#lowestoft",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#maassluis",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Maassluis area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-msl"
+    ]
+  },
+  {
+    "channel": "#maastricht-hl",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Limburg",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Maastricht Hl area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-li",
+      "nl-li-maa"
+    ]
+  },
+  {
+    "channel": "#malden",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Malden area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-mld"
+    ]
+  },
+  {
+    "channel": "#mc-radar",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#mesh",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#meshcore",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#meshoe",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#meshtastic",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#middelburg",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zeeland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Middelburg area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ze",
+      "nl-ze-mid"
+    ]
+  },
+  {
+    "channel": "#midlands",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#mierlo",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Mierlo area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-mrl"
+    ]
+  },
+  {
+    "channel": "#mnot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#n44",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nedap",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nederland",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nerd",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nhn",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nieuws",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nijmegen",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Gelderland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Nijmegen area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-nij"
+    ]
+  },
+  {
+    "channel": "#nijverdal",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Nijverdal area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-nvd"
+    ]
+  },
+  {
+    "channel": "#nl",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nl-alert",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nl-gtb-bs",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nl-prio",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#noodkanaal",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#noordbrabant",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Brabant area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb"
+    ]
+  },
+  {
+    "channel": "#noordholland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh"
+    ]
+  },
+  {
+    "channel": "#northwest",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nov",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nrw",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#nsagov",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#odido",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#overijssel",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Overijssel area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov"
+    ]
+  },
+  {
+    "channel": "#p2000",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pa3ang",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pd0kmd",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pd7lj",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pi2dev",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pi4hm",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pi4utr",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pi6mep",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#ping",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#pingbot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#politie",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#prut",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#putyourspamhere",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#radar",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#radio-zend-amateurs",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#remoteterm",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#rheinland",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#rijnmond",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zuid-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh"
+    ]
+  },
+  {
+    "channel": "#rotterdam",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Rotterdam area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-rtm"
+    ]
+  },
+  {
+    "channel": "#s62",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#schagen",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Schagen area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-sch"
+    ]
+  },
+  {
+    "channel": "#scouting",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#sensemakers",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#sion",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#solent",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#somerset",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#spire",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#sports",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#suffolk",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#survival",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#tech",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#test",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#testing",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#testn",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#tilburg",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Tilburg area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-til"
+    ]
+  },
+  {
+    "channel": "#twente",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Overijssel area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov"
+    ]
+  },
+  {
+    "channel": "#uitdagingen",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#utrecht",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Utrecht area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut"
+    ]
+  },
+  {
+    "channel": "#valleibot",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#valleirug",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#venlo",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Limburg",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Venlo area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-li",
+      "nl-li-vnl"
+    ]
+  },
+  {
+    "channel": "#vlaardingen",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Vlaardingen area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-vld"
+    ]
+  },
+  {
+    "channel": "#vleesboek",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#vlissingen",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zeeland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Vlissingen area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ze",
+      "nl-ze-vls"
+    ]
+  },
+  {
+    "channel": "#voorburg",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Voorburg area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-vbg"
+    ]
+  },
+  {
+    "channel": "#voorne-putten",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zuid-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh"
+    ]
+  },
+  {
+    "channel": "#vught",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Brabant",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Vught area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-vug"
+    ]
+  },
+  {
+    "channel": "#walcheren",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zeeland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zeeland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ze"
+    ]
+  },
+  {
+    "channel": "#wales",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#wardrive",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#wardriving",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#weather",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#weer",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#west-friesland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh"
+    ]
+  },
+  {
+    "channel": "#wetter",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#wezep",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#wiet",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#xr",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#xrwf",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#yorkshire",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#zaandam",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zaandam area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-zdm"
+    ]
+  },
+  {
+    "channel": "#zaanstreek-waterland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Noord-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Noord-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh"
+    ]
+  },
+  {
+    "channel": "#zeeland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zeeland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zeeland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ze"
+    ]
+  },
+  {
+    "channel": "#zeist",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Utrecht",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zeist area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-zst"
+    ]
+  },
+  {
+    "channel": "#zelhem",
+    "category": "special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "netherlands"
+    ],
+    "scopes": []
+  },
+  {
+    "channel": "#zuid-holland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zuid-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh"
+    ]
+  },
+  {
+    "channel": "#zuidholland",
+    "category": "regional",
+    "subcategory": "province",
+    "region": "Zuid-Holland",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zuid-Holland area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "province",
+      "regional",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh"
+    ]
+  },
+  {
+    "channel": "#zwolle",
+    "category": "regional",
+    "subcategory": "city",
+    "region": "Overijssel",
+    "language": [
+      "nl",
+      "en"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": true,
+    "alias_of": null,
+    "notes": "General Zwolle area traffic",
+    "last_seen": "2026-04-08",
+    "tags": [
+      "city",
+      "local",
+      "netherlands"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-zwl"
+    ]
+  }
+]
