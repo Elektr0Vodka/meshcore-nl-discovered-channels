@@ -1737,6 +1737,32 @@
     "scopes": []
   },
   {
+  "channel": "#emmen",
+  "category": "regional",
+  "subcategory": "city",
+  "region": "Drenthe",
+  "language": [
+    "nl",
+    "en"
+  ],
+  "status": "active",
+  "verified": true,
+  "recommended": true,
+  "alias_of": null,
+  "notes": "General Emmen area traffic",
+  "last_seen": "2026-04-08",
+  "tags": [
+    "city",
+    "local",
+    "netherlands"
+  ],
+  "scopes": [
+    "nl",
+    "nl-dr",
+    "nl-dr-emm"
+  ]
+  },
+  {
     "channel": "#english",
     "category": "special",
     "subcategory": "topic",
