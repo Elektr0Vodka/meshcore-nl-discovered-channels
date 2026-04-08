@@ -83,7 +83,10 @@ select option{background:var(--surf2)}
 .card.local-edited{border-left:3px solid var(--yellow)}
 
 .card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:9px}
-.channel-name{font-size:15px;font-weight:700;color:#fff;font-family:'Consolas','Fira Mono',monospace;word-break:break-all}
+.channel-name{font-size:15px;font-weight:700;color:#fff;font-family:'Consolas','Fira Mono',monospace;word-break:break-all;cursor:pointer}
+.channel-name:hover{color:var(--accent)}
+.hex-key{cursor:pointer}
+.hex-key:hover{color:var(--text)!important}
 .badges{display:flex;gap:4px;flex-wrap:wrap;flex-shrink:0}
 .badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;text-transform:uppercase;letter-spacing:.04em}
 .badge-verified{background:#1a3a2a;color:var(--green);border:1px solid #2a5a3a}
@@ -127,8 +130,10 @@ select option{background:var(--surf2)}
 .list-table tr.bare-row td{opacity:.7}
 .list-table tr.bare-row:hover td{opacity:1}
 .list-table tr.local-row td:first-child{border-left:2px solid var(--yellow)}
-.lt-name{font-family:'Consolas','Fira Mono',monospace;font-weight:700;color:#fff;white-space:nowrap}
-.lt-key{font-family:monospace;font-size:11px;color:var(--muted);white-space:nowrap}
+.lt-name{font-family:'Consolas','Fira Mono',monospace;font-weight:700;color:#fff;white-space:nowrap;cursor:pointer}
+.lt-name:hover{color:var(--accent)}
+.lt-key{font-family:monospace;font-size:11px;color:var(--muted);white-space:nowrap;cursor:pointer}
+.lt-key:hover{color:var(--text)}
 .lt-cat{color:var(--accent);font-size:12px}
 .lt-region{color:var(--text);font-size:12px}
 .lt-scope{font-family:monospace;font-size:11px;color:#8aabf0}
@@ -218,6 +223,8 @@ select option{background:var(--surf2)}
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
       Export metadata
     </button>
+    <button class="btn" id="btn-export-txt" title="Export as channels.txt (one name per line)">Export TXT</button>
+    <button class="btn" id="btn-export-rtfm" title="Export as RTfM import file">Export RTfM</button>
     <div class="vr"></div>
     <div class="view-btns">
       <button class="view-btn active" id="btn-view-grid" title="Grid view">
@@ -494,12 +501,13 @@ function renderCard(c) {
   const importLine = `${c.channel} - ${c._key}`;
   const notesHtml  = c.notes ? `<p class="notes-text">${esc(c.notes)}</p>` : '';
 
+  const nameNohash = c.channel.replace(/^#/, '');
   return `<div class="${classes}" data-channel="${esc(c.channel)}">
   <div class="card-head">
-    <span class="channel-name">${esc(c.channel)}</span>
+    <span class="channel-name" onclick="copyDisplay(this,${JSON.stringify(nameNohash)})" title="Click to copy name">${esc(c.channel)}</span>
     <div class="badges">${verBadge}${recBadge}${bareBadge}</div>
   </div>
-  <div class="hex-key">${esc(c._key)}</div>
+  <div class="hex-key" onclick="copyDisplay(this,${JSON.stringify(c._key||'')})" title="Click to copy key">${esc(c._key)}</div>
   ${metaHtml ? `<div class="card-meta">${metaHtml}</div>` : ''}
   ${scopesHtml}${tagsHtml}${notesHtml}
   <div class="card-actions">
@@ -527,9 +535,10 @@ function renderList() {
     const rowClass   = [!c._hasMeta && 'bare-row', c._localEdit && 'local-row'].filter(Boolean).join(' ');
     const ver = c.verified    ? `<span title="Verified" style="color:var(--green)">✓</span>` : '';
     const rec = c.recommended ? `<span title="Recommended" style="color:var(--yellow)">★</span>` : '';
+    const nameNohash = c.channel.replace(/^#/, '');
     return `<tr class="${rowClass}">
-      <td><span class="lt-name">${esc(c.channel)}</span></td>
-      <td><span class="lt-key" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
+      <td><span class="lt-name" onclick="copyDisplay(this,${JSON.stringify(nameNohash)})" title="Click to copy name">${esc(c.channel)}</span></td>
+      <td><span class="lt-key" onclick="copyDisplay(this,${JSON.stringify(c._key||'')})" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
       <td><span class="lt-cat">${esc(c.category||'')}</span></td>
       <td style="color:var(--muted);font-size:12px">${esc(c.subcategory||'')}</td>
       <td><span class="lt-region">${esc(c.region||'')}</span></td>
@@ -581,7 +590,7 @@ function render() {
   }
 }
 
-// ── Copy helper ───────────────────────────────────────────────────────────────
+// ── Copy helpers ──────────────────────────────────────────────────────────────
 window.copyText = async (btn, text) => {
   try {
     await navigator.clipboard.writeText(text);
@@ -589,6 +598,17 @@ window.copyText = async (btn, text) => {
     btn.classList.add('copied');
     btn.textContent = 'Copied!';
     setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = prev; }, 1400);
+  } catch {}
+};
+
+window.copyDisplay = async (el, text) => {
+  try {
+    await navigator.clipboard.writeText(text);
+    const prev = el.textContent;
+    const prevColor = el.style.color;
+    el.textContent = '✓';
+    el.style.color = 'var(--green)';
+    setTimeout(() => { el.textContent = prev; el.style.color = prevColor; }, 900);
   } catch {}
 };
 
@@ -688,13 +708,28 @@ $('btn-export-meta').onclick = () => {
   dl(JSON.stringify(out, null, 2), 'channels.json');
 };
 
-function dl(text, filename) {
+function dl(text, filename, mime = 'application/json') {
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+  a.href = URL.createObjectURL(new Blob([text], { type: mime }));
   a.download = filename;
   a.click();
   URL.revokeObjectURL(a.href);
 }
+
+$('btn-export-txt').onclick = () => {
+  dl(filtered.map(c => c.channel).join('\n'), 'channels.txt', 'text/plain');
+};
+
+$('btn-export-rtfm').onclick = () => {
+  const date = new Date().toISOString().slice(0, 10);
+  const header = [
+    `# MeshCore Channel Export - ${date}`,
+    `# Format: #channel-name - 32-char-hex-key`,
+    `# Import this file in Remote Terminal for MeshCore via Channels → Import`,
+    '',
+  ].join('\n');
+  dl(header + filtered.map(c => `${c.channel} - ${c._key}`).join('\n'), 'remote-terminal-export.txt', 'text/plain');
+};
 
 // ── Clear local edits ─────────────────────────────────────────────────────────
 $('btn-clear-local').onclick = () => {
