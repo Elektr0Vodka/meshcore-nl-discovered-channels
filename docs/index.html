@@ -304,8 +304,8 @@ const LS_KEY = 'meshcore-local-edits';
 
 try {
   const [rtfmRes, jsonRes] = await Promise.all([
-    fetch('../RTfM/remote-terminal-export.txt'),
-    fetch('../metadata/channels.json'),
+    fetch('./data/remote-terminal-export.txt'),
+    fetch('./data/channels.json'),
   ]);
 
   // Parse RTfM export  →  { '#channel': 'hexkey' }
