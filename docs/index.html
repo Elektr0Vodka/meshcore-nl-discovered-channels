@@ -202,10 +202,10 @@ select option{background:var(--surf2)}
       ⚠ Important warning
     </p>
     <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">
-      Use this tool only with a <strong>dedicated radio/node</strong> for the machine it runs on.
+      Use this tool only with a <strong>dedicated companion</strong> for the machine it runs on.
       To work around MeshCore channel/contact limits, it may <strong>pull, overwrite, and delete contacts/channels</strong>
       during import/export and sync operations.
-      <strong>Do not use it on your main everyday radio unless you fully understand the risks.</strong>
+      <strong>Do not use it on your main everyday companion unless you fully understand the risks.</strong>
     </p>
   </div>
 </div>
@@ -783,4 +783,15 @@ applyFilters();
 })();
 </script>
 </body>
+<footer style="margin-top: 2rem; padding: 1rem 0; text-align: center; background: #111827; color: #d4d4d8; font-size: 0.9rem; border-top: 1px solid #27272a; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);">
+  <a href="https://github.com/Elektr0Vodka" target="_blank" rel="noopener noreferrer" 
+     style="color: #60a5fa; text-decoration: none; font-weight: 600; transition: color 0.2s ease;">
+    ElektroVodka
+  </a> - 2026
+</footer>
+<script>
+  const footerLink = document.querySelector('footer a');
+  footerLink.addEventListener('mouseover', () => footerLink.style.color = '#93c5fd');
+  footerLink.addEventListener('mouseout', () => footerLink.style.color = '#60a5fa');
+</script>
 </html>
