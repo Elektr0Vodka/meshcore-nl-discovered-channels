@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MeshCore NL Channels</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #222536;
+    --border: #2e3248;
+    --accent: #5b8dee;
+    --accent2: #7c6fe0;
+    --green: #3ecf8e;
+    --yellow: #f5c542;
+    --red: #e05b5b;
+    --text: #e2e4ef;
+    --muted: #7b82a0;
+    --tag-bg: #252a3d;
+    --radius: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; line-height: 1.5; }
+
+  /* Layout */
+  .page { max-width: 1400px; margin: 0 auto; padding: 24px 16px; }
+
+  /* Header */
+  .header { margin-bottom: 24px; }
+  .header h1 { font-size: 22px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 10px; }
+  .header h1 span.logo { font-size: 24px; }
+  .header p { color: var(--muted); margin-top: 4px; font-size: 13px; }
+
+  /* Stats bar */
+  .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 16px; display: flex; flex-direction: column; min-width: 110px; }
+  .stat-value { font-size: 22px; font-weight: 700; color: var(--accent); }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+
+  /* Controls */
+  .controls { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .search-wrap { position: relative; flex: 1; min-width: 200px; }
+  .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+  input[type=search], select {
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 6px; padding: 7px 10px; font-size: 13px; outline: none;
+    transition: border-color .15s;
+  }
+  input[type=search] { width: 100%; padding-left: 34px; }
+  input[type=search]:focus, select:focus { border-color: var(--accent); }
+  select { cursor: pointer; min-width: 140px; }
+  select option { background: var(--surface2); }
+
+  .toggle-wrap { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; white-space: nowrap; }
+  .toggle-wrap input[type=checkbox] { display: none; }
+  .toggle { width: 36px; height: 20px; background: var(--border); border-radius: 10px; position: relative; transition: background .2s; flex-shrink: 0; }
+  .toggle::after { content: ''; position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; background: #fff; border-radius: 50%; transition: left .2s; }
+  .toggle-wrap input:checked + .toggle { background: var(--accent); }
+  .toggle-wrap input:checked + .toggle::after { left: 19px; }
+  .toggle-label { color: var(--text); font-size: 13px; }
+
+  .btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 7px 14px; font-size: 12px; cursor: pointer; transition: border-color .15s, background .15s; white-space: nowrap; }
+  .btn:hover { border-color: var(--accent); background: var(--bg); }
+  .btn-accent { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .btn-accent:hover { background: #4a7ddf; border-color: #4a7ddf; }
+
+  /* Results info */
+  .results-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; color: var(--muted); font-size: 12px; }
+
+  /* Channel grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 10px; }
+
+  /* Channel card */
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; transition: border-color .15s; }
+  .card:hover { border-color: var(--accent2); }
+  .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
+  .channel-name { font-size: 15px; font-weight: 700; color: #fff; font-family: 'Consolas', 'Fira Mono', monospace; word-break: break-all; }
+  .badges { display: flex; gap: 5px; flex-wrap: wrap; flex-shrink: 0; }
+  .badge { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .badge-verified { background: #1a3a2a; color: var(--green); border: 1px solid #2a5a3a; }
+  .badge-recommended { background: #2a2a14; color: var(--yellow); border: 1px solid #4a4a20; }
+  .badge-category { background: var(--tag-bg); color: var(--accent); border: 1px solid var(--border); }
+
+  .card-meta { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; font-size: 12px; }
+  .meta-key { color: var(--muted); white-space: nowrap; }
+  .meta-val { color: var(--text); word-break: break-word; }
+  .meta-val.empty { color: var(--border); font-style: italic; }
+
+  .scopes-row { margin-top: 8px; }
+  .scope-tag { display: inline-block; background: #1a2040; color: #8aabf0; border: 1px solid #2e3a60; border-radius: 4px; font-size: 11px; font-family: monospace; padding: 1px 7px; margin: 2px 2px 0 0; }
+
+  .tags-row { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { background: var(--tag-bg); color: var(--muted); border-radius: 4px; font-size: 11px; padding: 1px 7px; }
+
+  .card-actions { margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .action-btn { font-size: 11px; padding: 4px 10px; background: var(--bg); border: 1px solid var(--border); color: var(--muted); border-radius: 5px; cursor: pointer; transition: all .15s; display: flex; align-items: center; gap: 5px; }
+  .action-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .action-btn.copied { border-color: var(--green); color: var(--green); }
+  .action-btn svg { flex-shrink: 0; }
+
+  .notes-text { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
+
+  /* Empty state */
+  .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+  .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+
+  /* Loading */
+  .loading { text-align: center; padding: 60px; color: var(--muted); }
+
+  /* Divider */
+  .filter-divider { width: 1px; height: 28px; background: var(--border); flex-shrink: 0; }
+
+  @media (max-width: 600px) {
+    .stats { gap: 8px; }
+    .stat { min-width: 90px; padding: 8px 12px; }
+    .stat-value { font-size: 18px; }
+    .grid { grid-template-columns: 1fr; }
+    .filter-divider { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <h1><span class="logo">📡</span> MeshCore NL Channels</h1>
+    <p>Discovered and curated MeshCore channels for the Netherlands and surrounding region.</p>
+  </div>
+
+  <div class="stats" id="stats">
+    <div class="stat"><span class="stat-value" id="stat-total">—</span><span class="stat-label">Total Channels</span></div>
+    <div class="stat"><span class="stat-value" id="stat-scoped">—</span><span class="stat-label">Scoped Channels</span></div>
+    <div class="stat"><span class="stat-value" id="stat-cities">—</span><span class="stat-label">Cities</span></div>
+    <div class="stat"><span class="stat-value" id="stat-provinces">—</span><span class="stat-label">Provinces</span></div>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" id="search" placeholder="Search channels, tags, notes…" autocomplete="off">
+    </div>
+
+    <div class="filter-divider"></div>
+
+    <select id="filter-category">
+      <option value="">All categories</option>
+    </select>
+
+    <select id="filter-subcategory">
+      <option value="">All subcategories</option>
+    </select>
+
+    <select id="filter-region">
+      <option value="">All regions</option>
+    </select>
+
+    <select id="filter-scope">
+      <option value="">All scopes</option>
+    </select>
+
+    <div class="filter-divider"></div>
+
+    <label class="toggle-wrap" title="Show only channels with scope assignments">
+      <input type="checkbox" id="toggle-scoped">
+      <span class="toggle"></span>
+      <span class="toggle-label">Scoped only</span>
+    </label>
+
+    <div class="filter-divider"></div>
+
+    <button class="btn btn-accent" id="btn-download">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:inline;vertical-align:middle;margin-right:5px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Download JSON
+    </button>
+  </div>
+
+  <div class="results-bar">
+    <span id="results-count"></span>
+    <button class="btn" id="btn-clear-filters" style="display:none">Clear filters</button>
+  </div>
+
+  <div id="output" class="loading">Loading channel data…</div>
+</div>
+
+<script>
+(async () => {
+  // ── Fetch data ──────────────────────────────────────────────────────────────
+  const base = document.currentScript
+    ? new URL('.', document.currentScript.src).href
+    : window.location.href.replace(/\/[^/]*$/, '/');
+
+  let channels = [], importMap = {};
+
+  try {
+    const [jsonRes, mdRes] = await Promise.all([
+      fetch('../metadata/channels.json'),
+      fetch('../metadata/channels.md'),
+    ]);
+    channels = await jsonRes.json();
+    const mdText = await mdRes.text();
+    importMap = parseMd(mdText);
+  } catch (e) {
+    document.getElementById('output').innerHTML =
+      `<div class="empty"><h3>Failed to load data</h3><p>${e.message}</p></div>`;
+    return;
+  }
+
+  // ── Parse channels.md → { channelName: importLine } ────────────────────────
+  function parseMd(text) {
+    const map = {};
+    for (const line of text.split('\n')) {
+      const m = line.match(/^\|\s*`(#[^`]+)`\s*\|(.*)/);
+      if (!m) continue;
+      const name = m[0].match(/`(#[^`]+)`/)?.[1];
+      if (name) map[name] = line.trim();
+    }
+    return map;
+  }
+
+  // ── Stats ───────────────────────────────────────────────────────────────────
+  const scoped = channels.filter(c => c.scopes && c.scopes.length > 0);
+  const cities = channels.filter(c => c.subcategory === 'city');
+  const provinces = channels.filter(c => c.subcategory === 'province');
+
+  document.getElementById('stat-total').textContent = channels.length;
+  document.getElementById('stat-scoped').textContent = scoped.length;
+  document.getElementById('stat-cities').textContent = cities.length;
+  document.getElementById('stat-provinces').textContent = provinces.length;
+
+  // ── Populate filter dropdowns ───────────────────────────────────────────────
+  function populateSelect(id, values) {
+    const sel = document.getElementById(id);
+    const current = sel.value;
+    [...values].sort().forEach(v => {
+      const o = document.createElement('option');
+      o.value = v; o.textContent = v;
+      sel.appendChild(o);
+    });
+    sel.value = current;
+  }
+
+  const allCategories = [...new Set(channels.map(c => c.category).filter(Boolean))];
+  const allSubcategories = [...new Set(channels.map(c => c.subcategory).filter(Boolean))];
+  const allRegions = [...new Set(channels.map(c => c.region).filter(Boolean))];
+  const allScopes = [...new Set(channels.flatMap(c => c.scopes || []))];
+
+  populateSelect('filter-category', allCategories);
+  populateSelect('filter-subcategory', allSubcategories);
+  populateSelect('filter-region', allRegions);
+  populateSelect('filter-scope', allScopes);
+
+  // ── Filter & render state ───────────────────────────────────────────────────
+  let filtered = channels;
+
+  function getFilters() {
+    return {
+      q: document.getElementById('search').value.trim().toLowerCase(),
+      category: document.getElementById('filter-category').value,
+      subcategory: document.getElementById('filter-subcategory').value,
+      region: document.getElementById('filter-region').value,
+      scope: document.getElementById('filter-scope').value,
+      scopedOnly: document.getElementById('toggle-scoped').checked,
+    };
+  }
+
+  function applyFilters() {
+    const f = getFilters();
+    const active = f.q || f.category || f.subcategory || f.region || f.scope || f.scopedOnly;
+    document.getElementById('btn-clear-filters').style.display = active ? '' : 'none';
+
+    filtered = channels.filter(c => {
+      if (f.scopedOnly && !(c.scopes && c.scopes.length > 0)) return false;
+      if (f.category && c.category !== f.category) return false;
+      if (f.subcategory && c.subcategory !== f.subcategory) return false;
+      if (f.region && c.region !== f.region) return false;
+      if (f.scope && !(c.scopes || []).includes(f.scope)) return false;
+      if (f.q) {
+        const haystack = [
+          c.channel, c.category, c.subcategory, c.region,
+          (c.language || []).join(' '), c.notes,
+          (c.tags || []).join(' '), (c.scopes || []).join(' '),
+        ].join(' ').toLowerCase();
+        if (!haystack.includes(f.q)) return false;
+      }
+      return true;
+    });
+
+    render();
+  }
+
+  // ── Render ──────────────────────────────────────────────────────────────────
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function renderCard(c) {
+    const hasScope = c.scopes && c.scopes.length > 0;
+    const importLine = importMap[c.channel];
+
+    const scopesHtml = hasScope
+      ? `<div class="scopes-row">${c.scopes.map(s => `<span class="scope-tag">${esc(s)}</span>`).join('')}</div>`
+      : '';
+
+    const tagsHtml = (c.tags && c.tags.length)
+      ? `<div class="tags-row">${c.tags.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>`
+      : '';
+
+    const notesHtml = c.notes
+      ? `<p class="notes-text">${esc(c.notes)}</p>`
+      : '';
+
+    const langs = Array.isArray(c.language) ? c.language.join(', ') : (c.language || '');
+
+    const metaRows = [
+      ['category', c.category],
+      ['subcategory', c.subcategory],
+      ['region', c.region || null],
+      ['language', langs || null],
+      ['last seen', c.last_seen || null],
+    ].filter(([, v]) => v);
+
+    const metaHtml = metaRows.map(([k, v]) =>
+      `<span class="meta-key">${k}</span><span class="meta-val">${esc(v)}</span>`
+    ).join('');
+
+    const verifiedBadge = c.verified
+      ? `<span class="badge badge-verified">✓ verified</span>` : '';
+    const recommendedBadge = c.recommended
+      ? `<span class="badge badge-recommended">★ rec</span>` : '';
+    const catBadge = `<span class="badge badge-category">${esc(c.category)}</span>`;
+
+    const importBtn = importLine
+      ? `<button class="action-btn" onclick="copyText(this,${JSON.stringify(importLine)})">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>Copy import line
+        </button>`
+      : '';
+
+    return `
+      <div class="card">
+        <div class="card-head">
+          <span class="channel-name">${esc(c.channel)}</span>
+          <div class="badges">${verifiedBadge}${recommendedBadge}</div>
+        </div>
+        <div class="card-meta">${metaHtml}</div>
+        ${scopesHtml}
+        ${tagsHtml}
+        ${notesHtml}
+        <div class="card-actions">
+          <button class="action-btn" onclick="copyText(this,${JSON.stringify(c.channel)})">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>Copy channel
+          </button>
+          ${importBtn}
+        </div>
+      </div>`;
+  }
+
+  function render() {
+    const out = document.getElementById('output');
+    const count = document.getElementById('results-count');
+
+    if (filtered.length === 0) {
+      out.className = 'empty';
+      out.innerHTML = `<h3>No channels found</h3><p>Try adjusting your search or filters.</p>`;
+      count.textContent = '0 results';
+      return;
+    }
+
+    count.textContent = `${filtered.length} of ${channels.length} channels`;
+    out.className = 'grid';
+    out.innerHTML = filtered.map(renderCard).join('');
+  }
+
+  // ── Copy helper ─────────────────────────────────────────────────────────────
+  window.copyText = async (btn, text) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      const prev = btn.innerHTML;
+      btn.classList.add('copied');
+      btn.innerHTML = btn.innerHTML.replace(/Copy \w+.*/, 'Copied!');
+      setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = prev; }, 1500);
+    } catch { /* ignore */ }
+  };
+
+  // ── Download filtered JSON ──────────────────────────────────────────────────
+  document.getElementById('btn-download').addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(filtered, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'meshcore-channels-filtered.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  // ── Clear filters ───────────────────────────────────────────────────────────
+  document.getElementById('btn-clear-filters').addEventListener('click', () => {
+    document.getElementById('search').value = '';
+    document.getElementById('filter-category').value = '';
+    document.getElementById('filter-subcategory').value = '';
+    document.getElementById('filter-region').value = '';
+    document.getElementById('filter-scope').value = '';
+    document.getElementById('toggle-scoped').checked = false;
+    applyFilters();
+  });
+
+  // ── Event listeners ─────────────────────────────────────────────────────────
+  ['search','filter-category','filter-subcategory','filter-region','filter-scope'].forEach(id => {
+    document.getElementById(id).addEventListener('input', applyFilters);
+  });
+  document.getElementById('toggle-scoped').addEventListener('change', applyFilters);
+
+  // ── Initial render ──────────────────────────────────────────────────────────
+  applyFilters();
+})();
+</script>
+</body>
+</html>

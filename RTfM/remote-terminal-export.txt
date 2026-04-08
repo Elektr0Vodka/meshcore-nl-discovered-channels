@@ -83,6 +83,7 @@
 #eindhoven - aceb8cceae584a3890c8db173668ae2b
 #elburg - 34ee2dc5726410e54f2c81987d8069f1
 #emergency - e1ad578d25108e344808f30dfdaaf926
+#emmen - 74e4f65d28ca9a9d4dccb1c1f710ac03
 #english - 6c4af6ab8b0500632db3b9af87e361ed
 #enschede - 4ab918cb9090c745e2fcdca685f5bd1f
 #essen - 80174f513e9099612b537bc1cd450a41
@@ -130,6 +131,7 @@
 #isleofwight - 61c443367875ab5fed500c6c7d88b6ae
 #john - 8183daf27f7ee7a327284981ef74b319
 #jokes - abe610d61dee508c0ac18793c36c41c3
+#junk - b5e8d27c15aad5618a4569430e1424c6
 #kampen - 85380619f133fc80298a20ef8ce6f1b0
 #kanalen - 59970dddfc3a87fa99f3eceeefa4cc17
 #katwijk - 3f97d51e77a8d317182e0cfd65f66864

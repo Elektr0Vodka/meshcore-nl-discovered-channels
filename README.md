@@ -1,8 +1,5 @@
-# MeshCore NL Discovered Channels
+# MeshCore Netherlands – Channel Finder Results
 
-<<<<<<< HEAD
-Open `index.html` locally or enable GitHub Pages to browse the enriched channel list.
-=======
 ![Status](https://img.shields.io/badge/status-community--maintained-brightgreen)
 ![Format](https://img.shields.io/badge/format-alphabetical-blue)
 ![Source](https://img.shields.io/badge/source-Remote--Terminal--for--MeshCore-orange)
@@ -29,7 +26,7 @@ Generated using:
 * **Community additions**
 ## Quick Stats
 
-* **Total discovered channels:** 248
+* **Total discovered channels:** 249
 * **Sorted:** Alphabetically
 * **Region focus:** Netherlands + nearby regions
 * **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
@@ -104,4 +101,3 @@ No guarantee is made that any listed channel is:
 * moderated
 * publicly accessible
 * continuously available
->>>>>>> parent of ae0fc6f (test)
