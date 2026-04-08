@@ -13,6 +13,8 @@ This project exists to document and preserve a visible snapshot of channels curr
 
 Because most of these results are gathered from active discovery, the contents of this list may change over time.
 
+A web version can be found here: https://elektr0vodka.github.io/meshcore-nl-discovered-channels/
+
 ## Public Channels Only
 
 This repository contains only publicly accessible channels. Private or encrypted channels are not included unless explicitly shared by their owners or creators. Channels that require special access, passwords, or encryption keys will not be added.
