@@ -475,7 +475,7 @@ window.setSort = (field) => {
   }
   localStorage.setItem('meshcore-sort',    sortBy);
   localStorage.setItem('meshcore-sortdir', sortDir);
-  render();
+  applyFilters();
 };
 
 function sortChannels(arr) {
