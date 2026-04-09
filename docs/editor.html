@@ -175,6 +175,14 @@ select option{background:var(--surf2)}
 .info-banner.warn{background:#2a2500;border:1px solid #4a4000;color:var(--yellow)}
 .info-banner.info{background:#1a1a2a;border:1px solid var(--border);color:var(--muted)}
 
+.card-head-left{display:flex;align-items:flex-start;gap:7px;flex:1;min-width:0}
+.card-cb{width:14px;height:14px;cursor:pointer;accent-color:var(--accent);flex-shrink:0;margin-top:2px}
+.card.selected{border-color:var(--accent);background:#1c2035}
+.sel-bar{position:fixed;bottom:0;left:0;right:0;background:var(--surf2);border-top:2px solid var(--accent2);padding:10px 20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;z-index:500;transform:translateY(100%);transition:transform .2s ease;box-shadow:0 -4px 24px rgba(0,0,0,.5)}
+.sel-bar.visible{transform:none}
+.sel-count{font-weight:700;color:var(--accent);white-space:nowrap}
+.btn-link{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;padding:0 2px;text-decoration:underline;text-underline-offset:2px}
+.btn-link:hover{color:#fff}
 @media(max-width:600px){
   .stats{gap:8px}
   .stat{min-width:90px;padding:8px 12px}
@@ -252,10 +260,30 @@ select option{background:var(--surf2)}
 
   <div class="results-bar">
     <span id="results-count"></span>
-    <button class="btn" id="btn-clear-filters" style="display:none">Clear filters</button>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span class="local-edits-note" id="local-edits-note" style="display:none">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span id="local-edits-count"></span> local edit(s) —
+        <button class="btn-link" id="btn-export-edited">edited only</button> ·
+        <button class="btn-link" id="btn-export-full-merged">full merged</button>
+      </span>
+      <button class="btn" id="btn-clear-filters" style="display:none">Clear filters</button>
+    </div>
   </div>
 
   <div id="output" class="loading">Loading channel data…</div>
+</div>
+
+<!-- Selection bar -->
+<div class="sel-bar" id="sel-bar">
+  <span class="sel-count" id="sel-count">0 selected</span>
+  <button class="btn" id="btn-select-all-filtered">Select all filtered</button>
+  <button class="btn" id="btn-clear-selection">Clear</button>
+  <div style="width:1px;height:20px;background:var(--border);flex-shrink:0"></div>
+  <span style="font-size:12px;color:var(--muted)">Export selected as:</span>
+  <button class="btn" id="btn-export-sel-txt">TXT</button>
+  <button class="btn" id="btn-export-sel-rtfm">RTfM</button>
+  <button class="btn" id="btn-export-sel-json">JSON</button>
 </div>
 
 <!-- Toast container -->
@@ -410,6 +438,39 @@ try {
 }
 
 try { localEdits = JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch {}
+
+// ── Selection ─────────────────────────────────────────────────────────────────
+const selection = new Set();
+
+window.toggleSelect = (name) => {
+  if (selection.has(name)) selection.delete(name);
+  else selection.add(name);
+  document.querySelectorAll(`[data-channel="${CSS.escape(name)}"]`)
+    .forEach(el => el.classList.toggle('selected', selection.has(name)));
+  updateSelectionBar();
+};
+
+window.toggleSelectAll = (checked) => {
+  filtered.forEach(c => checked ? selection.add(c.channel) : selection.delete(c.channel));
+  updateSelectionBar(); render();
+};
+
+window.selectAllFiltered = () => { filtered.forEach(c => selection.add(c.channel)); updateSelectionBar(); render(); };
+window.clearSelection    = () => { selection.clear(); updateSelectionBar(); render(); };
+
+function updateSelectionBar() {
+  const n = selection.size;
+  $('sel-count').textContent = `${n} selected`;
+  $('sel-bar').classList.toggle('visible', n > 0);
+  const cbAll = document.getElementById('cb-all');
+  if (cbAll) cbAll.indeterminate = n > 0 && n < filtered.length;
+  // Local edits note (only show when not connected to server)
+  if (!serverMode) {
+    const editCount = Object.keys(localEdits).length;
+    $('local-edits-note').style.display = editCount ? '' : 'none';
+    if (editCount) $('local-edits-count').textContent = editCount;
+  }
+}
 
 // ── Build channels ────────────────────────────────────────────────────────────
 function buildChannels() {
@@ -569,16 +630,20 @@ function renderCard(c) {
   ].filter(([,v])=>v);
   const metaHtml = metaRows.map(([k,v])=>
     `<span class="mk">${k}</span><span class="mv">${esc(v)}</span>`).join('');
-  const classes   = ['card', !hasMeta&&'bare', isLocal&&'local-edited'].filter(Boolean).join(' ');
+  const isSelected = selection.has(c.channel);
+  const classes   = ['card', !hasMeta&&'bare', isLocal&&'local-edited', isSelected&&'selected'].filter(Boolean).join(' ');
   const verBadge  = c.verified    ? `<span class="badge badge-verified">✓ verified</span>` : '';
   const recBadge  = c.recommended ? `<span class="badge badge-recommended">★ rec</span>` : '';
   const bareBadge = !hasMeta      ? `<span class="badge badge-no-meta">no metadata</span>` : '';
   const importLine = `${c.channel} - ${c._key}`;
   const notesHtml  = c.notes ? `<p class="notes-text">${esc(c.notes)}</p>` : '';
   const nameNohash = c.channel.replace(/^#/, '');
-  return `<div class="${classes}">
+  return `<div class="${classes}" data-channel="${esc(c.channel)}">
   <div class="card-head">
-    <span class="channel-name" onclick="copyDisplay(this,${esc(JSON.stringify(nameNohash))})" title="Click to copy name">${esc(c.channel)}</span>
+    <div class="card-head-left">
+      <input class="card-cb" type="checkbox" onchange="toggleSelect(${esc(JSON.stringify(c.channel))})" ${isSelected?'checked':''} title="Select for export">
+      <span class="channel-name" onclick="copyDisplay(this,${esc(JSON.stringify(nameNohash))})" title="Click to copy name">${esc(c.channel)}</span>
+    </div>
     <div class="badges">${verBadge}${recBadge}${bareBadge}</div>
   </div>
   <div class="hex-key" onclick="copyDisplay(this,${esc(JSON.stringify(c._key||''))})" title="Click to copy key">${esc(c._key)}</div>
@@ -599,15 +664,18 @@ function renderCard(c) {
 }
 
 function renderList() {
+  const allFilteredSelected = filtered.length > 0 && filtered.every(c => selection.has(c.channel));
   const rows = filtered.map(c => {
     const importLine = `${c.channel} - ${c._key}`;
     const shortKey   = c._key ? c._key.slice(0,8)+'…' : '';
     const scopes     = c.scopes?.length ? c.scopes[0] + (c.scopes.length > 1 ? ` +${c.scopes.length-1}` : '') : '';
-    const rowClass   = [!c._hasMeta && 'bare-row'].filter(Boolean).join(' ');
+    const isSel      = selection.has(c.channel);
+    const rowClass   = [!c._hasMeta && 'bare-row', isSel && 'selected'].filter(Boolean).join(' ');
     const ver = c.verified    ? `<span title="Verified" style="color:var(--green)">✓</span>` : '';
     const rec = c.recommended ? `<span title="Recommended" style="color:var(--yellow)">★</span>` : '';
     const nameNohash = c.channel.replace(/^#/, '');
-    return `<tr class="${rowClass}">
+    return `<tr class="${rowClass}" data-channel="${esc(c.channel)}">
+      <td style="width:28px"><input class="card-cb" type="checkbox" onchange="toggleSelect(${esc(JSON.stringify(c.channel))})" ${isSel?'checked':''}></td>
       <td><span class="lt-name" onclick="copyDisplay(this,${esc(JSON.stringify(nameNohash))})" title="Click to copy name">${esc(c.channel)}</span></td>
       <td><span class="lt-key" onclick="copyDisplay(this,${esc(JSON.stringify(c._key||''))})" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
       <td><span class="lt-cat">${esc(c.category||'')}</span></td>
@@ -625,6 +693,7 @@ function renderList() {
   }).join('');
   return `<div class="list-wrap"><table class="list-table">
     <thead><tr>
+      <th style="width:28px"><input class="card-cb" type="checkbox" id="cb-all" onchange="toggleSelectAll(this.checked)" ${allFilteredSelected?'checked':''}></th>
       ${sortHeader('Channel',     'alpha')}
       <th>Key</th>
       ${sortHeader('Category',    'category')}
@@ -643,6 +712,7 @@ function renderList() {
 function render() {
   const out = $('output');
   $('results-count').textContent = `${filtered.length} of ${allChannels.length} channels`;
+  updateSelectionBar();
   if (!filtered.length) {
     out.className = 'empty';
     out.innerHTML = `<h3>No channels found</h3><p>Try adjusting your search or filters.</p>`;
@@ -835,6 +905,44 @@ $('btn-export-rtfm').onclick = () => {
   ].join('\n');
   dl(header + filtered.map(c => `${c.channel} - ${c._key}`).join('\n'), 'remote-terminal-export.txt', 'text/plain');
 };
+
+// ── Export local edits ────────────────────────────────────────────────────────
+function exportLocalEdits(type) {
+  const strip = ({ _key, _hasMeta, _localEdit, ...rest }) => rest;
+  if (type === 'edited') {
+    const out = allChannels.filter(c => c._localEdit).map(strip);
+    if (!out.length) { toast('No local edits to export', 'err'); return; }
+    dl(JSON.stringify(out, null, 2), 'local-edits-only.json');
+  } else {
+    const out = allChannels.filter(c => c._hasMeta).map(strip);
+    dl(JSON.stringify(out, null, 2), 'channels-full-merged.json');
+  }
+}
+
+$('btn-export-edited').onclick      = () => exportLocalEdits('edited');
+$('btn-export-full-merged').onclick = () => exportLocalEdits('full');
+
+// ── Export selected ───────────────────────────────────────────────────────────
+function exportSelected(format) {
+  const sel = allChannels.filter(c => selection.has(c.channel));
+  if (!sel.length) { toast('No channels selected', 'err'); return; }
+  const date = new Date().toISOString().slice(0, 10);
+  if (format === 'txt') {
+    dl(sel.map(c => c.channel).join('\n'), 'channels-selected.txt', 'text/plain');
+  } else if (format === 'rtfm') {
+    const header = `# MeshCore Channel Export - ${date}\n# Format: #channel-name - 32-char-hex-key\n# Import this file in Remote Terminal for MeshCore via Channels → Import\n\n`;
+    dl(header + sel.map(c => `${c.channel} - ${c._key}`).join('\n'), 'channels-selected-rtfm.txt', 'text/plain');
+  } else {
+    const out = sel.map(({ _key, _hasMeta, _localEdit, ...rest }) => rest);
+    dl(JSON.stringify(out, null, 2), 'channels-selected.json');
+  }
+}
+
+$('btn-select-all-filtered').onclick = () => selectAllFiltered();
+$('btn-clear-selection').onclick     = () => clearSelection();
+$('btn-export-sel-txt').onclick      = () => exportSelected('txt');
+$('btn-export-sel-rtfm').onclick     = () => exportSelected('rtfm');
+$('btn-export-sel-json').onclick     = () => exportSelected('json');
 
 // ── Event bindings ────────────────────────────────────────────────────────────
 ['search','f-category','f-subcategory','f-region','f-scope','f-country'].forEach(
