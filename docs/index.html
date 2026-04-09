@@ -139,6 +139,13 @@ select option{background:var(--surf2)}
 .lt-scope{font-family:monospace;font-size:11px;color:#8aabf0}
 .lt-flags{font-size:12px;display:flex;gap:4px;white-space:nowrap}
 .lt-acts{display:flex;gap:4px;white-space:nowrap}
+.lt-country{color:var(--muted);font-size:12px}
+.list-table th.sortable{cursor:pointer;user-select:none}
+.list-table th.sortable:hover{color:var(--text);background:var(--surf3)}
+.list-table th.sort-asc{color:var(--accent)}
+.list-table th.sort-asc::after{content:' ▲';font-size:9px}
+.list-table th.sort-desc{color:var(--accent)}
+.list-table th.sort-desc::after{content:' ▼';font-size:9px}
 
 /* ── States ────────────────────────────────────────────────────────────────── */
 .empty,.loading{text-align:center;padding:60px 20px;color:var(--muted)}
@@ -222,6 +229,7 @@ select option{background:var(--surf2)}
     <div class="stat"><span class="stat-value" id="stat-total">—</span><span class="stat-label">Total Channels</span></div>
     <div class="stat"><span class="stat-value" id="stat-meta">—</span><span class="stat-label">With Metadata</span></div>
     <div class="stat"><span class="stat-value" id="stat-scoped">—</span><span class="stat-label">Scoped</span></div>
+    <div class="stat"><span class="stat-value" id="stat-countries">—</span><span class="stat-label">Countries</span></div>
     <div class="stat"><span class="stat-value" id="stat-cities">—</span><span class="stat-label">Cities</span></div>
     <div class="stat"><span class="stat-value" id="stat-provinces">—</span><span class="stat-label">Provinces</span></div>
   </div>
@@ -236,6 +244,7 @@ select option{background:var(--surf2)}
     <select id="f-subcategory"><option value="">All subcategories</option></select>
     <select id="f-region"><option value="">All regions</option></select>
     <select id="f-scope"><option value="">All scopes</option></select>
+    <select id="f-country"><option value="">All countries</option></select>
     <div class="vr"></div>
     <label class="toggle-wrap" title="Only show channels that have scope codes assigned">
       <input type="checkbox" id="t-scoped">
@@ -426,8 +435,9 @@ function updateStats(channels) {
   $('stat-total').textContent    = allChannels.length;
   $('stat-meta').textContent     = allChannels.filter(c => c._hasMeta).length;
   $('stat-scoped').textContent   = allChannels.filter(c => c.scopes?.length).length;
-  $('stat-cities').textContent   = allChannels.filter(c => c.subcategory === 'city').length;
-  $('stat-provinces').textContent= allChannels.filter(c => c.subcategory === 'province').length;
+  $('stat-cities').textContent   = allChannels.filter(c => c.subcategory === 'City').length;
+  $('stat-provinces').textContent= allChannels.filter(c => c.subcategory === 'Province').length;
+  $('stat-countries').textContent= allChannels.filter(c => c.subcategory === 'Country').length;
 }
 updateStats();
 
@@ -449,8 +459,50 @@ function refreshDropdowns() {
   populateSel('f-subcategory',[...new Set(allChannels.map(c=>c.subcategory).filter(Boolean))]);
   populateSel('f-region',     [...new Set(allChannels.map(c=>c.region).filter(Boolean))]);
   populateSel('f-scope',      [...new Set(allChannels.flatMap(c=>c.scopes||[]))]);
+  populateSel('f-country',    [...new Set(allChannels.map(c=>c.country).filter(Boolean))]);
 }
 refreshDropdowns();
+
+// ── Sort ──────────────────────────────────────────────────────────────────────
+let sortBy  = localStorage.getItem('meshcore-sort')  || 'alpha';
+let sortDir = localStorage.getItem('meshcore-sortdir')|| 'asc';
+
+window.setSort = (field) => {
+  if (sortBy === field) {
+    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortBy = field; sortDir = 'asc';
+  }
+  localStorage.setItem('meshcore-sort',    sortBy);
+  localStorage.setItem('meshcore-sortdir', sortDir);
+  render();
+};
+
+function sortChannels(arr) {
+  const d = sortDir === 'asc' ? 1 : -1;
+  return [...arr].sort((a, b) => {
+    let va, vb;
+    switch (sortBy) {
+      case 'alpha':       va = a.channel;          vb = b.channel;          break;
+      case 'category':    va = a.category   || ''; vb = b.category   || ''; break;
+      case 'subcategory': va = a.subcategory|| ''; vb = b.subcategory|| ''; break;
+      case 'country':     va = a.country    || ''; vb = b.country    || ''; break;
+      case 'region':      va = a.region     || ''; vb = b.region     || ''; break;
+      case 'scope':       va = (a.scopes||[])[0]||''; vb = (b.scopes||[])[0]||''; break;
+      case 'last_seen':   va = a.last_seen  || ''; vb = b.last_seen  || ''; break;
+      case 'added':       va = a.added      || ''; vb = b.added      || ''; break;
+      default:            va = a.channel;          vb = b.channel;
+    }
+    const cmp = va.localeCompare(vb, undefined, { sensitivity: 'base' });
+    return cmp !== 0 ? d * cmp : a.channel.localeCompare(b.channel);
+  });
+}
+
+function sortHeader(label, field) {
+  const active = sortBy === field;
+  const cls = active ? `sortable sort-${sortDir}` : 'sortable';
+  return `<th class="${cls}" onclick="setSort('${field}')">${label}</th>`;
+}
 
 // ── View mode ─────────────────────────────────────────────────────────────────
 let viewMode = localStorage.getItem('meshcore-view') || 'grid';
@@ -471,33 +523,35 @@ $('btn-view-list').classList.toggle('active', viewMode === 'list');
 let filtered = allChannels;
 
 function applyFilters() {
-  const q     = $('search').value.trim().toLowerCase();
-  const cat   = $('f-category').value;
-  const sub   = $('f-subcategory').value;
-  const reg   = $('f-region').value;
-  const scope = $('f-scope').value;
+  const q       = $('search').value.trim().toLowerCase();
+  const cat     = $('f-category').value;
+  const sub     = $('f-subcategory').value;
+  const reg     = $('f-region').value;
+  const scope   = $('f-scope').value;
+  const country = $('f-country').value;
   const onlyScoped = $('t-scoped').checked;
   const onlyBare   = $('t-bare').checked;
-  const active = q || cat || sub || reg || scope || onlyScoped || onlyBare;
+  const active = q || cat || sub || reg || scope || country || onlyScoped || onlyBare;
   $('btn-clear-filters').style.display = active ? '' : 'none';
 
-  filtered = allChannels.filter(c => {
-    if (onlyScoped && !c.scopes?.length) return false;
-    if (onlyBare   && c._hasMeta)        return false;
-    if (cat   && c.category    !== cat)   return false;
-    if (sub   && c.subcategory !== sub)   return false;
-    if (reg   && c.region      !== reg)   return false;
-    if (scope && !(c.scopes||[]).includes(scope)) return false;
+  filtered = sortChannels(allChannels.filter(c => {
+    if (onlyScoped && !c.scopes?.length)          return false;
+    if (onlyBare   && c._hasMeta)                 return false;
+    if (cat     && c.category    !== cat)          return false;
+    if (sub     && c.subcategory !== sub)          return false;
+    if (reg     && c.region      !== reg)          return false;
+    if (scope   && !(c.scopes||[]).includes(scope))return false;
+    if (country && (c.country||'') !== country)    return false;
     if (q) {
       const hay = [
-        c.channel, c.category, c.subcategory, c.region,
+        c.channel, c.category, c.subcategory, c.region, c.country,
         (c.language||[]).join(' '), c.notes,
         (c.tags||[]).join(' '), (c.scopes||[]).join(' '),
       ].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
-  });
+  }));
   render();
 }
 
@@ -515,11 +569,12 @@ function renderCard(c) {
     ? `<div class="tags-row">${c.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>` : '';
 
   const metaRows = [
-    ['category',    c.category],
-    ['subcategory', c.subcategory],
-    ['region',      c.region||null],
-    ['language',    langs||null],
-    ['last seen',   c.last_seen||null],
+    ['Category :',    c.category],
+    ['Subcategory :', c.subcategory],
+    ['Country :',     c.country||null],
+    ['Region :',      c.region||null],
+    ['Language :',    langs||null],
+    ['Last seen :',   c.last_seen||null],
   ].filter(([,v])=>v);
 
   const metaHtml = metaRows.map(([k,v])=>
@@ -574,6 +629,7 @@ function renderList() {
       <td><span class="lt-key" onclick="copyDisplay(this,${esc(JSON.stringify(c._key||''))})" title="${esc(c._key||'')}">${esc(shortKey)}</span></td>
       <td><span class="lt-cat">${esc(c.category||'')}</span></td>
       <td style="color:var(--muted);font-size:12px">${esc(c.subcategory||'')}</td>
+      <td><span class="lt-country">${esc(c.country||'')}</span></td>
       <td><span class="lt-region">${esc(c.region||'')}</span></td>
       <td><span class="lt-scope" title="${esc((c.scopes||[]).join(', '))}">${esc(scopes)}</span></td>
       <td><span class="lt-flags">${ver}${rec}</span></td>
@@ -588,8 +644,16 @@ function renderList() {
   }).join('');
   return `<div class="list-wrap"><table class="list-table">
     <thead><tr>
-      <th>Channel</th><th>Key</th><th>Category</th><th>Subcategory</th>
-      <th>Region</th><th>Scopes</th><th></th><th>Actions</th>
+      ${sortHeader('Channel',     'alpha')}
+      <th>Key</th>
+      ${sortHeader('Category',    'category')}
+      ${sortHeader('Subcategory', 'subcategory')}
+      ${sortHeader('Country',     'country')}
+      ${sortHeader('Region',      'region')}
+      ${sortHeader('Scopes',      'scope')}
+      <th></th>
+      ${sortHeader('Last Seen',   'last_seen')}
+      <th>Actions</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table></div>`;
@@ -775,13 +839,13 @@ $('btn-clear-local').onclick = () => {
 // ── Clear filters ─────────────────────────────────────────────────────────────
 $('btn-clear-filters').onclick = () => {
   $('search').value = '';
-  $('f-category').value = $('f-subcategory').value = $('f-region').value = $('f-scope').value = '';
+  $('f-category').value = $('f-subcategory').value = $('f-region').value = $('f-scope').value = $('f-country').value = '';
   $('t-scoped').checked = $('t-bare').checked = false;
   applyFilters();
 };
 
 // ── Event bindings ────────────────────────────────────────────────────────────
-['search','f-category','f-subcategory','f-region','f-scope'].forEach(
+['search','f-category','f-subcategory','f-region','f-scope','f-country'].forEach(
   id => $(id).addEventListener('input', applyFilters));
 ['t-scoped','t-bare'].forEach(
   id => $(id).addEventListener('change', applyFilters));
