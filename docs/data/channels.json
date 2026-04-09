@@ -3647,6 +3647,24 @@
     "country": "Netherlands"
   },
   {
+    "channel": "#os3",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-09",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands"
+  },
+  {
     "channel": "#overijssel",
     "category": "Regional",
     "subcategory": "Province",

@@ -235,7 +235,48 @@ select option{background:var(--surf2)}
     </p>
   </div>
 </div>
+
+<details style="margin: 1rem 0 1.5rem 0; border-radius: 14px; border: 1px solid #27272a; background: linear-gradient(180deg, #18181b 0%, #111827 100%); box-shadow: 0 4px 18px rgba(0,0,0,0.22); overflow: hidden;" open>
+  <summary style="list-style: none; cursor: pointer; padding: 1rem 1.2rem; color: #f4f4f5; font-size: 1.1rem; font-weight: 600;">
+    Handy links & scope guidelines
+  </summary>
+
+  <div style="padding: 0 1.2rem 1.2rem 1.2rem; display: flex; flex-direction: column; gap: 0.9rem;">
+
+    <div style="padding: 0.85rem 1rem; border-radius: 10px; background: rgba(96, 165, 250, 0.08); border: 1px solid rgba(96, 165, 250, 0.22);">
+      <p style="margin: 0; color: #93c5fd; font-weight: 700;">
+        MeshCore NL SF8 → SF7 switch
+      </p>
+      <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">
+        Need to switch your node or setup from SF8 to SF7?
+        Follow the Dutch guide here:
+        <a href="https://meshwiki.nl/wiki/The_switch" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; font-weight: 600; text-decoration: none;">
+          meshwiki.nl/wiki/The_switch
+        </a>
+      </p>
+    </div>
+
+    <div style="padding: 0.85rem 1rem; border-radius: 10px; background: rgba(250, 204, 21, 0.08); border: 1px solid rgba(250, 204, 21, 0.22);">
+      <p style="margin: 0; color: #facc15; font-weight: 700;">
+        Scope / region guideline
+      </p>
+      <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">
+        When adding or editing <strong>scopes</strong>, please follow the official region guideline on MeshWiki.
+        This keeps scopes clear and consistent for everyone and helps prevent a wildgrowth of random or duplicate scope naming.
+        See:
+        <a href="https://meshwiki.nl/wiki/Lijst_van_regio%27s" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; font-weight: 600; text-decoration: none;">
+          meshwiki.nl/wiki/Lijst_van_regio's
+        </a>
+      </p>
+    </div>
+
+  </div>
+</details>
+
+
   <div class="stats">
+    <p style="margin: 0 0 0.85rem 0; color: #d4d4d8; line-height: 1.6;">
+
     <div class="stat"><span class="stat-value" id="stat-total">—</span><span class="stat-label">Total Channels</span></div>
     <div class="stat"><span class="stat-value" id="stat-meta">—</span><span class="stat-label">With Metadata</span></div>
     <div class="stat"><span class="stat-value" id="stat-scoped">—</span><span class="stat-label">Scoped</span></div>
@@ -243,7 +284,7 @@ select option{background:var(--surf2)}
     <div class="stat"><span class="stat-value" id="stat-cities">—</span><span class="stat-label">Cities</span></div>
     <div class="stat"><span class="stat-value" id="stat-provinces">—</span><span class="stat-label">Provinces</span></div>
   </div>
-
+  
   <div class="controls">
     <div class="search-wrap">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>

@@ -1,4 +1,4 @@
-# MeshCore Channel Export - 2026-04-06
+# MeshCore Channel Export - 2026-04-09
 # Format: #channel-name - 32-char-hex-key
 # Import this file in Remote Terminal for MeshCore via Channels → Import
 
@@ -184,6 +184,7 @@
 #nrw - 482281b86496e41d93083ebd4e40f03e
 #nsagov - 6e2d80683c05f2e3b29cac68748a5ec9
 #odido - 50674d5b00ccd08abe8a2c988d1491f2
+#os3 - 7da8f585d3b6f10885c2083391f7cae7
 #overijssel - 65dc44cb887bfd6595d07d69bdf2ca71
 #p2000 - 569dc229b286f06ae8fab74b9db923a3
 #pa3ang - c2dd0c6b7d7cfec474442b195d27e394
