@@ -226,57 +226,247 @@ select option{background:var(--surf2)}
 	  <br>
       <strong>Do not use it on your main everyday companion unless you fully understand the risks.</strong>
 	  </p>
-	  <br>
-	  <p style="margin: 0; color: #fbbf24; font-weight: 700;">
-      ⚠ Github pages warning
-    </p>
-    <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">	
-	  Any edits done on the github pages version are local and need to be exported before leaving that page.
-    </p>
   </div>
 </div>
 
-<details style="margin: 1rem 0 1.5rem 0; border-radius: 14px; border: 1px solid #27272a; background: linear-gradient(180deg, #18181b 0%, #111827 100%); box-shadow: 0 4px 18px rgba(0,0,0,0.22); overflow: hidden;" open>
-  <summary style="list-style: none; cursor: pointer; padding: 1rem 1.2rem; color: #f4f4f5; font-size: 1.1rem; font-weight: 600;">
-    Handy links & scope guidelines
+<details class="info-panel" open>
+  <summary>
+    <span>Handy links, project info & scope guidelines</span>
+    <span class="arrow">▼</span>
   </summary>
 
-  <div style="padding: 0 1.2rem 1.2rem 1.2rem; display: flex; flex-direction: column; gap: 0.9rem;">
+  <div class="info-panel-body">
 
-    <div style="padding: 0.85rem 1rem; border-radius: 10px; background: rgba(96, 165, 250, 0.08); border: 1px solid rgba(96, 165, 250, 0.22);">
-      <p style="margin: 0; color: #93c5fd; font-weight: 700;">
-        MeshCore NL SF8 → SF7 switch
+    <div class="info-box">
+      <h4 style="color:#93c5fd;">Useful links</h4>
+      <p>
+        Quick references for MeshCore NL, region naming and importing/exporting channel lists.
       </p>
-      <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">
-        Need to switch your node or setup from SF8 to SF7?
-        Follow the Dutch guide here:
-        <a href="https://meshwiki.nl/wiki/The_switch" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; font-weight: 600; text-decoration: none;">
-          meshwiki.nl/wiki/The_switch
+      <div class="quick-links">
+        <a class="quick-link" href="https://meshwiki.nl/wiki/The_switch" target="_blank" rel="noopener noreferrer">
+          SF8 → SF7 Switch
         </a>
+        <a class="quick-link" href="https://meshwiki.nl/wiki/Lijst_van_regio%27s" target="_blank" rel="noopener noreferrer">
+          Scope / Region Guide
+        </a>
+        <a class="quick-link" href="https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore" target="_blank" rel="noopener noreferrer">
+          RTfM Fork
+        </a>
+        <a class="quick-link" href="https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels" target="_blank" rel="noopener noreferrer">
+          Channel Repo
+        </a>
+      </div>
+    </div>
+
+    <div class="info-box warn">
+      <h4 style="color:#facc15;">Scope / region guideline</h4>
+      <p>
+        When adding or editing <strong>scopes</strong>, please follow the official MeshWiki region guideline.
+        This keeps naming clear and prevents duplicate, random or incompatible scope structures.
       </p>
     </div>
 
-    <div style="padding: 0.85rem 1rem; border-radius: 10px; background: rgba(250, 204, 21, 0.08); border: 1px solid rgba(250, 204, 21, 0.22);">
-      <p style="margin: 0; color: #facc15; font-weight: 700;">
-        Scope / region guideline
+    <div class="info-box danger">
+      <h4 style="color:#fbbf24;">⚠ Github pages warning</h4>
+      <p>
+        Changes made on this GitHub Pages version are stored <strong>only in your browser</strong>.
+        If you edit metadata here, export it before leaving or refreshing if you want to keep your work safely backed up.
       </p>
-      <p style="margin: 0.45rem 0 0 0; color: #e4e4e7; line-height: 1.6;">
-        When adding or editing <strong>scopes</strong>, please follow the official region guideline on MeshWiki.
-        This keeps scopes clear and consistent for everyone and helps prevent a wildgrowth of random or duplicate scope naming.
-        See:
-        <a href="https://meshwiki.nl/wiki/Lijst_van_regio%27s" target="_blank" rel="noopener noreferrer" style="color: #60a5fa; font-weight: 600; text-decoration: none;">
-          meshwiki.nl/wiki/Lijst_van_regio's
-        </a>
+    </div>
+
+    <div class="info-box">
+      <h4 style="color:#93c5fd;">Project / data source</h4>
+      <p>
+        This page combines a <strong>Remote Terminal for MeshCore export</strong> with manually curated community metadata.
+        If you want to improve channels, scopes or notes, update the repo or submit a pull request.
       </p>
     </div>
 
   </div>
 </details>
 
+<style>
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details[open] .arrow {
+    transform: rotate(180deg);
+  }
+
+  details summary:hover {
+    background: rgba(255,255,255,0.02);
+  }
+  
+  /* ── Info / utility blocks ─────────────────────────────────────────────────── */
+.info-panel{
+  margin: 1rem 0 1.25rem 0;
+  border-radius: 14px;
+  border: 1px solid #27272a;
+  background: linear-gradient(180deg, #18181b 0%, #111827 100%);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.22);
+  overflow: hidden;
+}
+.info-panel summary{
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 1.2rem;
+  color: #f4f4f5;
+  font-size: 1.05rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-panel summary::-webkit-details-marker{display:none}
+.info-panel summary:hover{background:rgba(255,255,255,0.02)}
+.info-panel[open] .arrow{transform:rotate(180deg)}
+.arrow{transition:transform .2s ease;font-size:1rem}
+
+.info-panel-body{
+  padding: 0 1.2rem 1.2rem 1.2rem;
+  display:flex;
+  flex-direction:column;
+  gap:.9rem;
+}
+
+.info-box{
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: rgba(96, 165, 250, 0.08);
+  border: 1px solid rgba(96, 165, 250, 0.22);
+}
+.info-box.warn{
+  background: rgba(250, 204, 21, 0.08);
+  border: 1px solid rgba(250, 204, 21, 0.22);
+}
+.info-box.danger{
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+.info-box h4{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.info-box p{
+  margin: .45rem 0 0 0;
+  color: #e4e4e7;
+  line-height: 1.6;
+  font-size: 13px;
+}
+.info-box a{
+  color: #60a5fa;
+  font-weight: 600;
+  text-decoration: none;
+}
+.info-box a:hover{color:#93c5fd}
+
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:.65rem;
+}
+.quick-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  transition: all .15s ease;
+}
+.quick-link:hover{
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(255,255,255,0.05);
+}
+
+/* ── Footer ────────────────────────────────────────────────────────────────── */
+.site-footer{
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  background: #111827;
+  color: #d4d4d8;
+  font-size: 0.9rem;
+  border-top: 1px solid #27272a;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.site-footer a{
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.site-footer a:hover{
+  color:#93c5fd;
+}
+/* ── Scroll to top button ─────────────────────────────────────────────────── */
+#scrollTopBtn{
+  position:fixed;
+  right:18px;
+  bottom:22px;
+  width:46px;
+  height:46px;
+  border:none;
+  border-radius:999px;
+  background:linear-gradient(180deg,var(--accent) 0%,var(--accent2) 100%);
+  color:#fff;
+  font-size:22px;
+  font-weight:700;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 8px 24px rgba(0,0,0,.35);
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(10px) scale(.95);
+  transition:opacity .2s ease, transform .2s ease, visibility .2s ease, box-shadow .2s ease;
+  z-index:999;
+}
+
+#scrollTopBtn.show{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0) scale(1);
+}
+
+#scrollTopBtn:hover{
+  box-shadow:0 10px 28px rgba(91,141,238,.35);
+  transform:translateY(-2px);
+}
+
+#scrollTopBtn:active{
+  transform:translateY(0) scale(.97);
+}
+
+#scrollTopBtn:focus{
+  outline:2px solid rgba(124,111,224,.45);
+  outline-offset:3px;
+}
+
+@media(max-width:600px){
+  #scrollTopBtn{
+    right:14px;
+    bottom:16px;
+    width:42px;
+    height:42px;
+    font-size:20px;
+  }
+}
+</style>
+
 
   <div class="stats">
-    <p style="margin: 0 0 0.85rem 0; color: #d4d4d8; line-height: 1.6;">
-
     <div class="stat"><span class="stat-value" id="stat-total">—</span><span class="stat-label">Total Channels</span></div>
     <div class="stat"><span class="stat-value" id="stat-meta">—</span><span class="stat-label">With Metadata</span></div>
     <div class="stat"><span class="stat-value" id="stat-scoped">—</span><span class="stat-label">Scoped</span></div>
@@ -374,23 +564,20 @@ select option{background:var(--surf2)}
       </div>
       <div class="form-row-2">
         <div class="form-row">
-          <label>Category</label>
-          <select id="e-category">
-            <option value="">— none —</option>
-            <option value="special">special</option>
-            <option value="regional">regional</option>
-          </select>
-        </div>
+		  <label>Category</label>
+		  <input type="text" id="e-category" placeholder="Type to search..." list="category-list" />
+		  <datalist id="category-list"></datalist>
+		</div>
         <div class="form-row">
           <label>Subcategory</label>
-          <select id="e-subcategory">
-            <option value="">— none —</option>
-            <option value="topic">topic</option>
-            <option value="city">city</option>
-            <option value="province">province</option>
-            <option value="region">region</option>
-          </select>
+          <input type="text" id="e-subcategory" list="subcategory-list" placeholder="e.g. city" autocomplete="off">
+          <datalist id="subcategory-list"></datalist>
         </div>
+      </div>
+      <div class="form-row">
+        <label>Country</label>
+        <input type="text" id="e-country" placeholder="e.g. Netherlands, Belgium">
+        <span class="form-hint">Full name or ISO code</span>
       </div>
       <div class="form-row">
         <label>Region / Province</label>
@@ -436,6 +623,7 @@ select option{background:var(--surf2)}
 </div>
 
 <script>
+
 (async () => {
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -526,13 +714,22 @@ function buildChannels() {
 let allChannels = buildChannels();
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
-function updateStats(channels) {
-  $('stat-total').textContent    = allChannels.length;
-  $('stat-meta').textContent     = allChannels.filter(c => c._hasMeta).length;
-  $('stat-scoped').textContent   = allChannels.filter(c => c.scopes?.length).length;
-  $('stat-cities').textContent   = allChannels.filter(c => c.subcategory === 'City').length;
-  $('stat-provinces').textContent= allChannels.filter(c => c.subcategory === 'Province').length;
-  $('stat-countries').textContent= allChannels.filter(c => c.subcategory === 'Country').length;
+function updateStats() {
+  $('stat-total').textContent     = allChannels.length;
+  $('stat-meta').textContent      = allChannels.filter(c => c._hasMeta).length;
+  $('stat-scoped').textContent    = allChannels.filter(c => c.scopes?.length).length;
+
+  $('stat-cities').textContent = allChannels.filter(c =>
+    (c.subcategory || '').toLowerCase() === 'city'
+  ).length;
+
+  $('stat-provinces').textContent = allChannels.filter(c =>
+    (c.subcategory || '').toLowerCase() === 'province'
+  ).length;
+
+  $('stat-countries').textContent = allChannels.filter(c =>
+    (c.subcategory || '').toLowerCase() === 'country'
+  ).length;
 }
 updateStats();
 
@@ -735,13 +932,14 @@ function renderList() {
       <td><span class="lt-region">${esc(c.region||'')}</span></td>
       <td><span class="lt-scope" title="${esc((c.scopes||[]).join(', '))}">${esc(scopes)}</span></td>
       <td><span class="lt-flags">${ver}${rec}</span></td>
-      <td>
-        <div class="lt-acts">
-          <button class="act" onclick="copyText(this,${esc(JSON.stringify(c.channel))})">Copy</button>
-          <button class="act" onclick="copyText(this,${esc(JSON.stringify(importLine))})" title="Copy import line">Import</button>
-          <button class="act edit-btn" onclick="openEdit(${esc(JSON.stringify(c.channel))})">${c._hasMeta?'Edit':'Add'}</button>
-        </div>
-      </td>
+      <td style="color:var(--muted);font-size:12px">${esc(c.last_seen || '')}</td>
+	<td>
+	  <div class="lt-acts">
+		<button class="act" onclick="copyText(this,${esc(JSON.stringify(c.channel))})">Copy</button>
+		<button class="act" onclick="copyText(this,${esc(JSON.stringify(importLine))})" title="Copy import line">Import</button>
+		<button class="act edit-btn" onclick="openEdit(${esc(JSON.stringify(c.channel))})">${c._hasMeta?'Edit':'Add'}</button>
+	  </div>
+	</td>
     </tr>`;
   }).join('');
   const allFilteredSelected = filtered.length > 0 && filtered.every(c => selection.has(c.channel));
@@ -825,15 +1023,17 @@ window.openEdit = (name) => {
   $('modal-channel-name').textContent = name + (c._key ? '  ·  ' + c._key : '');
   $('modal-local-banner').style.display = local ? '' : 'none';
 
-  $('e-category').value    = c.category   || '';
-  $('e-subcategory').value = c.subcategory|| '';
-  $('e-region').value      = c.region     || '';
-  $('e-language').value    = (Array.isArray(c.language) ? c.language : [c.language]).filter(Boolean).join(', ');
-  $('e-scopes').value      = (c.scopes||[]).join(', ');
-  $('e-tags').value        = (c.tags||[]).join(', ');
-  $('e-notes').value       = c.notes      || '';
-  $('e-last-seen').value   = c.last_seen  || '';
-  $('e-verified').checked  = !!c.verified;
+  $('e-category').value      = c.category    || '';
+  populateSubcategoryList(c.category || '');
+  $('e-subcategory').value   = c.subcategory || '';
+  $('e-country').value       = c.country     || '';
+  $('e-region').value        = c.region      || '';
+  $('e-language').value      = (Array.isArray(c.language) ? c.language : [c.language]).filter(Boolean).join(', ');
+  $('e-scopes').value        = (c.scopes||[]).join(', ');
+  $('e-tags').value          = (c.tags||[]).join(', ');
+  $('e-notes').value         = c.notes       || '';
+  $('e-last-seen').value     = c.last_seen   || '';
+  $('e-verified').checked    = !!c.verified;
   $('e-recommended').checked = !!c.recommended;
 
   $('modal-clear-meta').style.display = c._hasMeta ? '' : 'none';
@@ -849,14 +1049,15 @@ function closeModal() {
 function saveModal() {
   if (!editingChannel) return;
   const patch = {
-    category:    $('e-category').value    || undefined,
-    subcategory: $('e-subcategory').value || undefined,
-    region:      $('e-region').value.trim()   || undefined,
+    category:    $('e-category').value.trim()    || undefined,
+    subcategory: $('e-subcategory').value.trim() || undefined,
+    country:     $('e-country').value.trim()     || undefined,
+    region:      $('e-region').value.trim()      || undefined,
     language:    splitCSV($('e-language').value) || undefined,
     scopes:      splitCSV($('e-scopes').value),
     tags:        splitCSV($('e-tags').value),
-    notes:       $('e-notes').value.trim()     || undefined,
-    last_seen:   $('e-last-seen').value        || undefined,
+    notes:       $('e-notes').value.trim()       || undefined,
+    last_seen:   $('e-last-seen').value          || undefined,
     verified:    $('e-verified').checked,
     recommended: $('e-recommended').checked,
   };
@@ -990,21 +1191,74 @@ $('btn-clear-filters').onclick = () => {
 ['t-scoped','t-bare'].forEach(
   id => $(id).addEventListener('change', applyFilters));
 
+// ── Modal category / subcategory datalists ────────────────────────────────────
+const categoryMap = {};
+for (const c of allChannels) {
+  const cat = (c.category || '').trim();
+  const sub = (c.subcategory || '').trim();
+  if (!cat) continue;
+  const key = cat.toLowerCase();
+  if (!categoryMap[key]) categoryMap[key] = { display: cat, subs: new Set() };
+  if (sub) categoryMap[key].subs.add(sub);
+}
+
+function populateCategoryList() {
+  const dl = $('category-list');
+  dl.innerHTML = '';
+  Object.values(categoryMap)
+    .sort((a, b) => a.display.localeCompare(b.display))
+    .forEach(c => { const o = document.createElement('option'); o.value = c.display; dl.appendChild(o); });
+}
+
+function populateSubcategoryList(catVal) {
+  const dl = $('subcategory-list');
+  dl.innerHTML = '';
+  const key  = (catVal || '').trim().toLowerCase();
+  const vals = (key && categoryMap[key])
+    ? categoryMap[key].subs
+    : new Set(allChannels.map(c => c.subcategory).filter(Boolean));
+  [...vals].sort().forEach(s => { const o = document.createElement('option'); o.value = s; dl.appendChild(o); });
+}
+
+populateCategoryList();
+populateSubcategoryList('');
+$('e-category').addEventListener('input', () => populateSubcategoryList($('e-category').value));
+
 // ── Initial render ────────────────────────────────────────────────────────────
 applyFilters();
 
 })();
+
 </script>
-</body>
-<footer style="margin-top: 2rem; padding: 1rem 0; text-align: center; background: #111827; color: #d4d4d8; font-size: 0.9rem; border-top: 1px solid #27272a; box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);">
-  <a href="https://github.com/Elektr0Vodka" target="_blank" rel="noopener noreferrer" 
-     style="color: #60a5fa; text-decoration: none; font-weight: 600; transition: color 0.2s ease;">
+
+<button id="scrollTopBtn" title="Back to top" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+<footer class="site-footer">
+  <a href="https://github.com/Elektr0Vodka" target="_blank" rel="noopener noreferrer">
     ElektroVodka
   </a> - 2026
 </footer>
+
 <script>
-  const footerLink = document.querySelector('footer a');
-  footerLink.addEventListener('mouseover', () => footerLink.style.color = '#93c5fd');
-  footerLink.addEventListener('mouseout', () => footerLink.style.color = '#60a5fa');
+// ── Scroll to top button ─────────────────────────────────────────────────────
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    scrollTopBtn.classList.add('show');
+  } else {
+    scrollTopBtn.classList.remove('show');
+  }
+});
+
+scrollTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
 </script>
 </html>

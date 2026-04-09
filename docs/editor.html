@@ -307,21 +307,13 @@ select option{background:var(--surf2)}
       <div class="form-row-2">
         <div class="form-row">
           <label>Category</label>
-          <select id="e-category">
-            <option value="">— none —</option>
-            <option value="special">special</option>
-            <option value="regional">regional</option>
-          </select>
+          <input type="text" id="e-category" list="category-list" placeholder="e.g. regional" autocomplete="off">
+          <datalist id="category-list"></datalist>
         </div>
         <div class="form-row">
           <label>Subcategory</label>
-          <select id="e-subcategory">
-            <option value="">— none —</option>
-            <option value="topic">topic</option>
-            <option value="city">city</option>
-            <option value="province">province</option>
-            <option value="region">region</option>
-          </select>
+          <input type="text" id="e-subcategory" list="subcategory-list" placeholder="e.g. city" autocomplete="off">
+          <datalist id="subcategory-list"></datalist>
         </div>
       </div>
       <div class="form-row">
@@ -519,6 +511,39 @@ function refreshDropdowns() {
   populateSel('f-country',    [...new Set(allChannels.map(c=>c.country).filter(Boolean))]);
 }
 refreshDropdowns();
+
+// ── Modal category / subcategory datalists ────────────────────────────────────
+const categoryMap = {};
+for (const c of allChannels) {
+  const cat = (c.category || '').trim();
+  const sub = (c.subcategory || '').trim();
+  if (!cat) continue;
+  const key = cat.toLowerCase();
+  if (!categoryMap[key]) categoryMap[key] = { display: cat, subs: new Set() };
+  if (sub) categoryMap[key].subs.add(sub);
+}
+
+function populateCategoryList() {
+  const dl = $('category-list');
+  dl.innerHTML = '';
+  Object.values(categoryMap)
+    .sort((a, b) => a.display.localeCompare(b.display))
+    .forEach(c => { const o = document.createElement('option'); o.value = c.display; dl.appendChild(o); });
+}
+
+function populateSubcategoryList(catVal) {
+  const dl = $('subcategory-list');
+  dl.innerHTML = '';
+  const key  = (catVal || '').trim().toLowerCase();
+  const vals = (key && categoryMap[key])
+    ? categoryMap[key].subs
+    : new Set(allChannels.map(c => c.subcategory).filter(Boolean));
+  [...vals].sort().forEach(s => { const o = document.createElement('option'); o.value = s; dl.appendChild(o); });
+}
+
+populateCategoryList();
+populateSubcategoryList('');
+$('e-category').addEventListener('input', () => populateSubcategoryList($('e-category').value));
 
 // ── Sort ──────────────────────────────────────────────────────────────────────
 let sortBy  = localStorage.getItem('meshcore-sort')  || 'alpha';
@@ -771,6 +796,7 @@ window.openEdit = (name) => {
   $('modal-channel-name').textContent = name + (c._key ? '  ·  ' + c._key : '');
   $('modal-server-warn').style.display = serverMode ? 'none' : '';
   $('e-category').value      = c.category    || '';
+  populateSubcategoryList(c.category || '');
   $('e-subcategory').value   = c.subcategory || '';
   $('e-country').value       = c.country     || '';
   $('e-region').value        = c.region      || '';
