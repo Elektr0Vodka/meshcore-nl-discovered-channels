@@ -1,4 +1,4 @@
-# MeshCore Channel Export - 2026-04-09
+# MeshCore Channel Export - 2026-04-10
 # Format: #channel-name - 32-char-hex-key
 # Import this file in Remote Terminal for MeshCore via Channels → Import
 
@@ -26,6 +26,7 @@
 #angrynerds - 5765da62f4c9c38aea4512836196ca99
 #antwerpen - 5900168627ddb2963d3fd8dba3fecbb9
 #apeldoorn - 534a7d6b2ca18a381989e6ce0f1240ac
+#ardf - 768b11d6237b1c6d41b8891ef16c8809
 #arnhem - 997d6fc4e652a158a54dc1dde0631fe1
 #autism - 65beb616001df657ee1d7ba2a81bc0bd
 #bami - c99f1457e9b8887ff2ce87e4dd8c9fb7
@@ -185,6 +186,7 @@
 #nsagov - 6e2d80683c05f2e3b29cac68748a5ec9
 #odido - 50674d5b00ccd08abe8a2c988d1491f2
 #os3 - 7da8f585d3b6f10885c2083391f7cae7
+#ov - 2a2c9695ffc18fa69932580dfe76f439
 #overijssel - 65dc44cb887bfd6595d07d69bdf2ca71
 #p2000 - 569dc229b286f06ae8fab74b9db923a3
 #pa3ang - c2dd0c6b7d7cfec474442b195d27e394
@@ -202,6 +204,7 @@
 #radar - 66be09212dc43448bca449f911c6ce69
 #radio-zend-amateurs - fe45ca2b9027771cb5aa650a220979f4
 #remoteterm - 8959ae053f2201801342a1dbdda184f6
+#renkum - c00023fdc883dab453c99c9c352dc80f
 #rheinland - d2d23db125a0c2e7058420d23ce11f9e
 #rijnmond - 213582a3820c0b4d875f8d8ef0c284c2
 #rotterdam - e3f3ad251e512a029bd27161b14f0bdd
@@ -232,6 +235,7 @@
 #vlissingen - 6b573a1676030d8e1a6f85cb36dcf085
 #voorburg - 1573ccc77987f1c60b5c7115c728056e
 #voorne-putten - fb9b9338cd1c7f1f7d6f5a58cba7d320
+#vpk - 7a24949f7c02839f0a8e8db3a1d218bf
 #vught - 51d6009bebae9ea4a254fb31328b0b9f
 #walcheren - 1a10fcd90f6e7c2d4fda895fc9e84442
 #wales - 809573d8134fa262d284400a788f63d9

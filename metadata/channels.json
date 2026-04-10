@@ -3612,7 +3612,7 @@
   {
     "channel": "#nsagov",
     "category": "Special",
-    "subcategory": "topic",
+    "subcategory": "Bot",
     "region": "",
     "language": [
       "NL",
@@ -3623,7 +3623,7 @@
     "recommended": false,
     "alias_of": null,
     "notes": "",
-    "last_seen": "2026-04-08",
+    "last_seen": "2026-04-10",
     "tags": [],
     "scopes": [],
     "country": "Netherlands"
@@ -3642,6 +3642,24 @@
     "alias_of": null,
     "notes": "",
     "last_seen": "2026-04-08",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands"
+  },
+  {
+    "channel": "#os3",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "last_seen": "2026-04-09",
     "tags": [],
     "scopes": [],
     "country": "Netherlands"
@@ -4588,6 +4606,29 @@
     "country": "Netherlands"
   },
   {
+    "channel": "#vpk",
+    "category": "Special",
+    "subcategory": "Event",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "language": [
+      "nl"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge"
+    ],
+    "tags": [
+      "Event",
+      "Veron",
+      "Radio-Amateur"
+    ],
+    "notes": "Communications for the Veron VPK, more info: https://veronpinksterkamp.nl/?p=1859",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
+  },
+  {
     "channel": "#vught",
     "category": "Regional",
     "subcategory": "City",
@@ -5048,5 +5089,66 @@
       "nl-ov-zwl"
     ],
     "country": "Netherlands"
+  },
+  {
+    "channel": "#renkum",
+    "category": "Regional",
+    "subcategory": "City",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-rnk"
+    ],
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "notes": "General Renkum area traffic",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
+  },
+  {
+    "channel": "#ardf",
+    "category": "Special",
+    "subcategory": "Topic",
+    "country": "NL",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl"
+    ],
+    "tags": [
+      "unknown"
+    ],
+    "notes": "Foxhunting?",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
+  },
+  {
+    "channel": "#ov",
+    "category": "Special",
+    "subcategory": "Topic",
+    "country": "NL",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl"
+    ],
+    "tags": [
+      "Unknown"
+    ],
+    "notes": "Unknown - Maybe \"Openbaar Vervoer\" related",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
   }
 ]
