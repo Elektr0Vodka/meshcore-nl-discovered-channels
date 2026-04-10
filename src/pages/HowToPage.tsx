@@ -137,6 +137,13 @@ export default function HowToPage() {
           </div>
         </div>
       </details>
+<footer className="site-footer">
+          <a href="https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels" target="_blank" rel="noopener noreferrer">
+            ElektroVodka
+          </a>
+          {' '}&mdash; Community channel list for MeshCore NL - 2026
+        </footer>
     </div>
+
   )
 }
