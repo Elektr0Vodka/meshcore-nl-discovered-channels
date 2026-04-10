@@ -7,9 +7,11 @@ import { useChannelView } from '../hooks/useChannelView'
 import { useSelection } from '../hooks/useSelection'
 import { useToast } from '../hooks/useToast'
 import { useCategoryMap } from '../hooks/useCategoryMap'
+import { usePagination } from '../hooks/usePagination'
 import StatsBar from '../components/layout/StatsBar'
 import FilterControls from '../components/layout/FilterControls'
 import ResultsBar from '../components/layout/ResultsBar'
+import Pagination from '../components/layout/Pagination'
 import SelectionBar from '../components/layout/SelectionBar'
 import ChannelCard from '../components/channels/ChannelCard'
 import ChannelRow from '../components/channels/ChannelRow'
@@ -23,6 +25,7 @@ export default function IndexPage() {
   const { localEdits, applyEdit } = useLocalEdits()
   const { allChannels, loading, error } = useChannelData(false, localEdits)
   const { filtered, filters, setFilter, clearFilters, isFiltered, sortBy, sortDir, setSort } = useChannelView(allChannels)
+  const { page, setPage, pageSize, setPageSize, totalPages, paged } = usePagination(filtered)
   const { selection, toggle, selectAllFiltered, clear: clearSelection } = useSelection(filtered)
   const { toasts, toast } = useToast()
   const categoryMap = useCategoryMap(allChannels)
@@ -70,6 +73,7 @@ export default function IndexPage() {
           <div className="nav-links">
             <Link to="/" className="active">Channel Browser</Link>
             <Link to="/editor">Local Editor</Link>
+            <Link to="/how-to">How To</Link>
           </div>
         </div>
       </nav>
@@ -149,6 +153,8 @@ export default function IndexPage() {
           total={allChannels.length}
           isFiltered={isFiltered}
           onClearFilters={clearFilters}
+          pageSize={pageSize}
+          onPageSizeChange={setPageSize}
           localEditsCount={localEditsCount}
           serverMode={false}
           onExportLocalEdits={() => exportJson(allChannels.filter(c => c._localEdit), 'local-edits.json')}
@@ -160,47 +166,53 @@ export default function IndexPage() {
             <p>Try adjusting your search or filters.</p>
           </div>
         ) : viewMode === 'grid' ? (
-          <div className="grid">
-            {filtered.map(c => (
-              <ChannelCard
-                key={c.channel}
-                channel={c}
-                selected={selection.has(c.channel)}
-                onToggleSelect={toggle}
-                onCopy={msg => toast(msg, 'ok')}
-                onEdit={setEditingChannel}
-              />
-            ))}
-          </div>
+          <>
+            <div className="grid">
+              {paged.map(c => (
+                <ChannelCard
+                  key={c.channel}
+                  channel={c}
+                  selected={selection.has(c.channel)}
+                  onToggleSelect={toggle}
+                  onCopy={msg => toast(msg, 'ok')}
+                  onEdit={setEditingChannel}
+                />
+              ))}
+            </div>
+            <Pagination page={page} totalPages={totalPages} onPage={setPage} />
+          </>
         ) : (
-          <div className="list-wrap">
-            <table className="list-table">
-              <thead>
-                <tr>
-                  <th style={{ width: 24 }} />
-                  <th className={`sortable${sortBy === 'alpha' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('alpha')}>Channel</th>
-                  <th>Key</th>
-                  <th className={`sortable${sortBy === 'category' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('category')}>Category</th>
-                  <th className={`sortable${sortBy === 'region' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('region')}>Region</th>
-                  <th className={`sortable${sortBy === 'scope' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('scope')}>Scopes</th>
-                  <th>Flags</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filtered.map(c => (
-                  <ChannelRow
-                    key={c.channel}
-                    channel={c}
-                    selected={selection.has(c.channel)}
-                    onToggleSelect={toggle}
-                    onCopy={msg => toast(msg, 'ok')}
-                    onEdit={setEditingChannel}
-                  />
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <>
+            <div className="list-wrap">
+              <table className="list-table">
+                <thead>
+                  <tr>
+                    <th style={{ width: 24 }} />
+                    <th className={`sortable${sortBy === 'alpha' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('alpha')}>Channel</th>
+                    <th>Key</th>
+                    <th className={`sortable${sortBy === 'category' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('category')}>Category</th>
+                    <th className={`sortable${sortBy === 'region' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('region')}>Region</th>
+                    <th className={`sortable${sortBy === 'scope' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('scope')}>Scopes</th>
+                    <th>Flags</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {paged.map(c => (
+                    <ChannelRow
+                      key={c.channel}
+                      channel={c}
+                      selected={selection.has(c.channel)}
+                      onToggleSelect={toggle}
+                      onCopy={msg => toast(msg, 'ok')}
+                      onEdit={setEditingChannel}
+                    />
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <Pagination page={page} totalPages={totalPages} onPage={setPage} />
+          </>
         )}
 
         <footer className="site-footer">

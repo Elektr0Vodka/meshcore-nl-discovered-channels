@@ -113,7 +113,7 @@ export default function EditModal({ channel, serverMode, categoryMap, onSave, on
                 list={catListId}
                 value={category}
                 onChange={e => setCategory(e.target.value)}
-                placeholder="e.g. regional"
+                placeholder="e.g. Regional"
               />
               <datalist id={catListId}>
                 {Object.values(categoryMap).map(e => (
@@ -128,7 +128,7 @@ export default function EditModal({ channel, serverMode, categoryMap, onSave, on
                 list={subListId}
                 value={subcategory}
                 onChange={e => setSubcategory(e.target.value)}
-                placeholder="e.g. city"
+                placeholder="e.g. City"
               />
               <datalist id={subListId}>
                 {subOptions.map(s => (
@@ -145,7 +145,7 @@ export default function EditModal({ channel, serverMode, categoryMap, onSave, on
                 type="text"
                 value={country}
                 onChange={e => setCountry(e.target.value)}
-                placeholder="e.g. NL"
+                placeholder="e.g. Netherlands"
               />
             </div>
             <div className="form-row">
