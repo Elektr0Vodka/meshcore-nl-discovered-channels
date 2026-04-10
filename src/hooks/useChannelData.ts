@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import type { Channel, ChannelMeta } from '../types'
 
 type LocalEdits = Record<string, Partial<ChannelMeta> | null>
@@ -57,7 +57,10 @@ export function useChannelData(serverMode: boolean, localEdits: LocalEdits) {
     return () => { cancelled = true }
   }, [])
 
-  const allChannels = buildChannels(rtfmMap, metaMap, localEdits, serverMode)
+  const allChannels = useMemo(
+    () => buildChannels(rtfmMap, metaMap, localEdits, serverMode),
+    [rtfmMap, metaMap, localEdits, serverMode]
+  )
 
   const rebuildMeta = useCallback((updatedMeta: Record<string, ChannelMeta>) => {
     setMetaMap(updatedMeta)
