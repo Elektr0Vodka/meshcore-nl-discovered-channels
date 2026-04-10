@@ -87,6 +87,13 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
         </div>
       ) : null}
 
+      {(c.last_seen || c.added) && (
+        <div className="card-dates">
+          {c.last_seen && <span className="cd-item"><span className="cd-label">Last seen</span>{c.last_seen}</span>}
+          {c.added     && <span className="cd-item"><span className="cd-label">Added</span>{c.added}</span>}
+        </div>
+      )}
+
       {c.notes && <div className="notes-text">{c.notes}</div>}
 
       <div className="card-actions">

@@ -67,6 +67,8 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
           {c.scopes?.join(', ') || ''}
         </span>
       </td>
+      <td><span className="lt-date">{c.last_seen || '—'}</span></td>
+      <td><span className="lt-date">{c.added     || '—'}</span></td>
       <td>
         <div className="lt-flags">
           {c.verified    && <Badge variant="verified" />}
