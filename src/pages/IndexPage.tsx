@@ -196,8 +196,8 @@ export default function IndexPage() {
                     <th className={`sortable${sortBy === 'category' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('category')}>Category</th>
                     <th className={`sortable${sortBy === 'region' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('region')}>Region</th>
                     <th className={`sortable${sortBy === 'scope' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('scope')}>Scopes</th>
-                    <th className={`sortable${sortBy === 'last_seen' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('last_seen')}>Last seen</th>
-                    <th className={`sortable${sortBy === 'added'     ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('added')}>Added</th>
+                    <th className={`sortable${sortBy === 'first_seen' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('first_seen')}>First seen</th>
+                    <th className={`sortable${sortBy === 'last_seen'     ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('last_seen')}>Last Seen</th>
                     <th className={`sortable${sortBy === 'message_amount' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('message_amount')}>Messages</th>
                     <th>Flags</th>
                     <th>Actions</th>

@@ -20,8 +20,8 @@ function sortChannels(arr: Channel[], sortBy: SortField, sortDir: SortDir): Chan
       case 'country':     va = a.country     || '';    vb = b.country     || '';    break
       case 'region':      va = a.region      || '';    vb = b.region      || '';    break
       case 'scope':       va = (a.scopes||[])[0]||''; vb = (b.scopes||[])[0]||''; break
+      case 'first_seen':   va = a.first_seen   || '';    vb = b.first_seen   || '';    break
       case 'last_seen':   va = a.last_seen   || '';    vb = b.last_seen   || '';    break
-      case 'added':       va = a.added       || '';    vb = b.added       || '';    break
     }
     const cmp = va.localeCompare(vb, undefined, { sensitivity: 'base' })
     return cmp !== 0 ? d * cmp : a.channel.localeCompare(b.channel)

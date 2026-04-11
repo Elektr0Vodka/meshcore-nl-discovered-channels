@@ -723,18 +723,24 @@
   {
     "channel": "#barneveld",
     "channel_hash": "6C45841CA6CEC9E2C995E64A5588BBEE",
-    "category": "",
-    "subcategory": "",
+    "category": "Regional",
+    "subcategory": "City",
     "region": "",
-    "language": [],
+    "language": [
+      "NL"
+    ],
     "status": "active",
-    "verified": false,
+    "verified": true,
     "recommended": false,
     "alias_of": null,
-    "notes": "",
+    "notes": "General Barneveld area traffic - User submitted",
     "tags": [],
-    "scopes": [],
-    "country": "",
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-bar"
+    ],
+    "country": "Netherlands",
     "first_seen": null,
     "last_seen": null,
     "added": "2026-04-11",
@@ -860,18 +866,20 @@
   {
     "channel": "#blackout",
     "channel_hash": "75420460F335577FA27CDD20DACF9EDD",
-    "category": "",
-    "subcategory": "",
+    "category": "Special",
+    "subcategory": "Topic",
     "region": "",
-    "language": [],
+    "language": [
+      "NL"
+    ],
     "status": "active",
-    "verified": false,
+    "verified": true,
     "recommended": false,
     "alias_of": null,
     "notes": "",
     "tags": [],
     "scopes": [],
-    "country": "",
+    "country": "Netherlands",
     "first_seen": "2026-04-09T18:13:27.000Z",
     "last_seen": "2026-04-09T18:13:27.000Z",
     "added": "2026-04-11",
@@ -1091,30 +1099,6 @@
     "last_seen": "2026-04-08",
     "added": "2026-04-11",
     "message_amount": 1,
-    "source": "radio"
-  },
-  {
-    "channel": "#buch",
-    "channel_hash": "13BBCA5CD40E82B83C494A3A99C9C1A8",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": null,
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 0,
     "source": "radio"
   },
   {
@@ -1488,36 +1472,6 @@
     "last_seen": "2026-04-10T11:58:23.000Z",
     "added": "2026-04-11",
     "message_amount": 17,
-    "source": "radio"
-  },
-  {
-    "channel": "#den-helder",
-    "channel_hash": "FA4F1897BDB4A0C2CADAB553197F896A",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Den Helder area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nh",
-      "nl-nh-dhr"
-    ],
-    "country": "Netherlands",
-    "first_seen": null,
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 0,
     "source": "radio"
   },
   {
@@ -2081,9 +2035,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T14:29:39.000Z",
-    "last_seen": "2026-04-11T17:54:29.000Z",
+    "last_seen": "2026-04-11T18:44:36.000Z",
     "added": "2026-04-11",
-    "message_amount": 161,
+    "message_amount": 162,
     "source": "radio"
   },
   {
@@ -2415,9 +2369,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:03:04.000Z",
-    "last_seen": "2026-04-11T18:02:36.000Z",
+    "last_seen": "2026-04-11T19:09:38.000Z",
     "added": "2026-04-11",
-    "message_amount": 502,
+    "message_amount": 503,
     "source": "radio"
   },
   {
@@ -2610,18 +2564,24 @@
   {
     "channel": "#goes",
     "channel_hash": "A2919242E98548E2D6FC6CDBBD6CDC37",
-    "category": "",
-    "subcategory": "",
-    "region": "",
-    "language": [],
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Zeeland",
+    "language": [
+      "NL"
+    ],
     "status": "active",
-    "verified": false,
+    "verified": true,
     "recommended": false,
     "alias_of": null,
-    "notes": "",
+    "notes": "General Goes area traffic - User submitted",
     "tags": [],
-    "scopes": [],
-    "country": "",
+    "scopes": [
+      "nl",
+      "nl-ze",
+      "nl-ze-goe"
+    ],
+    "country": "Netherlands",
     "first_seen": null,
     "last_seen": null,
     "added": "2026-04-11",
@@ -2746,9 +2706,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-11T17:52:09.000Z",
+    "last_seen": "2026-04-11T19:09:08.000Z",
     "added": "2026-04-11",
-    "message_amount": 99,
+    "message_amount": 102,
     "source": "radio"
   },
   {
@@ -2890,9 +2850,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:15:41.000Z",
-    "last_seen": "2026-04-11T18:08:29.000Z",
+    "last_seen": "2026-04-11T18:58:39.000Z",
     "added": "2026-04-11",
-    "message_amount": 235,
+    "message_amount": 240,
     "source": "radio"
   },
   {
@@ -3676,16 +3636,23 @@
     "channel_hash": "EDCFD8DF841D2978B88ACB96564B780B",
     "category": "Regional",
     "subcategory": "City",
-    "region": "",
-    "language": [],
+    "region": "Friesland",
+    "language": [
+      "NL",
+      "FRL"
+    ],
     "status": "active",
-    "verified": false,
+    "verified": true,
     "recommended": false,
     "alias_of": null,
-    "notes": "",
+    "notes": "General Leeuwarden area traffic",
     "tags": [],
-    "scopes": [],
-    "country": "",
+    "scopes": [
+      "nl",
+      "nl-fr",
+      "nl-fr-lwr"
+    ],
+    "country": "Netherlands",
     "first_seen": "2026-04-11T12:49:30.000Z",
     "last_seen": "2026-04-11T17:01:40.000Z",
     "added": "2026-04-11",
@@ -4076,9 +4043,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-11T18:22:32.000Z",
+    "last_seen": "2026-04-11T19:23:30.000Z",
     "added": "2026-04-11",
-    "message_amount": 4050,
+    "message_amount": 4066,
     "source": "radio"
   },
   {
@@ -4101,9 +4068,9 @@
     "scopes": [],
     "country": "Germany",
     "first_seen": "2026-04-10T20:05:12.000Z",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-04-11T19:27:26.000Z",
     "added": "2026-04-11",
-    "message_amount": 1,
+    "message_amount": 2,
     "source": "radio"
   },
   {
@@ -4463,9 +4430,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-04-02T13:51:29.000Z",
-    "last_seen": "2026-04-08",
+    "last_seen": "2026-04-11T18:58:08.000Z",
     "added": "2026-04-11",
-    "message_amount": 35,
+    "message_amount": 36,
     "source": "radio"
   },
   {
@@ -5150,9 +5117,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T23:10:35.000Z",
-    "last_seen": "2026-04-10T21:59:07.000Z",
+    "last_seen": "2026-04-11T18:36:59.000Z",
     "added": "2026-04-11",
-    "message_amount": 145,
+    "message_amount": 146,
     "source": "radio"
   },
   {
@@ -5228,7 +5195,7 @@
   },
   {
     "channel": "#public",
-    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
+    "channel_hash": "8B4B705B080C0D943B1C80F6B3EF6B6D",
     "category": "",
     "subcategory": "",
     "region": "",
@@ -5650,27 +5617,6 @@
     "source": "radio"
   },
   {
-    "channel": "#spoileralert",
-    "channel_hash": "5F868A1F7ADD60AEBEFA951FD0D0A0D0",
-    "category": "",
-    "subcategory": "",
-    "region": "",
-    "language": [],
-    "status": "active",
-    "verified": false,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "",
-    "first_seen": null,
-    "last_seen": null,
-    "added": "2026-04-11",
-    "message_amount": 0,
-    "source": "radio"
-  },
-  {
     "channel": "#sports",
     "channel_hash": "E8EE81F3AABF105D9BA2D2D4BD94FE4A",
     "category": "Special",
@@ -5807,9 +5753,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-11T18:21:51.000Z",
+    "last_seen": "2026-04-11T19:26:40.000Z",
     "added": "2026-04-11",
-    "message_amount": 5841,
+    "message_amount": 5857,
     "source": "radio"
   },
   {
@@ -6184,9 +6130,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-09T14:47:17.000Z",
-    "last_seen": "2026-04-09T14:47:17.000Z",
+    "last_seen": "2026-04-11T18:43:00.000Z",
     "added": "2026-04-11",
-    "message_amount": 1,
+    "message_amount": 2,
     "source": "radio"
   },
   {
@@ -6468,29 +6414,6 @@
     "last_seen": "2026-04-08",
     "added": "2026-04-11",
     "message_amount": 2,
-    "source": "radio"
-  },
-  {
-    "channel": "#wiet",
-    "channel_hash": "298D6ABA9A1F29BCF41E286BA1ADCF71",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": null,
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 0,
     "source": "radio"
   },
   {
@@ -6786,14 +6709,14 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T14:32:58.000Z",
-    "last_seen": "2026-04-09T07:28:08.000Z",
+    "last_seen": "2026-04-11T19:06:12.000Z",
     "added": "2026-04-11",
-    "message_amount": 28,
+    "message_amount": 29,
     "source": "radio"
   },
   {
     "channel": "#kees2",
-    "channel_hash": "F71BC3ACF7E66B7FA3CF81804DBC7C1D",
+    "channel_hash": null,
     "category": "",
     "subcategory": "",
     "region": "",
@@ -6859,8 +6782,8 @@
     "source": "finder"
   },
   {
-    "channel": "#testicleEV",
-    "channel_hash": "694201D67ED494C399D15C436DBF9E06",
+    "channel": "#buch",
+    "channel_hash": "13BBCA5CD40E82B83C494A3A99C9C1A8",
     "category": "",
     "subcategory": "",
     "region": "",
@@ -6873,10 +6796,73 @@
     "tags": [],
     "scopes": [],
     "country": "",
-    "first_seen": "2026-03-26T00:10:30.000Z",
-    "last_seen": "2026-03-29T20:34:22.000Z",
+    "first_seen": null,
+    "last_seen": null,
     "added": "2026-04-11",
-    "message_amount": 4,
+    "message_amount": 0,
+    "source": "radio"
+  },
+  {
+    "channel": "#den-helder",
+    "channel_hash": "FA4F1897BDB4A0C2CADAB553197F896A",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": null,
+    "last_seen": null,
+    "added": "2026-04-11",
+    "message_amount": 0,
+    "source": "radio"
+  },
+  {
+    "channel": "Public",
+    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-03-20T21:58:52.000Z",
+    "last_seen": "2026-04-11T19:03:50.000Z",
+    "added": "2026-04-11",
+    "message_amount": 6019,
+    "source": "radio"
+  },
+  {
+    "channel": "#spoileralert",
+    "channel_hash": "5F868A1F7ADD60AEBEFA951FD0D0A0D0",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": null,
+    "last_seen": null,
+    "added": "2026-04-11",
+    "message_amount": 0,
     "source": "radio"
   }
 ]

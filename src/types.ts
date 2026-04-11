@@ -26,7 +26,7 @@ export interface Channel extends ChannelMeta {
   _localEdit: boolean
 }
 
-export type SortField = 'alpha' | 'category' | 'subcategory' | 'country' | 'region' | 'scope' | 'last_seen' | 'added' | 'message_amount'
+export type SortField = 'alpha' | 'category' | 'subcategory' | 'country' | 'region' | 'scope' | 'first_seen' | 'last_seen' | 'message_amount'
 export type SortDir = 'asc' | 'desc'
 export type ViewMode = 'grid' | 'list'
 export type ToastType = 'ok' | 'err'
