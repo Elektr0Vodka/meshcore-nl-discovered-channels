@@ -33,7 +33,14 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': 'http://localhost:8080',
+      '/api': {
+        target: 'http://localhost:8080',
+        // Silence "ECONNREFUSED" noise when the local server isn't running.
+        // The client already handles the failure gracefully via the AbortSignal timeout.
+        configure(proxy) {
+          proxy.on('error', () => { /* server not running — expected */ })
+        },
+      },
     },
   },
 })

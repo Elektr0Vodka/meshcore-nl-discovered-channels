@@ -87,10 +87,11 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
         </div>
       ) : null}
 
-      {(c.last_seen || c.added) && (
+      {(c.last_seen || c.added || c.message_amount != null) && (
         <div className="card-dates">
-          {c.last_seen && <span className="cd-item"><span className="cd-label">Last seen</span>{c.last_seen}</span>}
-          {c.added     && <span className="cd-item"><span className="cd-label">Added</span>{c.added}</span>}
+          {c.last_seen         && <span className="cd-item"><span className="cd-label">Last seen</span>{c.last_seen}</span>}
+          {c.added             && <span className="cd-item"><span className="cd-label">Added</span>{c.added}</span>}
+          {c.message_amount != null && <span className="cd-item"><span className="cd-label">Messages</span>{c.message_amount.toLocaleString()}</span>}
         </div>
       )}
 

@@ -7,6 +7,11 @@ const LS_SORTDIR = 'meshcore-sortdir'
 function sortChannels(arr: Channel[], sortBy: SortField, sortDir: SortDir): Channel[] {
   const d = sortDir === 'asc' ? 1 : -1
   return [...arr].sort((a, b) => {
+    if (sortBy === 'message_amount') {
+      const na = a.message_amount ?? -1
+      const nb = b.message_amount ?? -1
+      return na !== nb ? d * (na - nb) : a.channel.localeCompare(b.channel)
+    }
     let va = '', vb = ''
     switch (sortBy) {
       case 'alpha':       va = a.channel;              vb = b.channel;              break

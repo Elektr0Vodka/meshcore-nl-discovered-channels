@@ -69,6 +69,7 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
       </td>
       <td><span className="lt-date">{c.last_seen || '—'}</span></td>
       <td><span className="lt-date">{c.added     || '—'}</span></td>
+      <td><span className="lt-count">{c.message_amount != null ? c.message_amount.toLocaleString() : '—'}</span></td>
       <td>
         <div className="lt-flags">
           {c.verified    && <Badge variant="verified" />}

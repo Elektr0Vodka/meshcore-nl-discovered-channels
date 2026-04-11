@@ -9,13 +9,20 @@ export function buildChannels(
   localEdits: LocalEdits,
   serverMode: boolean
 ): Channel[] {
-  return Object.keys(rtfmMap).sort().map(name => {
+  // Union of all known channel names: from rtfm file + from JSON entries that have channel_hash
+  const allNames = new Set([
+    ...Object.keys(rtfmMap),
+    ...Object.keys(metaMap).filter(name => !!metaMap[name]?.channel_hash),
+  ])
+  return Array.from(allNames).sort().map(name => {
+    // Prefer rtfm key; fall back to channel_hash embedded in the JSON
+    const hexKey = rtfmMap[name] ?? metaMap[name]?.channel_hash ?? ''
     const base = metaMap[name] ?? { channel: name }
     const local = serverMode ? undefined : localEdits[name]
     if (local === null) {
-      return { channel: name, _key: rtfmMap[name], _hasMeta: false, _localEdit: true }
+      return { channel: name, _key: hexKey, _hasMeta: false, _localEdit: true }
     }
-    const merged: Channel = { ...base, channel: name, _key: rtfmMap[name], _hasMeta: false, _localEdit: false }
+    const merged: Channel = { ...base, channel: name, _key: hexKey, _hasMeta: false, _localEdit: false }
     merged._hasMeta = !!(metaMap[name] || (local && Object.keys(local).length > 0))
     merged._localEdit = !serverMode && !!local
     if (local) Object.assign(merged, local)
@@ -33,21 +40,28 @@ export function useChannelData(serverMode: boolean, localEdits: LocalEdits) {
     let cancelled = false
     async function load() {
       try {
-        const [rtfmRes, jsonRes] = await Promise.all([
-          fetch('./data/remote-terminal-export.txt'),
-          fetch('./data/channels.json'),
-        ])
-        if (!rtfmRes.ok) throw new Error(`RTfM export: ${rtfmRes.status}`)
+        // channels.json is required; remote-terminal-export.txt is optional (legacy hex key source)
+        const jsonRes = await fetch('./data/channels.json')
         if (!jsonRes.ok) throw new Error(`channels.json: ${jsonRes.status}`)
-        const rtfmText = await rtfmRes.text()
-        const newRtfm: Record<string, string> = {}
-        for (const line of rtfmText.split('\n')) {
-          const m = line.match(/^(#\S+)\s+-\s+([0-9a-f]{32})/i)
-          if (m) newRtfm[m[1]] = m[2]
-        }
         const arr: ChannelMeta[] = await jsonRes.json()
         const newMeta: Record<string, ChannelMeta> = {}
         for (const c of arr) newMeta[c.channel] = c
+
+        // Try to load the legacy rtfm file; silently skip if absent
+        const newRtfm: Record<string, string> = {}
+        try {
+          const rtfmRes = await fetch('./data/remote-terminal-export.txt')
+          if (rtfmRes.ok) {
+            const rtfmText = await rtfmRes.text()
+            for (const line of rtfmText.split('\n')) {
+              const m = line.match(/^(#\S+)\s+-\s+([0-9a-f]{32})/i)
+              if (m) newRtfm[m[1]] = m[2]
+            }
+          }
+        } catch {
+          // rtfm file is optional — channel_hash in channels.json takes over
+        }
+
         if (!cancelled) { setRtfmMap(newRtfm); setMetaMap(newMeta); setLoading(false) }
       } catch (e) {
         if (!cancelled) { setError((e as Error).message); setLoading(false) }

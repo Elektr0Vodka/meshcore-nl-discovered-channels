@@ -204,6 +204,7 @@ export default function EditorPage() {
                     <th className={`sortable${sortBy === 'scope' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('scope')}>Scopes</th>
                     <th className={`sortable${sortBy === 'last_seen' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('last_seen')}>Last seen</th>
                     <th className={`sortable${sortBy === 'added'     ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('added')}>Added</th>
+                    <th className={`sortable${sortBy === 'message_amount' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('message_amount')}>Messages</th>
                     <th>Flags</th>
                     <th>Actions</th>
                   </tr>
