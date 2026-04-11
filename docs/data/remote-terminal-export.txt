@@ -1,4 +1,4 @@
-# MeshCore Channel Export - 2026-04-10
+# MeshCore Channel Export - 2026-04-11
 # Format: #channel-name - 32-char-hex-key
 # Import this file in Remote Terminal for MeshCore via Channels → Import
 
@@ -30,11 +30,13 @@
 #arnhem - 997d6fc4e652a158a54dc1dde0631fe1
 #autism - 65beb616001df657ee1d7ba2a81bc0bd
 #bami - c99f1457e9b8887ff2ce87e4dd8c9fb7
+#barneveld - 6c45841ca6cec9e2c995e64a5588bbee
 #beds-bucks-northants - 338060482e29d5772d8309001d29c8fe
 #bemesh - 4e92675e10b4a5b3df305e86a6f4f8fa
 #berks - 1c6a0bf7d1e692a6bd9e92c87b518727
 #betuwe - d2ff0bb0b31ed2445e2926b76ca537c6
 #blabla - 9aa65cf8b22fd4762fc1d2f7c4f9ebba
+#blackout - 75420460f335577fa27cdd20dacf9edd
 #blubb - 279b1c651f25cde7689d88280eaecc5a
 #bochum - 2eecc7a2962e7276806bdf7c795c97ae
 #boe - 623a10cbe7db0b649dd82b829d5b9f0d
@@ -94,6 +96,7 @@
 #flood - f2a0fd0abe4c9fc6865b5f8eebf319d6
 #fosdem - e9737d9ed4eddb7d2c80c0f712a846a9
 #friesland - 7d228e0aa32ce2cceff5480b825ba11d
+#gay - 3a612fa3bfc9f3b439cc230b01cbbc00
 #gelderland - 7c5f276b6ace11177427bae7f5190b61
 #gent - 82f82c2835bd5fbda1ab0eb134364532
 #germany - 0a834b4687fd4e09f72f6eeb3191ee25
@@ -103,6 +106,7 @@
 #gmrbot - ae5424e0cbbdc905a7aa46f1642a2983
 #goedemorgen - 869557c3e1cd107ca47f2152a4436c1f
 #goedenavond - 6813bb408bedccff6d945594f4618c46
+#goes - a2919242e98548e2d6fc6cdbbd6cdc37
 #gouda - d2aca7bdab9444da1cd1ee42b9135f27
 #grunn - 47a821e5b3ab0a613acc0e92d6bbc639
 #gsn - e32ddd716c3389723e80f6637a3be445
@@ -112,9 +116,11 @@
 #haarlem - 1b3c0adb0803c149ab00850724ef81fc
 #hackerspacenijmegen - f7eaefaa8f8098f31e7ff589c54f88a6
 #hahab - 4dcbc782556f4334b26a4d5e6aab3f7e
+#hampshire - 2fea02898487ca56fe90c6ead3918e9e
 #hamradio - 83c8b01997654265938da8765cbc7db9
 #hamradionederland - 2e18eaedd9ef230f88a5ecfc69999cca
 #hashtags - 88c15b16b2b54bbd53dbbfef457bf38b
+#heerhugowaard - 997c613ede9468f278def775f564a7df
 #hellevoetsluis - 7c97f9f6c158d3eeaab270a6050fe1c2
 #hengelo - e0948f47d175bab3a6e29fbe8dcce049
 #hertford - 6adf633d6d977b90fb79213cd52eef89
@@ -124,11 +130,13 @@
 #home - 0d1a1b26f4280e1d49a45edef62e0adf
 #homeassistant - e4cb95b8b1ba35266907ca2b29716b2f
 #houten - e404c32d5ba63ddd0a55814a5363b7ef
+#hsg - 497475d07e7f3649269845771df7e348
 #hsluis - 4cd48c75477367037eedff921d9a1608
 #hsnl - 3208ba4ddfb19c5047ef9cad62601db1
 #huddersfield - 549a4cd97d96c130d359748c72f0e321
 #hvm - 8a989d7ded529bd04ec77d05a770d822
 #ijsselstein - d2915a2757417b48c650b2bccc968088
+#ireland - 1b2a12acc5db1517d9d407946756b1da
 #isleofwight - 61c443367875ab5fed500c6c7d88b6ae
 #john - 8183daf27f7ee7a327284981ef74b319
 #jokes - abe610d61dee508c0ac18793c36c41c3
@@ -140,8 +148,10 @@
 #kernow - c5af70d0cd3ffe5e298c64b96d385587
 #koeln - cc2de011842824b10ee2e28e97f91339
 #koffie - 88e3fb0b5ca9fbd7af99efb413cfeed3
+#kortrijk - 8646d42a37a30520e7e862e6a43adce4
 #kubecon - 09158f8a8c526f69169ad9bdb8b1031f
 #leerdam - 745da437a3ed5fcac8236336cc912836
+#leeuwarden - edcfd8df841d2978b88acb96564b780b
 #leiden - 0f97ae3aefdf34e4c38b7d79f0575c3d
 #leidschendam - 0eeb1e972966da3418cc776d30a634f4
 #leverkusen - 3bc7032c813e014b5142b9198f65873d
@@ -171,6 +181,7 @@
 #nederland - c14f7b1e0416e4fa74f5f7b81a707b50
 #nerd - 94f9f21d274d442d3b79b9733eb5aa58
 #nhn - 04cf848f1211dac8a034b926b29eeb61
+#niels - aeee443b1911cd5f01bd5354a93f6c68
 #nieuws - 5ca06dc04216e3e65d8397ec8e6e091c
 #nijmegen - b20e9329d9125054ae77e58819e5bddb
 #nijverdal - 4cdcab5632e374991ab436c5ba6f7757
@@ -178,6 +189,7 @@
 #nl-alert - 68b8175b40434e08d7ef3af0c6801210
 #nl-gtb-bs - 860e6baef1ee80a41749ec553beac94a
 #nl-prio - 72ae4a0d06f3345fd7898e2f7cabbfb7
+#noc - ba80f1c6c174f1b3a2e46494489b1e79
 #noodkanaal - 31edc84037d3eac3a258e0f45f226016
 #noordbrabant - cd7f105d202f74a928c78eda211de4ac
 #noordholland - 53feb654c06deec33576c78090956b90
@@ -202,6 +214,7 @@
 #pingbot - 69d8b268014e48451053f51ebf6e5521
 #politie - b394566795f81435299f34f51fefce8b
 #prut - 3f66f6d8e83b2d1c98cb734286259bc3
+#public - 8b4b705b080c0d943b1c80f6b3ef6b6d
 #putyourspamhere - 9a10b12e68f878939e64b27ec0663f76
 #radar - 66be09212dc43448bca449f911c6ce69
 #radio-zend-amateurs - fe45ca2b9027771cb5aa650a220979f4
@@ -218,6 +231,7 @@
 #solent - 3c7404c4b8c52ed4a270e39af58c1ad1
 #somerset - 1e13916ca19d4954e469d7cfc1781c0d
 #spire - 692e0d5a7bc25196af4da578850f9b21
+#spoileralert - 5f868a1f7add60aebefa951fd0d0a0d0
 #sports - e8ee81f3aabf105d9ba2d2d4bd94fe4a
 #suffolk - 63dc928c56eaa67ae6fabf2b24ff425e
 #survival - e1f465ea51df09fc901389758f1c5f01
@@ -261,3 +275,5 @@
 #zuid-holland - a242466a8c438797955eb6704bf20fe0
 #zuidholland - 9f5752f1e25a6ad90b075a425d4cffe5
 #zwolle - d65fabeef323a4b9ec18fa5b761ceba4
+#Public - 8b3387e9c5cdea6ac9e5edbaa115cd72
+
