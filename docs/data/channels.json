@@ -498,6 +498,26 @@
     "country": "Netherlands"
   },
   {
+    "channel": "#ardf",
+    "category": "Special",
+    "subcategory": "Topic",
+    "country": "Netherlands",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl"
+    ],
+    "tags": [
+      "unknown"
+    ],
+    "notes": "Foxhunting?",
+    "last_seen": "2026-04-10",
+    "added": "2026-04-08",
+    "verified": true,
+    "recommended": false
+  },
+  {
     "channel": "#arnhem",
     "category": "Regional",
     "subcategory": "City",
@@ -3683,6 +3703,25 @@
     "country": "Netherlands"
   },
   {
+    "channel": "#ov",
+    "category": "Special",
+    "subcategory": "Topic",
+    "country": "Netherlands",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl"
+    ],
+    "tags": [
+      "Unknown"
+    ],
+    "notes": "Unknown - Maybe \"Openbaar Vervoer\" related",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
+  },
+  {
     "channel": "#overijssel",
     "category": "Regional",
     "subcategory": "Province",
@@ -4016,6 +4055,29 @@
     "tags": [],
     "scopes": [],
     "country": "Netherlands"
+  },
+  {
+    "channel": "#renkum",
+    "category": "Regional",
+    "subcategory": "City",
+    "country": "Netherlands",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-rnk"
+    ],
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "notes": "General Renkum area traffic",
+    "last_seen": "2026-04-10",
+    "verified": true,
+    "recommended": false
   },
   {
     "channel": "#rheinland",
@@ -5143,67 +5205,5 @@
       "nl-ov-zwl"
     ],
     "country": "Netherlands"
-  },
-  {
-    "channel": "#renkum",
-    "category": "Regional",
-    "subcategory": "City",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "language": [
-      "NL"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ge",
-      "nl-ge-rnk"
-    ],
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "notes": "General Renkum area traffic",
-    "last_seen": "2026-04-10",
-    "verified": true,
-    "recommended": false
-  },
-  {
-    "channel": "#ardf",
-    "category": "Special",
-    "subcategory": "Topic",
-    "country": "Netherlands",
-    "language": [
-      "NL"
-    ],
-    "scopes": [
-      "nl"
-    ],
-    "tags": [
-      "unknown"
-    ],
-    "notes": "Foxhunting?",
-    "last_seen": "2026-04-10",
-    "added": "2026-04-08",
-    "verified": true,
-    "recommended": false
-  },
-  {
-    "channel": "#ov",
-    "category": "Special",
-    "subcategory": "Topic",
-    "country": "Netherlands",
-    "language": [
-      "NL"
-    ],
-    "scopes": [
-      "nl"
-    ],
-    "tags": [
-      "Unknown"
-    ],
-    "notes": "Unknown - Maybe \"Openbaar Vervoer\" related",
-    "last_seen": "2026-04-10",
-    "verified": true,
-    "recommended": false
   }
 ]
