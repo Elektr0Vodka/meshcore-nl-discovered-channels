@@ -156,6 +156,7 @@
 #maastricht-hl - 42ca665b63456ee7403431fa46f65de8
 #malden - 43e5073ada9271170a394a1d153c3ccc
 #mc-radar - f27acf0bf185c2ec4b9fd36bf12fa1ee
+#meow - 8c0c20a670cd2a05a7c865989c4c8b8a
 #mesh - 5b664cde0b08b220612113db980650f3
 #meshcore - 2fa78a5aef618e7c2a78f0ab5c8869b3
 #meshoe - eab624506e43e28dd8e18f64fcfbd227
@@ -190,6 +191,7 @@
 #pd0kmd - 77d2807d4bf6d7b366c5e7d774990a1d
 #pd7lj - 36b6aaeec51d5e36f6a8cd5e69a8a954
 #pi2dev - 506ea80aff99fabf399b3756360831df
+#pi2ldn - c761b3693fbec4d8d8e7ad4d0c2e5cc0
 #pi4hm - 868a4b4e3cad3b421e18160ac47ef57c
 #pi4utr - 7cfc5dcd61f6e2696c209a7b5c286338
 #pi6mep - 6db3ca89c45950b4f54c1a90cf5d7346

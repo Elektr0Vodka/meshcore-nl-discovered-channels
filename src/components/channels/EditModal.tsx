@@ -176,7 +176,7 @@ export default function EditModal({ channel, serverMode, categoryMap, onSave, on
               type="text"
               value={scopes}
               onChange={e => setScopes(e.target.value)}
-              placeholder="e.g. nl.noord-holland.amsterdam"
+              placeholder="e.g. nl, nl-nh, nl-nh-dhr"
             />
             <span className="form-hint">Comma-separated. Follow the MeshWiki region guideline.</span>
           </div>
@@ -187,7 +187,7 @@ export default function EditModal({ channel, serverMode, categoryMap, onSave, on
               type="text"
               value={tags}
               onChange={e => setTags(e.target.value)}
-              placeholder="e.g. emergency, repeater"
+              placeholder="e.g. Emergency, Repeater"
             />
             <span className="form-hint">Comma-separated</span>
           </div>

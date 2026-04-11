@@ -111,12 +111,15 @@ export default function IndexPage() {
           <div className="info-panel-body">
             <div className="info-box">
               <h4 style={{ color: '#93c5fd' }}>Useful links</h4>
-              <p>Quick references for MeshCore NL, region naming and importing/exporting channel lists.</p>
+              <p>Quick references for MeshCore NL, region naming, importing/exporting channel lists, and communities</p>
               <div className="quick-links">
-                <a className="quick-link" href="https://meshwiki.nl/wiki/The_switch/draft" target="_blank" rel="noopener noreferrer">SF8 → SF7 Switch 9 May</a>
+                <a className="quick-link" href="https://meshwiki.nl/wiki/The_switch/draft" target="_blank" rel="noopener noreferrer">SF8 → SF7 Switch E.T.A. 9th of May</a>
                 <a className="quick-link" href="https://meshwiki.nl/wiki/Lijst_van_regio%27s" target="_blank" rel="noopener noreferrer">Scope / Region Guide</a>
                 <a className="quick-link" href="https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore" target="_blank" rel="noopener noreferrer">RTfM Fork</a>
                 <a className="quick-link" href="https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels" target="_blank" rel="noopener noreferrer">Channel Repo</a>
+                <a className="quick-link" href="https://meshwiki.nl" target="_blank" rel="noopener noreferrer">MeshWiki</a>
+                <a className="quick-link" href="https://www.localmesh.nl" target="_blank" rel="noopener noreferrer">LocalMesh</a>
+                <a className="quick-link" href="https://www.mesh-up.nl/" target="_blank" rel="noopener noreferrer">Mesh-Up</a>
               </div>
             </div>
             <div className="info-box warn">
