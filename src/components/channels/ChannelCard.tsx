@@ -15,7 +15,7 @@ interface Props {
   readOnlyActions?: boolean
 }
 
-export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo, readOnlyActions = false }: Props) {
+export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit: _onEdit, onInfo, readOnlyActions = false }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
 

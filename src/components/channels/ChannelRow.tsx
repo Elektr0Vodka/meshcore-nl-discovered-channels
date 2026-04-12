@@ -2,7 +2,7 @@ import { useState } from 'react'
 import type { Channel } from '../../types'
 import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
-import { fmtDate, fmtDateOnly } from '../../utils/formatDate'
+import { fmtDate } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
@@ -15,7 +15,7 @@ interface Props {
   readOnlyActions?: boolean
 }
 
-export default function ChannelRow({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo, readOnlyActions = false }: Props) {
+export default function ChannelRow({ channel: c, selected, onToggleSelect, onCopy, onEdit: _onEdit, onInfo, readOnlyActions = false }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
 
