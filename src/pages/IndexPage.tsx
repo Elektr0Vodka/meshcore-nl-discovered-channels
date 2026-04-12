@@ -91,15 +91,20 @@ export default function IndexPage() {
           <div className="info-panel-body">
             <div className="info-box">
               <h4 style={{ color: '#93c5fd' }}>Useful links</h4>
-              <p>Quick references for MeshCore NL, region naming, importing/exporting channel lists, and communities</p>
+              <p>Quick references for MeshCore NL, region naming  and related github repo's</p>
               <div className="quick-links">
                 <a className="quick-link" href="https://meshwiki.nl/wiki/The_switch/draft" target="_blank" rel="noopener noreferrer">SF8 → SF7 Switch E.T.A. 9th of May</a>
                 <a className="quick-link" href="https://meshwiki.nl/wiki/Lijst_van_regio%27s" target="_blank" rel="noopener noreferrer">Scope / Region Guide</a>
                 <a className="quick-link" href="https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore" target="_blank" rel="noopener noreferrer">RTfM Fork</a>
                 <a className="quick-link" href="https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels" target="_blank" rel="noopener noreferrer">Channel Repo</a>
+              </div>
+			  <p>
+			  </p>
+			  <h4 style={{ color: '#93c5fd' }}>MeshCore Nederland Communities</h4>
+              <p>Quick references for useful MeshCore NL Communities</p>
+              <div className="quick-links">
                 <a className="quick-link" href="https://meshwiki.nl" target="_blank" rel="noopener noreferrer">MeshWiki</a>
-                <a className="quick-link" href="https://www.localmesh.nl" target="_blank" rel="noopener noreferrer">LocalMesh</a>
-                <a className="quick-link" href="https://www.mesh-up.nl/" target="_blank" rel="noopener noreferrer">Mesh-Up</a>
+                <a className="quick-link" href="https://www.localmesh.nl/" target="_blank" rel="noopener noreferrer">Localmesh</a>
               </div>
             </div>
             <div className="info-box warn">
@@ -174,12 +179,13 @@ export default function IndexPage() {
                     <th className={`sortable${sortBy === 'alpha' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('alpha')}>Channel</th>
                     <th>Key</th>
                     <th className={`sortable${sortBy === 'category' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('category')}>Category</th>
+                    <th className={`sortable${sortBy === 'country' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('country')}>Countries</th>
                     <th className={`sortable${sortBy === 'region' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('region')}>Region</th>
                     <th className={`sortable${sortBy === 'scope' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('scope')}>Scopes</th>
                     <th className={`sortable${sortBy === 'first_seen' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('first_seen')}>First seen</th>
                     <th className={`sortable${sortBy === 'last_seen'     ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('last_seen')}>Last Seen</th>
                     <th className={`sortable${sortBy === 'message_amount' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('message_amount')}>Messages</th>
-                    <th>Flags</th>
+                    <th>Source</th>
                     <th>Actions</th>
                   </tr>
                 </thead>

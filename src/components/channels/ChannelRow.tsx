@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import type { Channel } from '../../types'
-import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
 import { fmtDate } from '../../utils/formatDate'
 
@@ -65,22 +64,17 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
         </span>
       </td>
       <td><span className="lt-cat">{c.category || ''}</span></td>
-      <td><span className="lt-region">{c.region || ''}{c.country ? ` (${c.country})` : ''}</span></td>
-      <td>
-        <span className="lt-scope">
-          {c.scopes?.join(', ') || ''}
-        </span>
-      </td>
+      <td><span className="lt-country">{c.country || ''}</span></td>
+      <td><span className="lt-region">{c.region || ''}</span></td>
+		<td>
+		  <span className="lt-scope">
+			{c.scopes?.join(', ') || ''}
+		  </span>
+		</td>
       <td><span className="lt-date">{fmtDate(c.first_seen)}</span></td>
       <td><span className="lt-date">{fmtDate(c.last_seen)}</span></td>
       <td><span className="lt-count">{c.message_amount != null ? c.message_amount.toLocaleString() : '—'}</span></td>
-      <td>
-        <div className="lt-flags">
-          {c.verified    && <Badge variant="verified" />}
-          {c.recommended && <Badge variant="recommended" />}
-          {!c._hasMeta   && <Badge variant="no-meta" />}
-        </div>
-      </td>
+      <td><span className="lt-source">{c.source || ''}</span></td>
       <td>
         <div className="lt-acts">
           {!readOnlyActions && (
