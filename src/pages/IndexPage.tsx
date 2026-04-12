@@ -47,8 +47,6 @@ export default function IndexPage() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const localEditsCount = Object.values(localEdits).filter(v => v !== null && Object.keys(v).length > 0).length
-
   function selectedChannels() {
     return filtered.filter(c => selection.has(c.channel))
   }
@@ -140,9 +138,7 @@ export default function IndexPage() {
           onClearFilters={clearFilters}
           pageSize={pageSize}
           onPageSizeChange={setPageSize}
-          localEditsCount={localEditsCount}
           serverMode={false}
-          onExportLocalEdits={() => exportJson(allChannels.filter(c => c._localEdit), 'local-edits.json')}
         />
 
         {filtered.length === 0 ? (

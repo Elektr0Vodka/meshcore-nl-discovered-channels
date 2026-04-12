@@ -6824,27 +6824,6 @@
     "source": "radio"
   },
   {
-    "channel": "kees2",
-    "channel_hash": "F71BC3ACF7E66B7FA3CF81804DBC7C1D",
-    "category": "",
-    "subcategory": "",
-    "region": "",
-    "language": [],
-    "status": "active",
-    "verified": false,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "",
-    "first_seen": "2026-04-09T09:27:30.000Z",
-    "last_seen": "2026-04-12T08:05:38.000Z",
-    "added": "2026-04-11",
-    "message_amount": 47,
-    "source": "radio"
-  },
-  {
     "channel": "#spoileralert",
     "channel_hash": "5F868A1F7ADD60AEBEFA951FD0D0A0D0",
     "category": "",
