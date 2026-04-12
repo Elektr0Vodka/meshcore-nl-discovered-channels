@@ -1,92 +1,123 @@
-# MeshCore Netherlands – Channel Finder Results
+# MeshCore NL – Discovered Channels
 
 ![Status](https://img.shields.io/badge/status-community--maintained-brightgreen)
-![Format](https://img.shields.io/badge/format-alphabetical-blue)
 ![Source](https://img.shields.io/badge/source-Remote--Terminal--for--MeshCore-orange)
 ![Coverage](https://img.shields.io/badge/region-Netherlands%20%2B%20surrounding-lightgrey)
 
-This repository contains an **alphabetically sorted list of channels** discovered using the **channel finder** feature in **Remote-Terminal-for-MeshCore**.
+A community-maintained directory of **MeshCore channels** discovered via the channel finder in [Remote Terminal for MeshCore (RTfM)](https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore), with a focus on **The Netherlands and surrounding regions**.
+
+**Live site:** https://elektr0vodka.github.io/meshcore-nl-discovered-channels/
+
+---
 
 ## Overview
 
-This project exists to document and preserve a visible snapshot of channels currently discoverable through the MeshCore network, with a focus on **The Netherlands and surrounding regions**.
+The site provides a searchable, filterable browser for MeshCore channels with rich metadata — categories, regions, scopes, languages, activity dates, and message counts. Channel data is stored in [`docs/data/channels.json`](docs/data/channels.json) and served as a static React app.
 
-Because most of these results are gathered from active discovery, the contents of this list may change over time.
+- **Channel Browser** — read-only, search/filter/sort, export to RTfM/JSON/TXT
+- **Local Editor** — enrich channels with metadata; saves locally or to disk via API server
+- **Dark / light theme** — persisted in localStorage
 
-A web version can be found here: https://elektr0vodka.github.io/meshcore-nl-discovered-channels/
+---
 
-## Public Channels Only
+## Running locally
 
-This repository contains only publicly accessible channels. Private or encrypted channels are not included unless explicitly shared by their owners or creators. Channels that require special access, passwords, or encryption keys will not be added.
-This ensures the repository remains a reference for community-discoverable MeshCore channels without violating privacy or security.
+### Requirements
 
-## Source
+- Node.js 18+
+- npm 9+
 
-Generated using:
+### Install
 
-* **Remote-Terminal-for-MeshCore-Channel Finder**
-* **Community additions**
-## Quick Stats
+```bash
+git clone https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels.git
+cd meshcore-nl-discovered-channels
+npm install
+```
 
-* **Total discovered channels:** 249
-* **Sorted:** Alphabetically
-* **Region focus:** Netherlands + nearby regions
-* **Includes:** regional, hobby, utility, social, test, radio, and experimental channels
+### Development server
+
+```bash
+npm run dev
+```
+
+Opens the site at **http://localhost:5173** with hot reload.  
+In this mode the Local Editor saves metadata changes to browser localStorage.
+
+### API server (editor write-back)
+
+```bash
+npm run server
+```
+
+Starts a lightweight API server on **port 8080**. When running alongside `npm run dev`, the editor detects it and writes changes directly to `docs/data/channels.json` on disk instead of localStorage.
+
+### Production build
+
+```bash
+npm run build
+```
+
+Outputs the static site to `docs/`, ready for GitHub Pages or any static host.
+
+---
+
+## Data format
+
+Channels are stored in `docs/data/channels.json` as an array of objects:
+
+```json
+{
+  "channel": "#channel-name",
+  "channel_hash": "32charhexkey",
+  "category": "Regional",
+  "subcategory": "City",
+  "country": "Netherlands",
+  "region": "Noord-Holland",
+  "language": ["NL"],
+  "scopes": ["nl", "nl-nh"],
+  "status": "active",
+  "source": "radio",
+  "verified": false,
+  "recommended": false,
+  "tags": [],
+  "notes": "",
+  "first_seen": null,
+  "last_seen": null,
+  "added": null,
+  "message_amount": null
+}
+```
+
+`channel_hash` is the 32-character hex key used to identify and join the channel in MeshCore.
+
+---
+
+## Contributing
+
+Contributions are welcome via [issues](https://github.com/Elektr0Vodka/meshcore-nl-discovered-channels/issues) or pull requests.
+
+Ways to help:
+- Add newly discovered channels to `docs/data/channels.json`
+- Correct or enrich existing metadata (category, region, scopes, etc.)
+- Report duplicate, renamed, or inactive channels
+- Improve site features or fix bugs
+
+Only **publicly discoverable** channels are accepted. Private, encrypted, or access-restricted channels should not be added.
 
 ---
 
 ## Notes
 
 <details>
-<summary><strong>Click to expand notes</strong></summary>
+<summary><strong>Known duplicates / overlaps</strong></summary>
 
-* This list is based on **discovered channels** and may not represent all active or historical channels.
-* Some entries may be:
+These entries are kept intentionally because they were discovered as separate channels:
 
-  * temporary
-  * experimental
-  * local/private
-  * inactive
-* Channel names may disappear, reappear, or be renamed over time.
-
-### Known Overlaps
-
-These are kept intentionally because they were discovered as separate channels:
-
-* `#londen` / `#london`
-* `#wardrive` / `#wardriving`
-* `#weather` / `#weer` / `#wetter`
-* `#zuid-holland` / `#zuidholland`
-
-</details>
-
----
-
-### Importing and Exporting channels
-
-<details>
-<summary><strong>Click to expand Importing and Exporting Channels </strong></summary>
-
-The file named remote-terminal-export.txt can be imported using this version of remote term:
-https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore/tree/main
-
-</details>
-
----
-## Contributing
-
-<details>
-<summary><strong>Click to expand contribution info</strong></summary>
-
-If you find:
-
-* missing channels
-* renamed channels
-* duplicate entries
-* typo fixes
-* regional additions
-
-feel free to open an **issue** or submit a **pull request**.
+- `#londen` / `#london`
+- `#wardrive` / `#wardriving`
+- `#weather` / `#weer` / `#wetter`
+- `#zuid-holland` / `#zuidholland`
 
 </details>
 
@@ -94,12 +125,6 @@ feel free to open an **issue** or submit a **pull request**.
 
 ## Disclaimer
 
-This repository is intended for **reference and community use only**.
-
-No guarantee is made that any listed channel is:
-
-* active
-* official
-* moderated
-* publicly accessible
-* continuously available
+This repository is for **reference and community use only**.  
+No guarantee is made that any listed channel is active, official, moderated, or continuously available.  
+Channel data may be outdated. Always verify independently before use.
