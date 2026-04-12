@@ -170,6 +170,7 @@ export default function IndexPage() {
                   onCopy={msg => toast(msg, 'ok')}
                   onEdit={setInfoChannel}
                   onInfo={setInfoChannel}
+                  readOnlyActions
                 />
               ))}
             </div>
@@ -204,6 +205,7 @@ export default function IndexPage() {
                       onCopy={msg => toast(msg, 'ok')}
                       onEdit={setInfoChannel}
                       onInfo={setInfoChannel}
+                      readOnlyActions
                     />
                   ))}
                 </tbody>

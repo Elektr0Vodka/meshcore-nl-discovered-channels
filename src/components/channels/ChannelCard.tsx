@@ -11,9 +11,11 @@ interface Props {
   onCopy: (msg: string) => void
   onEdit: (ch: Channel) => void
   onInfo: (ch: Channel) => void
+  /** When true only the ℹ button is shown; copy-key and edit are hidden. */
+  readOnlyActions?: boolean
 }
 
-export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo }: Props) {
+export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo, readOnlyActions = false }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
 
@@ -100,18 +102,22 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
       {c.notes && <div className="notes-text">{c.notes}</div>}
 
       <div className="card-actions">
-        <button
-          className={`act${copiedName ? ' copied' : ''}`}
-          onClick={handleCopyName}
-        >
-          {copiedName ? '✓ Copied' : '⎘ Copy name'}
-        </button>
-        <button
-          className={`act${copiedKey ? ' copied' : ''}`}
-          onClick={handleCopyKey}
-        >
-          {copiedKey ? '✓ Copied' : '⎘ Copy key'}
-        </button>
+        {!readOnlyActions && (
+          <button
+            className={`act${copiedName ? ' copied' : ''}`}
+            onClick={handleCopyName}
+          >
+            {copiedName ? '✓ Copied' : '⎘ Copy name'}
+          </button>
+        )}
+        {!readOnlyActions && (
+          <button
+            className={`act${copiedKey ? ' copied' : ''}`}
+            onClick={handleCopyKey}
+          >
+            {copiedKey ? '✓ Copied' : '⎘ Copy key'}
+          </button>
+        )}
         <button className="act" onClick={() => onInfo(c)}>
           ℹ Details
         </button>
