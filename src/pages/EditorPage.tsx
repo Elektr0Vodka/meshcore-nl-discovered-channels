@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import type { Channel, ChannelMeta, ViewMode } from '../types'
 import { useLocalEdits } from '../hooks/useLocalEdits'
 import { useChannelData } from '../hooks/useChannelData'
@@ -9,6 +8,7 @@ import { useToast } from '../hooks/useToast'
 import { useServerMode } from '../hooks/useServerMode'
 import { useCategoryMap } from '../hooks/useCategoryMap'
 import { usePagination } from '../hooks/usePagination'
+import Navbar from '../components/layout/Navbar'
 import ServerBar from '../components/layout/ServerBar'
 import StatsBar from '../components/layout/StatsBar'
 import FilterControls from '../components/layout/FilterControls'
@@ -117,15 +117,7 @@ export default function EditorPage() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-inner">
-          <div className="nav-links">
-            <Link to="/">Channel Browser</Link>
-            <Link to="/editor" className="active">Local Editor</Link>
-            <Link to="/how-to">How To</Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       <div className="page">
         <ServerBar status={status} />

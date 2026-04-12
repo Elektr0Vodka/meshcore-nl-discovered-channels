@@ -1,16 +1,13 @@
-import { Link } from 'react-router-dom'
+import Navbar from '../components/layout/Navbar'
 
 export default function HowToPage() {
   return (
-    <div className="page">
+    <>
+      <Navbar />
+      <div className="page">
       <div className="header">
         <h1>📘 How to use this site</h1>
         <p>Guide for using the discovered channel list together with RTfM.</p>
-        <div style={{ marginTop: 10 }}>
-          <Link to="/" className="btn" style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-            ← Back to channels
-          </Link>
-        </div>
       </div>
 
       <div className="how-to-intro">
@@ -144,6 +141,6 @@ export default function HowToPage() {
           {' '}&mdash; Community channel list for MeshCore NL - 2026
         </footer>
     </div>
-
+    </>
   )
 }

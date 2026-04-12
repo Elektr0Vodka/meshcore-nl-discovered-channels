@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import type { Channel, ViewMode } from '../types'
 import { useLocalEdits } from '../hooks/useLocalEdits'
 import { useChannelData } from '../hooks/useChannelData'
@@ -8,6 +7,7 @@ import { useSelection } from '../hooks/useSelection'
 import { useToast } from '../hooks/useToast'
 import { useCategoryMap } from '../hooks/useCategoryMap'
 import { usePagination } from '../hooks/usePagination'
+import Navbar from '../components/layout/Navbar'
 import StatsBar from '../components/layout/StatsBar'
 import FilterControls from '../components/layout/FilterControls'
 import ResultsBar from '../components/layout/ResultsBar'
@@ -58,15 +58,7 @@ export default function IndexPage() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-inner">
-          <div className="nav-links">
-            <Link to="/" className="active">Channel Browser</Link>
-            <Link to="/editor">Local Editor</Link>
-            <Link to="/how-to">How To</Link>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       <div className="page">
         <div className="header">
