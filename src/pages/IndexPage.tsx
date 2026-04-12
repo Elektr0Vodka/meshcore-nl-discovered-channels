@@ -8,7 +8,7 @@ import { useToast } from '../hooks/useToast'
 import { useCategoryMap } from '../hooks/useCategoryMap'
 import { usePagination } from '../hooks/usePagination'
 import Navbar from '../components/layout/Navbar'
-import StatsBar from '../components/layout/StatsBar'
+import StatsInsights from '../components/layout/StatsInsights'
 import FilterControls from '../components/layout/FilterControls'
 import ResultsBar from '../components/layout/ResultsBar'
 import Pagination from '../components/layout/Pagination'
@@ -122,7 +122,8 @@ export default function IndexPage() {
           </div>
         </details>
 
-        <StatsBar channels={allChannels} />
+
+        <StatsInsights channels={allChannels} />
 
         <FilterControls
           allChannels={allChannels}
