@@ -1,24 +1,25 @@
 import { useState, useLayoutEffect } from 'react'
 
+export type Theme = 'dark' | 'light' | 'win95'
 const LS_THEME = 'meshcore-theme'
 
 export function useTheme() {
-  const [theme, setThemeState] = useState<'dark' | 'light'>(
-    () => (localStorage.getItem(LS_THEME) as 'dark' | 'light') || 'dark'
+  const [theme, setThemeState] = useState<Theme>(
+    () => (localStorage.getItem(LS_THEME) as Theme) || 'dark'
   )
 
   useLayoutEffect(() => {
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light')
-    } else {
+    if (theme === 'dark') {
       document.documentElement.removeAttribute('data-theme')
+    } else {
+      document.documentElement.setAttribute('data-theme', theme)
     }
     localStorage.setItem(LS_THEME, theme)
   }, [theme])
 
-  function toggle() {
-    setThemeState(t => (t === 'dark' ? 'light' : 'dark'))
+  function setTheme(t: Theme) {
+    setThemeState(t)
   }
 
-  return { theme, toggle }
+  return { theme, setTheme }
 }
