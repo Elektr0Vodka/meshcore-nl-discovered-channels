@@ -480,9 +480,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T12:08:36.000Z",
-    "last_seen": "2026-04-11T09:53:23.000Z",
+    "last_seen": "2026-04-12T09:01:36.000Z",
     "added": "2026-04-11",
-    "message_amount": 28,
+    "message_amount": 29,
     "source": "radio"
   },
   {
@@ -510,9 +510,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T11:11:14.000Z",
-    "last_seen": "2026-04-09T15:59:58.000Z",
+    "last_seen": "2026-04-11T23:49:31.000Z",
     "added": "2026-04-11",
-    "message_amount": 21,
+    "message_amount": 23,
     "source": "radio"
   },
   {
@@ -668,9 +668,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-29T05:27:24.000Z",
-    "last_seen": "2026-04-08",
+    "last_seen": "2026-04-12T08:38:36.000Z",
     "added": "2026-04-11",
-    "message_amount": 1,
+    "message_amount": 3,
     "source": "radio"
   },
   {
@@ -692,9 +692,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T09:26:14.000Z",
-    "last_seen": "2026-04-11T15:18:19.000Z",
+    "last_seen": "2026-04-12T07:24:08.000Z",
     "added": "2026-04-11",
-    "message_amount": 2,
+    "message_amount": 3,
     "source": "radio"
   },
   {
@@ -997,9 +997,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T23:00:19.000Z",
-    "last_seen": "2026-04-11T18:08:02.000Z",
+    "last_seen": "2026-04-12T06:33:00.000Z",
     "added": "2026-04-11",
-    "message_amount": 450,
+    "message_amount": 456,
     "source": "radio"
   },
   {
@@ -1077,29 +1077,6 @@
     "added": "2026-04-11",
     "message_amount": 2,
     "source": "radio"
-  },
-  {
-    "channel": "#brugge",
-    "channel_hash": "56ABBC57B078403D217709FBC85FB04E",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "",
-    "language": [
-      "BE"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Brugge area traffic",
-    "tags": [],
-    "scopes": [],
-    "country": "Belgium",
-    "first_seen": "2026-04-12T06:28:14.911Z",
-    "last_seen": "2026-04-12T06:28:17.000Z",
-    "added": "2026-04-12",
-    "message_amount": 2,
-    "source": "finder"
   },
   {
     "channel": "#bristol",
@@ -1461,9 +1438,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-23T17:45:15.000Z",
-    "last_seen": "2026-04-11T11:18:06.000Z",
+    "last_seen": "2026-04-11T23:18:26.000Z",
     "added": "2026-04-11",
-    "message_amount": 16,
+    "message_amount": 17,
     "source": "radio"
   },
   {
@@ -1492,9 +1469,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-25T12:44:33.000Z",
-    "last_seen": "2026-04-10T11:58:23.000Z",
+    "last_seen": "2026-04-12T04:08:48.000Z",
     "added": "2026-04-11",
-    "message_amount": 17,
+    "message_amount": 19,
     "source": "radio"
   },
   {
@@ -1523,9 +1500,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:18:00.000Z",
-    "last_seen": "2026-04-11T00:40:31.000Z",
+    "last_seen": "2026-04-11T23:11:28.000Z",
     "added": "2026-04-11",
-    "message_amount": 60,
+    "message_amount": 63,
     "source": "radio"
   },
   {
@@ -1828,9 +1805,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-29T10:45:09.000Z",
-    "last_seen": "2026-04-08T17:53:44.000Z",
+    "last_seen": "2026-04-12T10:37:09.000Z",
     "added": "2026-04-11",
-    "message_amount": 3,
+    "message_amount": 11,
     "source": "radio"
   },
   {
@@ -1851,9 +1828,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-22T16:52:37.000Z",
-    "last_seen": "2026-04-11T13:04:12.000Z",
+    "last_seen": "2026-04-12T11:32:38.000Z",
     "added": "2026-04-11",
-    "message_amount": 23,
+    "message_amount": 29,
     "source": "radio"
   },
   {
@@ -2058,9 +2035,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T14:29:39.000Z",
-    "last_seen": "2026-04-11T18:44:36.000Z",
+    "last_seen": "2026-04-12T10:42:53.000Z",
     "added": "2026-04-11",
-    "message_amount": 162,
+    "message_amount": 167,
     "source": "radio"
   },
   {
@@ -2136,9 +2113,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-04-05T11:39:38.000Z",
-    "last_seen": "2026-04-08",
+    "last_seen": "2026-04-12T09:47:07.000Z",
     "added": "2026-04-11",
-    "message_amount": 1,
+    "message_amount": 3,
     "source": "radio"
   },
   {
@@ -2342,9 +2319,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T11:45:42.000Z",
-    "last_seen": "2026-04-11T06:43:38.000Z",
+    "last_seen": "2026-04-12T08:39:48.000Z",
     "added": "2026-04-11",
-    "message_amount": 21,
+    "message_amount": 24,
     "source": "radio"
   },
   {
@@ -2392,9 +2369,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:03:04.000Z",
-    "last_seen": "2026-04-11T19:09:38.000Z",
+    "last_seen": "2026-04-12T11:06:55.000Z",
     "added": "2026-04-11",
-    "message_amount": 503,
+    "message_amount": 506,
     "source": "radio"
   },
   {
@@ -2659,9 +2636,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-22T20:56:33.000Z",
-    "last_seen": "2026-04-11T17:53:50.000Z",
+    "last_seen": "2026-04-12T09:15:57.000Z",
     "added": "2026-04-11",
-    "message_amount": 100,
+    "message_amount": 103,
     "source": "radio"
   },
   {
@@ -2729,9 +2706,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-11T19:09:08.000Z",
+    "last_seen": "2026-04-12T11:23:01.000Z",
     "added": "2026-04-11",
-    "message_amount": 102,
+    "message_amount": 112,
     "source": "radio"
   },
   {
@@ -2873,9 +2850,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:15:41.000Z",
-    "last_seen": "2026-04-11T18:58:39.000Z",
+    "last_seen": "2026-04-12T10:20:37.000Z",
     "added": "2026-04-11",
-    "message_amount": 240,
+    "message_amount": 248,
     "source": "radio"
   },
   {
@@ -2896,9 +2873,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-24T20:30:27.000Z",
-    "last_seen": "2026-04-11T07:25:53.000Z",
+    "last_seen": "2026-04-12T10:22:24.000Z",
     "added": "2026-04-11",
-    "message_amount": 39,
+    "message_amount": 43,
     "source": "radio"
   },
   {
@@ -3109,9 +3086,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T18:30:49.000Z",
-    "last_seen": "2026-04-11T12:20:01.000Z",
+    "last_seen": "2026-04-12T07:09:45.000Z",
     "added": "2026-04-11",
-    "message_amount": 55,
+    "message_amount": 56,
     "source": "radio"
   },
   {
@@ -3527,9 +3504,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:13:22.000Z",
-    "last_seen": "2026-04-11T10:40:38.000Z",
+    "last_seen": "2026-04-12T07:02:17.000Z",
     "added": "2026-04-11",
-    "message_amount": 116,
+    "message_amount": 117,
     "source": "radio"
   },
   {
@@ -3707,9 +3684,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:21:22.000Z",
-    "last_seen": "2026-04-10T04:09:13.000Z",
+    "last_seen": "2026-04-12T06:59:00.000Z",
     "added": "2026-04-11",
-    "message_amount": 23,
+    "message_amount": 25,
     "source": "radio"
   },
   {
@@ -4066,9 +4043,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-11T19:23:30.000Z",
+    "last_seen": "2026-04-12T11:30:03.000Z",
     "added": "2026-04-11",
-    "message_amount": 4066,
+    "message_amount": 4184,
     "source": "radio"
   },
   {
@@ -4091,9 +4068,9 @@
     "scopes": [],
     "country": "Germany",
     "first_seen": "2026-04-10T20:05:12.000Z",
-    "last_seen": "2026-04-11T19:27:26.000Z",
+    "last_seen": "2026-04-11T23:26:20.000Z",
     "added": "2026-04-11",
-    "message_amount": 2,
+    "message_amount": 3,
     "source": "radio"
   },
   {
@@ -5140,9 +5117,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T23:10:35.000Z",
-    "last_seen": "2026-04-11T18:36:59.000Z",
+    "last_seen": "2026-04-11T22:26:16.000Z",
     "added": "2026-04-11",
-    "message_amount": 146,
+    "message_amount": 148,
     "source": "radio"
   },
   {
@@ -5443,33 +5420,6 @@
     "added": "2026-04-11",
     "message_amount": 2,
     "source": "radio"
-  },
-  {
-    "channel": "#rtm",
-    "channel_hash": "8409EA4B448ECBBA1A9875A0221A7C8D",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Zuid-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Rotterdam area traffic",
-    "tags": [],
-    "scopes": [
-      "nl",
-      "nl-zh",
-      "nl-zh-rtm"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-12T07:05:21.121Z",
-    "last_seen": "2026-04-12T07:05:23.000Z",
-    "added": "2026-04-12",
-    "message_amount": 1,
-    "source": "finder"
   },
   {
     "channel": "#s62",
@@ -5803,9 +5753,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-11T19:26:40.000Z",
+    "last_seen": "2026-04-12T11:32:29.000Z",
     "added": "2026-04-11",
-    "message_amount": 5857,
+    "message_amount": 5974,
     "source": "radio"
   },
   {
@@ -5910,9 +5860,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:05:18.000Z",
-    "last_seen": "2026-04-11T15:54:14.000Z",
+    "last_seen": "2026-04-11T20:59:05.000Z",
     "added": "2026-04-11",
-    "message_amount": 57,
+    "message_amount": 58,
     "source": "radio"
   },
   {
@@ -6415,9 +6365,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:22:29.000Z",
-    "last_seen": "2026-04-11T09:18:32.000Z",
+    "last_seen": "2026-04-12T07:16:54.000Z",
     "added": "2026-04-11",
-    "message_amount": 98,
+    "message_amount": 103,
     "source": "radio"
   },
   {
@@ -6618,9 +6568,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T16:53:36.000Z",
-    "last_seen": "2026-04-10T13:12:24.000Z",
+    "last_seen": "2026-04-12T07:28:06.000Z",
     "added": "2026-04-11",
-    "message_amount": 20,
+    "message_amount": 24,
     "source": "radio"
   },
   {
@@ -6729,9 +6679,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-28T07:21:21.000Z",
-    "last_seen": "2026-04-11T16:58:28.000Z",
+    "last_seen": "2026-04-12T10:09:31.000Z",
     "added": "2026-04-11",
-    "message_amount": 36,
+    "message_amount": 37,
     "source": "radio"
   },
   {
@@ -6762,27 +6712,6 @@
     "last_seen": "2026-04-11T19:06:12.000Z",
     "added": "2026-04-11",
     "message_amount": 29,
-    "source": "radio"
-  },
-  {
-    "channel": "#kees2",
-    "channel_hash": null,
-    "category": "",
-    "subcategory": "",
-    "region": "",
-    "language": [],
-    "status": "active",
-    "verified": false,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "",
-    "first_seen": "2026-04-09T09:27:30.000Z",
-    "last_seen": "2026-04-11T07:46:11.000Z",
-    "added": "2026-04-11",
-    "message_amount": 43,
     "source": "radio"
   },
   {
@@ -6889,9 +6818,30 @@
     "scopes": [],
     "country": "",
     "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-11T19:03:50.000Z",
+    "last_seen": "2026-04-12T11:31:51.000Z",
     "added": "2026-04-11",
-    "message_amount": 6019,
+    "message_amount": 6161,
+    "source": "radio"
+  },
+  {
+    "channel": "kees2",
+    "channel_hash": "F71BC3ACF7E66B7FA3CF81804DBC7C1D",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-04-09T09:27:30.000Z",
+    "last_seen": "2026-04-12T08:05:38.000Z",
+    "added": "2026-04-11",
+    "message_amount": 47,
     "source": "radio"
   },
   {
@@ -6914,5 +6864,55 @@
     "added": "2026-04-11",
     "message_amount": 0,
     "source": "radio"
+  },
+  {
+    "channel": "#brugge",
+    "channel_hash": "56ABBC57B078403D217709FBC85FB04E",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "",
+    "language": [
+      "BE"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Brugge area traffic",
+    "tags": [],
+    "scopes": [],
+    "country": "Belgium",
+    "first_seen": "2026-04-07T17:02:39.000Z",
+    "last_seen": "2026-04-12T06:28:17.000Z",
+    "added": "2026-04-12",
+    "message_amount": 2,
+    "source": "finder"
+  },
+  {
+    "channel": "#rtm",
+    "channel_hash": "8409EA4B448ECBBA1A9875A0221A7C8D",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Zuid-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Rotterdam area traffic",
+    "tags": [],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-rtm"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-12T07:01:38.000Z",
+    "last_seen": "2026-04-12T07:05:23.000Z",
+    "added": "2026-04-12",
+    "message_amount": 1,
+    "source": "finder"
   }
 ]
