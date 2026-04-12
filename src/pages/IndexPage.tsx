@@ -71,7 +71,16 @@ export default function IndexPage() {
             <a href="https://github.com/Elektr0Vodka/Remote-Terminal-for-MeshCore" target="_blank" rel="noopener noreferrer">
               Remote Terminal for MeshCore
             </a>
-            , currently the only fork supporting <strong>channel/contact list importing and exporting</strong>.
+            , currently the only fork supporting <strong>channel importing and exporting</strong>.
+			</p>
+			<p>
+            The fork has a complete channel managament module, a key management system, overhauled map and tons more additions/tweaks.
+          </p>
+		  <p>
+            Most of the channels and information on this page comes directly from the RTfM app. This page was made just to show "my local" information to friends. And then i had too much coffee.
+          </p>
+		  <p>
+            When coming from the parent branch of Remote-Term, make sure you back-up your database, it will run fine (probably), but i'd hate for your to lose historical information.
           </p>
           <div className="danger-notice">
             <p>⚠ Important warning about RTfM</p>
