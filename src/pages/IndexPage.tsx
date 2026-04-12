@@ -15,14 +15,14 @@ import Pagination from '../components/layout/Pagination'
 import SelectionBar from '../components/layout/SelectionBar'
 import ChannelCard from '../components/channels/ChannelCard'
 import ChannelRow from '../components/channels/ChannelRow'
-import EditModal from '../components/channels/EditModal'
+import ChannelInfoModal from '../components/channels/ChannelInfoModal'
 import Toast from '../components/ui/Toast'
 import { exportJson, exportTxt, exportRtfm } from '../utils/export'
 
 const LS_VIEW = 'meshcore-view'
 
 export default function IndexPage() {
-  const { localEdits, applyEdit } = useLocalEdits()
+  const { localEdits } = useLocalEdits()
   const { allChannels, loading, error } = useChannelData(false, localEdits)
   const { filtered, filters, setFilter, clearFilters, isFiltered, sortBy, sortDir, setSort } = useChannelView(allChannels)
   const { page, setPage, pageSize, setPageSize, totalPages, paged } = usePagination(filtered)
@@ -33,7 +33,7 @@ export default function IndexPage() {
   const [viewMode, setViewModeRaw] = useState<ViewMode>(
     () => (localStorage.getItem(LS_VIEW) as ViewMode) || 'grid'
   )
-  const [editingChannel, setEditingChannel] = useState<Channel | null>(null)
+  const [infoChannel, setInfoChannel] = useState<Channel | null>(null)
   const [showScrollTop, setShowScrollTop] = useState(false)
 
   function setViewMode(m: ViewMode) {
@@ -48,16 +48,6 @@ export default function IndexPage() {
   }, [])
 
   const localEditsCount = Object.values(localEdits).filter(v => v !== null && Object.keys(v).length > 0).length
-
-  function handleSave(name: string, patch: Parameters<typeof applyEdit>[1]) {
-    applyEdit(name, patch)
-    toast('Saved to localStorage', 'ok')
-  }
-
-  function handleClearMeta(name: string) {
-    applyEdit(name, {})
-    toast('Metadata cleared', 'ok')
-  }
 
   function selectedChannels() {
     return filtered.filter(c => selection.has(c.channel))
@@ -178,7 +168,8 @@ export default function IndexPage() {
                   selected={selection.has(c.channel)}
                   onToggleSelect={toggle}
                   onCopy={msg => toast(msg, 'ok')}
-                  onEdit={setEditingChannel}
+                  onEdit={setInfoChannel}
+                  onInfo={setInfoChannel}
                 />
               ))}
             </div>
@@ -211,7 +202,8 @@ export default function IndexPage() {
                       selected={selection.has(c.channel)}
                       onToggleSelect={toggle}
                       onCopy={msg => toast(msg, 'ok')}
-                      onEdit={setEditingChannel}
+                      onEdit={setInfoChannel}
+                      onInfo={setInfoChannel}
                     />
                   ))}
                 </tbody>
@@ -238,14 +230,10 @@ export default function IndexPage() {
         onExportJson={() => exportJson(selectedChannels())}
       />
 
-      {editingChannel && (
-        <EditModal
-          channel={editingChannel}
-          serverMode={false}
-          categoryMap={categoryMap}
-          onSave={handleSave}
-          onClearMeta={handleClearMeta}
-          onClose={() => setEditingChannel(null)}
+      {infoChannel && (
+        <ChannelInfoModal
+          channel={infoChannel}
+          onClose={() => setInfoChannel(null)}
         />
       )}
 

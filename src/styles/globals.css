@@ -1411,3 +1411,35 @@ select option {
 .pg-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700 }
 .pg-btn:disabled { opacity: .35; cursor: default }
 .pg-ellipsis { color: var(--muted); padding: 0 4px; font-size: 13px }
+
+/* ── Channel info modal ──────────────────────────────────────────────────────── */
+.info-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.info-row--block {
+  flex-direction: column;
+  gap: 4px;
+}
+.info-label {
+  flex-shrink: 0;
+  width: 88px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+}
+.info-value {
+  color: var(--text);
+  word-break: break-word;
+}
+.info-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}

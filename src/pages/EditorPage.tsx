@@ -185,6 +185,7 @@ export default function EditorPage() {
                   onToggleSelect={toggle}
                   onCopy={msg => toast(msg, 'ok')}
                   onEdit={setEditingChannel}
+                  onInfo={setEditingChannel}
                 />
               ))}
             </div>
@@ -218,6 +219,7 @@ export default function EditorPage() {
                       onToggleSelect={toggle}
                       onCopy={msg => toast(msg, 'ok')}
                       onEdit={setEditingChannel}
+                      onInfo={setEditingChannel}
                     />
                   ))}
                 </tbody>

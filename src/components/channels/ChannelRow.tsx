@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Channel } from '../../types'
 import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
+import { fmtDate, fmtDateOnly } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
@@ -9,9 +10,10 @@ interface Props {
   onToggleSelect: (name: string) => void
   onCopy: (msg: string) => void
   onEdit: (ch: Channel) => void
+  onInfo: (ch: Channel) => void
 }
 
-export default function ChannelRow({ channel: c, selected, onToggleSelect, onCopy, onEdit }: Props) {
+export default function ChannelRow({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
 
@@ -67,8 +69,8 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
           {c.scopes?.join(', ') || ''}
         </span>
       </td>
-      <td><span className="lt-date">{c.last_seen || '—'}</span></td>
-      <td><span className="lt-date">{c.added     || '—'}</span></td>
+      <td><span className="lt-date">{fmtDate(c.first_seen)}</span></td>
+      <td><span className="lt-date">{fmtDate(c.last_seen)}</span></td>
       <td><span className="lt-count">{c.message_amount != null ? c.message_amount.toLocaleString() : '—'}</span></td>
       <td>
         <div className="lt-flags">
@@ -93,7 +95,7 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
           >
             {copiedKey ? '✓' : '🔑'}
           </button>
-          <button className="act edit-btn" onClick={() => onEdit(c)} title="Edit">✎</button>
+          <button className="act" onClick={() => onInfo(c)} title="View details">ℹ</button>
         </div>
       </td>
     </tr>

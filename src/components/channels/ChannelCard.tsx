@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Channel } from '../../types'
 import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
+import { fmtDate, fmtDateOnly } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
@@ -9,9 +10,10 @@ interface Props {
   onToggleSelect: (name: string) => void
   onCopy: (msg: string) => void
   onEdit: (ch: Channel) => void
+  onInfo: (ch: Channel) => void
 }
 
-export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit }: Props) {
+export default function ChannelCard({ channel: c, selected, onToggleSelect, onCopy, onEdit, onInfo }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
 
@@ -89,8 +91,8 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
 
       {(c.last_seen || c.added || c.message_amount != null) && (
         <div className="card-dates">
-          {c.last_seen         && <span className="cd-item"><span className="cd-label">Last seen</span>{c.last_seen}</span>}
-          {c.added             && <span className="cd-item"><span className="cd-label">Added</span>{c.added}</span>}
+          {c.last_seen         && <span className="cd-item"><span className="cd-label">Last seen</span>{fmtDate(c.last_seen)}</span>}
+          {c.added             && <span className="cd-item"><span className="cd-label">Added</span>{fmtDateOnly(c.added)}</span>}
           {c.message_amount != null && <span className="cd-item"><span className="cd-label">Messages</span>{c.message_amount.toLocaleString()}</span>}
         </div>
       )}
@@ -110,8 +112,8 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
         >
           {copiedKey ? '✓ Copied' : '⎘ Copy key'}
         </button>
-        <button className="act edit-btn" onClick={() => onEdit(c)}>
-          ✎ Edit
+        <button className="act" onClick={() => onInfo(c)}>
+          ℹ Details
         </button>
       </div>
     </div>
