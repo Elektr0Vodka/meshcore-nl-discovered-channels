@@ -17,33 +17,10 @@
     "scopes": [],
     "country": "",
     "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-13T19:56:37.000Z",
+    "last_seen": "2026-04-13T20:21:49.000Z",
     "added": "2026-04-11",
-    "message_amount": 6565,
+    "message_amount": 6572,
     "source": "radio"
-  },
-  {
-    "channel": "#gwnl",
-    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-13T19:55:41.000Z",
-    "added": "2026-04-11",
-    "message_amount": 130,
-    "source": "finder"
   },
   {
     "channel": "#mc-radar",
@@ -64,9 +41,32 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-13T19:50:05.000Z",
+    "last_seen": "2026-04-13T20:21:31.000Z",
     "added": "2026-04-11",
-    "message_amount": 4623,
+    "message_amount": 4632,
+    "source": "finder"
+  },
+  {
+    "channel": "#gwnl",
+    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T03:42:56.000Z",
+    "last_seen": "2026-04-13T20:20:55.000Z",
+    "added": "2026-04-11",
+    "message_amount": 131,
     "source": "finder"
   },
   {
@@ -88,9 +88,38 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-13T19:48:57.000Z",
+    "last_seen": "2026-04-13T20:19:09.000Z",
     "added": "2026-04-11",
-    "message_amount": 6378,
+    "message_amount": 6382,
+    "source": "finder"
+  },
+  {
+    "channel": "#gelderland",
+    "channel_hash": "7C5F276B6ACE11177427BAE7F5190B61",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Gelderland area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T22:03:04.000Z",
+    "last_seen": "2026-04-13T20:14:45.000Z",
+    "added": "2026-04-11",
+    "message_amount": 522,
     "source": "finder"
   },
   {
@@ -297,35 +326,6 @@
     "last_seen": "2026-04-13T18:36:32.000Z",
     "added": "2026-04-11",
     "message_amount": 471,
-    "source": "finder"
-  },
-  {
-    "channel": "#gelderland",
-    "channel_hash": "7C5F276B6ACE11177427BAE7F5190B61",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Gelderland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Gelderland area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ge"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T22:03:04.000Z",
-    "last_seen": "2026-04-13T18:35:11.000Z",
-    "added": "2026-04-11",
-    "message_amount": 521,
     "source": "finder"
   },
   {
