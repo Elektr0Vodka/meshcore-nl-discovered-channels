@@ -2,7 +2,7 @@ import { useState } from 'react'
 import type { Channel } from '../../types'
 import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
-import { fmtDate, fmtDateOnly, relativeTime } from '../../utils/formatDate'
+import { fmtDate, relativeTime } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
