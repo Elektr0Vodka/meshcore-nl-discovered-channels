@@ -1,5 +1,75 @@
 [
   {
+    "channel": "Public",
+    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
+    "category": "MeshCore",
+    "subcategory": "Default",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "The main public channel of Meshcore.",
+    "tags": [
+      "Default Meshcore Channel"
+    ],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-03-20T21:58:52.000Z",
+    "last_seen": "2026-04-13T19:56:37.000Z",
+    "added": "2026-04-11",
+    "message_amount": 6565,
+    "source": "radio"
+  },
+  {
+    "channel": "#gwnl",
+    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T03:42:56.000Z",
+    "last_seen": "2026-04-13T19:55:41.000Z",
+    "added": "2026-04-11",
+    "message_amount": 130,
+    "source": "finder"
+  },
+  {
+    "channel": "#mc-radar",
+    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
+    "category": "Special",
+    "subcategory": "Testing",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T19:36:26.000Z",
+    "last_seen": "2026-04-13T19:50:05.000Z",
+    "added": "2026-04-11",
+    "message_amount": 4623,
+    "source": "finder"
+  },
+  {
     "channel": "#test",
     "channel_hash": "9CD8FCF22A47333B591D96A2B848B73F",
     "category": "Special",
@@ -18,9 +88,140 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-13T19:02:10.000Z",
+    "last_seen": "2026-04-13T19:48:57.000Z",
     "added": "2026-04-11",
-    "message_amount": 6369,
+    "message_amount": 6378,
+    "source": "finder"
+  },
+  {
+    "channel": "#elburg",
+    "channel_hash": "34EE2DC5726410E54F2C81987D8069F1",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Elburg area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-elb"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T14:29:39.000Z",
+    "last_seen": "2026-04-13T19:48:12.000Z",
+    "added": "2026-04-11",
+    "message_amount": 180,
+    "source": "finder"
+  },
+  {
+    "channel": "#pa3ang",
+    "channel_hash": "C2DD0C6B7D7CFEC474442B195D27E394",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-30T09:54:08.000Z",
+    "last_seen": "2026-04-13T19:44:22.000Z",
+    "added": "2026-04-11",
+    "message_amount": 11,
+    "source": "finder"
+  },
+  {
+    "channel": "#zaandam",
+    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Zaandam area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-zdm"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-07T18:43:42.000Z",
+    "last_seen": "2026-04-13T19:34:21.000Z",
+    "added": "2026-04-11",
+    "message_amount": 10,
+    "source": "finder"
+  },
+  {
+    "channel": "#raalte",
+    "channel_hash": "15BE4625711E9F9CC0A0568A2FC695A4",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Overijssel",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Raalte area traffic",
+    "tags": [],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-qds"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-12T18:57:21.000Z",
+    "last_seen": "2026-04-13T19:31:53.000Z",
+    "added": "2026-04-12",
+    "message_amount": 5,
+    "source": "finder"
+  },
+  {
+    "channel": "#ns",
+    "channel_hash": "471296DC5469948E065A22DF08397416",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-04-08T08:06:15.000Z",
+    "last_seen": "2026-04-13T19:27:11.839Z",
+    "added": "2026-04-13T19:27:11.839Z",
+    "message_amount": 2,
     "source": "finder"
   },
   {
@@ -47,29 +248,6 @@
     "source": "finder"
   },
   {
-    "channel": "Public",
-    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
-    "category": "MeshCore",
-    "subcategory": "Default",
-    "region": "",
-    "language": [],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "The main public channel of Meshcore.",
-    "tags": [
-      "Default Meshcore Channel"
-    ],
-    "scopes": [],
-    "country": "",
-    "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-13T18:56:32.000Z",
-    "added": "2026-04-11",
-    "message_amount": 6534,
-    "source": "radio"
-  },
-  {
     "channel": "#tiel",
     "channel_hash": "0BE609F541443C75F16A8F0B08D17DF2",
     "category": "Regional",
@@ -91,61 +269,10 @@
       "vr-vrgz"
     ],
     "country": "Netherlands",
-    "first_seen": "2026-04-13T18:56:01.658Z",
+    "first_seen": "2026-04-13T18:44:05.000Z",
     "last_seen": "2026-04-13T18:56:04.000Z",
     "added": "2026-04-13T18:56:01.658Z",
     "message_amount": 1,
-    "source": "finder"
-  },
-  {
-    "channel": "#mc-radar",
-    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
-    "category": "Special",
-    "subcategory": "Testing",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-13T18:53:52.000Z",
-    "added": "2026-04-11",
-    "message_amount": 4605,
-    "source": "finder"
-  },
-  {
-    "channel": "#raalte",
-    "channel_hash": "15BE4625711E9F9CC0A0568A2FC695A4",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Overijssel",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Raalte area traffic",
-    "tags": [],
-    "scopes": [
-      "nl",
-      "nl-ov",
-      "nl-ov-qds"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-12T18:57:21.000Z",
-    "last_seen": "2026-04-13T18:46:58.000Z",
-    "added": "2026-04-12",
-    "message_amount": 4,
     "source": "finder"
   },
   {
@@ -261,29 +388,6 @@
     "source": "finder"
   },
   {
-    "channel": "#gwnl",
-    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-13T18:21:42.000Z",
-    "added": "2026-04-11",
-    "message_amount": 128,
-    "source": "finder"
-  },
-  {
     "channel": "#dordrecht",
     "channel_hash": "4D2BBE1E1DE7AAC3BEFD58E818B8CD5B",
     "category": "Regional",
@@ -344,36 +448,6 @@
     "source": "finder"
   },
   {
-    "channel": "#elburg",
-    "channel_hash": "34EE2DC5726410E54F2C81987D8069F1",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Gelderland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Elburg area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ge",
-      "nl-ge-elb"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T14:29:39.000Z",
-    "last_seen": "2026-04-13T17:47:22.000Z",
-    "added": "2026-04-11",
-    "message_amount": 178,
-    "source": "finder"
-  },
-  {
     "channel": "#meshcore",
     "channel_hash": "2FA78A5AEF618E7C2A78F0AB5C8869B3",
     "category": "Communities",
@@ -412,7 +486,7 @@
     "tags": [],
     "scopes": [],
     "country": "",
-    "first_seen": "2026-04-13T17:41:10.864Z",
+    "first_seen": "2026-04-13T16:55:35.000Z",
     "last_seen": "2026-04-13T17:41:13.000Z",
     "added": "2026-04-13T17:41:10.864Z",
     "message_amount": 1,
@@ -2717,36 +2791,6 @@
     "source": "finder"
   },
   {
-    "channel": "#zaandam",
-    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Zaandam area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nh",
-      "nl-nh-zdm"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-07T18:43:42.000Z",
-    "last_seen": "2026-04-10T11:48:30.000Z",
-    "added": "2026-04-11",
-    "message_amount": 8,
-    "source": "finder"
-  },
-  {
     "channel": "#pi2dev",
     "channel_hash": "506EA80AFF99FABF399B3756360831DF",
     "category": "Special",
@@ -3293,29 +3337,6 @@
     "last_seen": "2026-04-08T12:18:19.000Z",
     "added": "2026-04-11",
     "message_amount": 5,
-    "source": "finder"
-  },
-  {
-    "channel": "#pa3ang",
-    "channel_hash": "C2DD0C6B7D7CFEC474442B195D27E394",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-30T09:54:08.000Z",
-    "last_seen": "2026-04-08T11:59:25.000Z",
-    "added": "2026-04-11",
-    "message_amount": 10,
     "source": "finder"
   },
   {
