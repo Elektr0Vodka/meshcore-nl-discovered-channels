@@ -510,9 +510,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T11:11:14.000Z",
-    "last_seen": "2026-04-13T00:17:37.000Z",
+    "last_seen": "2026-04-13T13:33:52.000Z",
     "added": "2026-04-11",
-    "message_amount": 24,
+    "message_amount": 25,
     "source": "finder"
   },
   {
@@ -1198,9 +1198,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-23T17:57:25.000Z",
-    "last_seen": "2026-04-11T11:11:13.000Z",
+    "last_seen": "2026-04-13T13:18:11.000Z",
     "added": "2026-04-11",
-    "message_amount": 13,
+    "message_amount": 14,
     "source": "finder"
   },
   {
@@ -2759,9 +2759,9 @@
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T03:41:36.000Z",
-    "last_seen": "2026-04-08",
+    "last_seen": "2026-04-13T13:36:29.000Z",
     "added": "2026-04-11",
-    "message_amount": 21,
+    "message_amount": 22,
     "source": "finder"
   },
   {
@@ -2852,9 +2852,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:15:41.000Z",
-    "last_seen": "2026-04-13T12:42:08.000Z",
+    "last_seen": "2026-04-13T13:20:54.000Z",
     "added": "2026-04-11",
-    "message_amount": 266,
+    "message_amount": 267,
     "source": "finder"
   },
   {
@@ -4047,9 +4047,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-13T12:58:32.000Z",
+    "last_seen": "2026-04-13T13:46:07.000Z",
     "added": "2026-04-11",
-    "message_amount": 4506,
+    "message_amount": 4520,
     "source": "finder"
   },
   {
@@ -5759,9 +5759,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-13T12:57:11.000Z",
+    "last_seen": "2026-04-13T13:52:49.000Z",
     "added": "2026-04-11",
-    "message_amount": 6304,
+    "message_amount": 6321,
     "source": "finder"
   },
   {
@@ -6296,9 +6296,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T07:03:26.000Z",
-    "last_seen": "2026-04-13T12:43:46.000Z",
+    "last_seen": "2026-04-13T13:53:24.000Z",
     "added": "2026-04-11",
-    "message_amount": 415,
+    "message_amount": 419,
     "source": "finder"
   },
   {
@@ -6826,9 +6826,9 @@
     "scopes": [],
     "country": "",
     "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-13T12:46:37.000Z",
+    "last_seen": "2026-04-13T13:27:38.000Z",
     "added": "2026-04-11",
-    "message_amount": 6456,
+    "message_amount": 6459,
     "source": "radio"
   },
   {
@@ -6975,6 +6975,29 @@
     "last_seen": "2026-04-12T19:21:47.728Z",
     "added": "2026-04-12",
     "message_amount": 3,
+    "source": "finder"
+  },
+  {
+    "channel": "#sux35",
+    "channel_hash": "0FA3980F00835F9E238CA006DD1AC781",
+    "category": "Special",
+    "subcategory": "Topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "Unknown comms",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-04-13T13:34:33.589Z",
+    "last_seen": "2026-04-13T13:34:36.000Z",
+    "added": "2026-04-13",
+    "message_amount": 4,
     "source": "finder"
   }
 ]
