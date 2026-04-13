@@ -188,6 +188,7 @@ export default function IndexPage() {
                     <th style={{ width: 24 }} />
                     <th className={`sortable${sortBy === 'alpha' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('alpha')}>Channel</th>
                     <th>Key</th>
+                    <th title="First byte of SHA-256(key)">Channel Hash (1 byte)</th>
                     <th className={`sortable${sortBy === 'category' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('category')}>Category</th>
                     <th className={`sortable${sortBy === 'country' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('country')}>Countries</th>
                     <th className={`sortable${sortBy === 'region' ? ` sort-${sortDir}` : ''}`} onClick={() => setSort('region')}>Region</th>

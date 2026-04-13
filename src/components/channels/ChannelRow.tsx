@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { Channel } from '../../types'
 import { copyText } from '../../utils/clipboard'
 import { fmtDate, relativeTime } from '../../utils/formatDate'
+import { computeChannelHash } from '../../utils/channelHash'
 
 interface Props {
   channel: Channel
@@ -17,6 +18,12 @@ interface Props {
 export default function ChannelRow({ channel: c, selected, onToggleSelect, onCopy, onEdit: _onEdit, onInfo, readOnlyActions = false }: Props) {
   const [copiedName, setCopiedName] = useState(false)
   const [copiedKey,  setCopiedKey]  = useState(false)
+  const [channelHash, setChannelHash] = useState<string>('…')
+
+  useEffect(() => {
+    if (!c._key) return
+    computeChannelHash(c._key).then(setChannelHash).catch(() => setChannelHash('??'))
+  }, [c._key])
 
   async function handleCopyName() {
     const name = c.channel.replace(/^#/, '')
@@ -63,6 +70,7 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
           {copiedKey ? '✓' : c._key.slice(0, 8) + '…'}
         </span>
       </td>
+      <td><span className="lt-hash">{channelHash}</span></td>
       <td><span className="lt-cat">{c.category || ''}</span></td>
       <td><span className="lt-country">{c.country || ''}</span></td>
       <td><span className="lt-region">{c.region || ''}</span></td>
