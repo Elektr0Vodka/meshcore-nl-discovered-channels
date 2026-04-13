@@ -220,7 +220,15 @@ export default function IndexPage() {
               <h4 style={{ color: "#93c5fd" }}>MeshWiki MQTT</h4>
               <p>
                 Connect your node to the MeshWiki community MQTT broker to share
-                raw packets.
+                raw packets. View live output at{" "}
+                <a
+                  href="https://cornmeister.nl/#/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  cornmeister.nl
+                </a>
+                .
               </p>
               <table
                 style={{
