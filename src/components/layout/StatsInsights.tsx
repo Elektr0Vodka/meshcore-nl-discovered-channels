@@ -12,6 +12,26 @@ function fmtDate(iso: string | null | undefined): string {
   return d.toLocaleDateString('nl-NL', { day: '2-digit', month: 'short', year: 'numeric' })
 }
 
+/**
+ * Returns a relative time string (e.g. "3h ago", "5d ago") for an ISO date/datetime.
+ * Falls back to the formatted date when more than 30 days ago.
+ */
+function relativeTime(iso: string | null | undefined): string {
+  if (!iso) return '—'
+  const d = new Date(iso)
+  if (isNaN(d.getTime())) return '—'
+  const diffMs = Date.now() - d.getTime()
+  if (diffMs < 0) return fmtDate(iso)
+  const mins = Math.floor(diffMs / 60_000)
+  if (mins < 1) return 'just now'
+  if (mins < 60) return `${mins}m ago`
+  const hours = Math.floor(mins / 60)
+  if (hours < 24) return `${hours}h ago`
+  const days = Math.floor(hours / 24)
+  if (days < 30) return `${days}d ago`
+  return fmtDate(iso)
+}
+
 export default function StatsInsights({ channels }: Props) {
   const top5 = [...channels]
     .filter(c => (c.message_amount ?? 0) > 0)
@@ -37,11 +57,11 @@ export default function StatsInsights({ channels }: Props) {
       </summary>
 
 	  {/* Stats overview */}
-	  
+
 		<div className="stats-bar-wrap">
 		  <StatsBar channels={channels} />
 		</div>
-	
+
       <div className="info-panel-body insights-body">
         {/* Top 10 by messages */}
         <div className="info-box insights-box">
@@ -69,7 +89,12 @@ export default function StatsInsights({ channels }: Props) {
                 {recentlyAdded.map(c => (
                   <li key={c.channel} className="insights-row">
                     <span className="insights-name" title={c.channel}>{c.channel}</span>
-                    <span className="insights-value">{fmtDate(c.added)}</span>
+                    <span
+                      className="insights-value"
+                      title={fmtDate(c.added)}
+                    >
+                      {relativeTime(c.added)}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -85,7 +110,12 @@ export default function StatsInsights({ channels }: Props) {
                 {lastUpdated.map(c => (
                   <li key={c.channel} className="insights-row">
                     <span className="insights-name" title={c.channel}>{c.channel}</span>
-                    <span className="insights-value">{fmtDate(c.last_seen)}</span>
+                    <span
+                      className="insights-value"
+                      title={fmtDate(c.last_seen)}
+                    >
+                      {relativeTime(c.last_seen)}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -93,8 +123,8 @@ export default function StatsInsights({ channels }: Props) {
         </div>
 
       </div>
-	  
+
     </details>
-	
+
   )
 }

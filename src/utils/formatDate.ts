@@ -26,3 +26,24 @@ export function fmtDateOnly(iso: string | null | undefined): string {
   if (isNaN(d.getTime())) return '—'
   return `${d.getUTCDate()}-${d.getUTCMonth() + 1}-${d.getUTCFullYear()}`
 }
+
+/**
+ * Returns a short relative time string (e.g. "3h ago", "5d ago").
+ * Falls back to fmtDate when more than 30 days ago.
+ * The original formatted date is suitable as a tooltip (title attribute).
+ */
+export function relativeTime(iso: string | null | undefined): string {
+  if (!iso) return '—'
+  const d = new Date(iso)
+  if (isNaN(d.getTime())) return '—'
+  const diffMs = Date.now() - d.getTime()
+  if (diffMs < 0) return fmtDate(iso)
+  const mins = Math.floor(diffMs / 60_000)
+  if (mins < 1) return 'just now'
+  if (mins < 60) return `${mins}m ago`
+  const hours = Math.floor(mins / 60)
+  if (hours < 24) return `${hours}h ago`
+  const days = Math.floor(hours / 24)
+  if (days < 30) return `${days}d ago`
+  return fmtDateOnly(iso)
+}

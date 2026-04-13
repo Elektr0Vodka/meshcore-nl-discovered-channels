@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { Channel } from '../../types'
 import { copyText } from '../../utils/clipboard'
-import { fmtDate } from '../../utils/formatDate'
+import { fmtDate, relativeTime } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
@@ -71,8 +71,8 @@ export default function ChannelRow({ channel: c, selected, onToggleSelect, onCop
 			{c.scopes?.join(', ') || ''}
 		  </span>
 		</td>
-      <td><span className="lt-date">{fmtDate(c.first_seen)}</span></td>
-      <td><span className="lt-date">{fmtDate(c.last_seen)}</span></td>
+      <td><span className="lt-date" title={fmtDate(c.first_seen)}>{relativeTime(c.first_seen)}</span></td>
+      <td><span className="lt-date" title={fmtDate(c.last_seen)}>{relativeTime(c.last_seen)}</span></td>
       <td><span className="lt-count">{c.message_amount != null ? c.message_amount.toLocaleString() : '—'}</span></td>
       <td><span className="lt-source">{c.source || ''}</span></td>
       <td>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import type { Channel } from '../../types'
 import Badge from '../ui/Badge'
 import { copyText } from '../../utils/clipboard'
-import { fmtDate, fmtDateOnly } from '../../utils/formatDate'
+import { fmtDate, fmtDateOnly, relativeTime } from '../../utils/formatDate'
 
 interface Props {
   channel: Channel
@@ -94,9 +94,24 @@ export default function ChannelCard({ channel: c, selected, onToggleSelect, onCo
 
       {(c.last_seen || c.added || c.message_amount != null) && (
         <div className="card-dates">
-          {c.last_seen         && <span className="cd-item"><span className="cd-label">Last seen</span>{fmtDate(c.last_seen)}</span>}
-          {c.added             && <span className="cd-item"><span className="cd-label">Added</span>{fmtDateOnly(c.added)}</span>}
-          {c.message_amount != null && <span className="cd-item"><span className="cd-label">Messages</span>{c.message_amount.toLocaleString()}</span>}
+          {c.last_seen && (
+            <span className="cd-item" title={fmtDate(c.last_seen)}>
+              <span className="cd-label">Last seen</span>
+              {relativeTime(c.last_seen)}
+            </span>
+          )}
+          {c.added && (
+            <span className="cd-item" title={fmtDate(c.added)}>
+              <span className="cd-label">Added</span>
+              {relativeTime(c.added)}
+            </span>
+          )}
+          {c.message_amount != null && (
+            <span className="cd-item">
+              <span className="cd-label">Messages</span>
+              {c.message_amount.toLocaleString()}
+            </span>
+          )}
         </div>
       )}
 
