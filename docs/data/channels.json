@@ -1,5 +1,28 @@
 [
   {
+    "channel": "#london",
+    "channel_hash": "9881D2B7AB9105A41A8D0F6BA449447E",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "",
+    "language": [
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General London area traffic",
+    "tags": [],
+    "scopes": [],
+    "country": "United-Kingdom",
+    "first_seen": "2026-03-21T07:51:16.000Z",
+    "last_seen": "2026-04-14T00:24:12.000Z",
+    "added": "2026-04-11",
+    "message_amount": 32,
+    "source": "finder"
+  },
+  {
     "channel": "Public",
     "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
     "category": "MeshCore",
@@ -17,57 +40,10 @@
     "scopes": [],
     "country": "",
     "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-13T20:21:49.000Z",
+    "last_seen": "2026-04-14T00:04:13.000Z",
     "added": "2026-04-11",
-    "message_amount": 6572,
+    "message_amount": 6628,
     "source": "radio"
-  },
-  {
-    "channel": "#mc-radar",
-    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
-    "category": "Special",
-    "subcategory": "Testing",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-13T20:21:31.000Z",
-    "added": "2026-04-11",
-    "message_amount": 4632,
-    "source": "finder"
-  },
-  {
-    "channel": "#gwnl",
-    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-13T20:20:55.000Z",
-    "added": "2026-04-11",
-    "message_amount": 131,
-    "source": "finder"
   },
   {
     "channel": "#test",
@@ -88,9 +64,244 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-13T20:19:09.000Z",
+    "last_seen": "2026-04-13T23:46:37.000Z",
     "added": "2026-04-11",
-    "message_amount": 6382,
+    "message_amount": 6429,
+    "source": "finder"
+  },
+  {
+    "channel": "#mc-radar",
+    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
+    "category": "Special",
+    "subcategory": "Testing",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T19:36:26.000Z",
+    "last_seen": "2026-04-13T23:07:39.000Z",
+    "added": "2026-04-11",
+    "message_amount": 4661,
+    "source": "finder"
+  },
+  {
+    "channel": "#testing",
+    "channel_hash": "CDE5E82CF515647DCB547A79A4F065D1",
+    "category": "Special",
+    "subcategory": "Testing",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T00:59:59.000Z",
+    "last_seen": "2026-04-13T23:00:19.000Z",
+    "added": "2026-04-11",
+    "message_amount": 95,
+    "source": "finder"
+  },
+  {
+    "channel": "#gsn",
+    "channel_hash": "E32DDD716C3389723E80F6637A3BE445",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T13:06:44.000Z",
+    "last_seen": "2026-04-13T22:21:12.000Z",
+    "added": "2026-04-11",
+    "message_amount": 78,
+    "source": "finder"
+  },
+  {
+    "channel": "#meow",
+    "channel_hash": "8C0C20A670CD2A05A7C865989C4C8B8A",
+    "category": "Special",
+    "subcategory": "Topic",
+    "region": "",
+    "language": [
+      "DE"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "German chat observed",
+    "tags": [
+      "Germany"
+    ],
+    "scopes": [],
+    "country": "Germany",
+    "first_seen": "2026-04-10T20:05:12.000Z",
+    "last_seen": "2026-04-13T22:14:10.000Z",
+    "added": "2026-04-11",
+    "message_amount": 5,
+    "source": "finder"
+  },
+  {
+    "channel": "#emmen",
+    "channel_hash": "74E4F65D28CA9A9D4DCCB1C1F710AC03",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Drenthe",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Emmen area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-dr",
+      "nl-dr-emm",
+      "vr-vrd"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-08T17:55:43.000Z",
+    "last_seen": "2026-04-13T21:42:13.000Z",
+    "added": "2026-04-11",
+    "message_amount": 2,
+    "source": "finder"
+  },
+  {
+    "channel": "#amersfoort",
+    "channel_hash": "541BEAB0E7587095D0ECFAD330E0F630",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Utrecht",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Amersfoort area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-ame",
+      "vr-vru"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-22T14:34:13.000Z",
+    "last_seen": "2026-04-13T21:22:21.000Z",
+    "added": "2026-04-11",
+    "message_amount": 35,
+    "source": "finder"
+  },
+  {
+    "channel": "#utrecht",
+    "channel_hash": "042E458DFB05B17CBDEE57F93DF4BE4C",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Utrecht",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Utrecht area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "vr-vru"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T06:30:06.000Z",
+    "last_seen": "2026-04-13T21:16:49.000Z",
+    "added": "2026-04-11",
+    "message_amount": 149,
+    "source": "finder"
+  },
+  {
+    "channel": "#pa3ang",
+    "channel_hash": "C2DD0C6B7D7CFEC474442B195D27E394",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-30T09:54:08.000Z",
+    "last_seen": "2026-04-13T20:31:21.000Z",
+    "added": "2026-04-11",
+    "message_amount": 12,
+    "source": "finder"
+  },
+  {
+    "channel": "#gwnl",
+    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T03:42:56.000Z",
+    "last_seen": "2026-04-13T20:24:11.000Z",
+    "added": "2026-04-11",
+    "message_amount": 132,
     "source": "finder"
   },
   {
@@ -113,7 +324,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-ge"
+      "nl-ge",
+      "vr-vggm"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:03:04.000Z",
@@ -153,29 +365,6 @@
     "source": "finder"
   },
   {
-    "channel": "#pa3ang",
-    "channel_hash": "C2DD0C6B7D7CFEC474442B195D27E394",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-30T09:54:08.000Z",
-    "last_seen": "2026-04-13T19:44:22.000Z",
-    "added": "2026-04-11",
-    "message_amount": 11,
-    "source": "finder"
-  },
-  {
     "channel": "#zaandam",
     "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
     "category": "Regional",
@@ -196,7 +385,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-zdm"
+      "nl-nh-zdm",
+      "vr-vrzw"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-07T18:43:42.000Z",
@@ -348,7 +538,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-ze"
+      "nl-ze",
+      "vr-vrz"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T16:53:36.000Z",
@@ -378,7 +569,8 @@
     "scopes": [
       "nl",
       "nl-nb",
-      "nl-nb-ehv"
+      "nl-nb-ehv",
+      "vr-vrbzo"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T07:43:52.000Z",
@@ -408,7 +600,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-ddr"
+      "nl-zh-ddr",
+      "vr-vrzhz"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-22T13:46:04.000Z",
@@ -438,7 +631,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-hrl"
+      "nl-nh-hrl",
+      "vr-vrk"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T03:41:36.000Z",
@@ -537,7 +731,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-dhh"
+      "nl-zh-dhh",
+      "vr-vrh"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:18:00.000Z",
@@ -590,36 +785,6 @@
     "last_seen": "2026-04-13T16:20:54.000Z",
     "added": "2026-04-11",
     "message_amount": 109,
-    "source": "finder"
-  },
-  {
-    "channel": "#amersfoort",
-    "channel_hash": "541BEAB0E7587095D0ECFAD330E0F630",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Utrecht",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Amersfoort area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ut",
-      "nl-ut-amf"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-22T14:34:13.000Z",
-    "last_seen": "2026-04-13T15:51:04.000Z",
-    "added": "2026-04-11",
-    "message_amount": 33,
     "source": "finder"
   },
   {
@@ -694,7 +859,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-ov"
+      "nl-ov",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:05:18.000Z",
@@ -771,7 +937,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-alk"
+      "nl-nh-alk",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-24T09:50:23.000Z",
@@ -848,7 +1015,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-ams"
+      "nl-nh-ams",
+      "vr-vraa"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T11:11:14.000Z",
@@ -955,63 +1123,12 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-zwl"
+      "nl-ov-zwl",
+      "vr-vrij"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T14:32:58.000Z",
     "last_seen": "2026-04-13T10:02:20.000Z",
-    "added": "2026-04-11",
-    "message_amount": 31,
-    "source": "finder"
-  },
-  {
-    "channel": "#utrecht",
-    "channel_hash": "042E458DFB05B17CBDEE57F93DF4BE4C",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Utrecht",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Utrecht area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ut"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T06:30:06.000Z",
-    "last_seen": "2026-04-13T09:58:03.000Z",
-    "added": "2026-04-11",
-    "message_amount": 147,
-    "source": "finder"
-  },
-  {
-    "channel": "#london",
-    "channel_hash": "9881D2B7AB9105A41A8D0F6BA449447E",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "",
-    "language": [
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General London area traffic",
-    "tags": [],
-    "scopes": [],
-    "country": "United-Kingdom",
-    "first_seen": "2026-03-21T07:51:16.000Z",
-    "last_seen": "2026-04-13T09:56:53.000Z",
     "added": "2026-04-11",
     "message_amount": 31,
     "source": "finder"
@@ -1036,7 +1153,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-nb"
+      "nl-nb",
+      "vr-vrmwb"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:08:49.000Z",
@@ -1135,7 +1253,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-li"
+      "nl-li",
+      "vr-vrzl"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T23:31:54.000Z",
@@ -1234,7 +1353,8 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-hgl"
+      "nl-ov-hgl",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:46:54.000Z",
@@ -1263,7 +1383,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-nh"
+      "nl-nh",
+      "vr-vraa"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T12:08:36.000Z",
@@ -1319,30 +1440,6 @@
     "source": "finder"
   },
   {
-    "channel": "#testing",
-    "channel_hash": "CDE5E82CF515647DCB547A79A4F065D1",
-    "category": "Special",
-    "subcategory": "Testing",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T00:59:59.000Z",
-    "last_seen": "2026-04-12T21:00:03.000Z",
-    "added": "2026-04-11",
-    "message_amount": 91,
-    "source": "finder"
-  },
-  {
     "channel": "#hamradionederland",
     "channel_hash": "2E18EAEDD9EF230F88A5ECFC69999CCA",
     "category": "Communities",
@@ -1385,7 +1482,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-fr"
+      "nl-fr",
+      "vr-vrf"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T11:45:42.000Z",
@@ -1414,7 +1512,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-nh"
+      "nl-nh",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:22:29.000Z",
@@ -1473,7 +1572,8 @@
     "scopes": [
       "nl",
       "nl-fl",
-      "nl-fl-alm"
+      "nl-fl-alm",
+      "vr-vrfl"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:14:10.000Z",
@@ -1526,7 +1626,8 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-nvd"
+      "nl-ov-nvd",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-24T16:59:01.000Z",
@@ -1556,7 +1657,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-rtm"
+      "nl-zh-rtm",
+      "vr-vrr"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-09T17:01:07.000Z",
@@ -1608,31 +1710,6 @@
     "last_seen": "2026-04-12T16:33:55.000Z",
     "added": "2026-04-11",
     "message_amount": 17,
-    "source": "finder"
-  },
-  {
-    "channel": "#meow",
-    "channel_hash": "8C0C20A670CD2A05A7C865989C4C8B8A",
-    "category": "Special",
-    "subcategory": "Topic",
-    "region": "",
-    "language": [
-      "DE"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "German chat observed",
-    "tags": [
-      "Germany"
-    ],
-    "scopes": [],
-    "country": "Germany",
-    "first_seen": "2026-04-10T20:05:12.000Z",
-    "last_seen": "2026-04-12T16:24:46.000Z",
-    "added": "2026-04-11",
-    "message_amount": 4,
     "source": "finder"
   },
   {
@@ -1704,7 +1781,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-gda"
+      "nl-zh-gda",
+      "vr-vrhm"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-22T15:09:17.000Z",
@@ -1778,7 +1856,8 @@
     "scopes": [
       "nl",
       "nl-ut",
-      "nl-ut-soe"
+      "nl-ut-soe",
+      "vr-vru"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-22T15:14:07.000Z",
@@ -1831,7 +1910,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-hlv"
+      "nl-nh-hlv",
+      "vr-vrgv"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T18:30:49.000Z",
@@ -1860,7 +1940,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-dr"
+      "nl-dr",
+      "vr-vrd"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-29T10:45:09.000Z",
@@ -1913,7 +1994,8 @@
     "scopes": [
       "nl",
       "nl-ge",
-      "nl-ge-arn"
+      "nl-ge-arn",
+      "vr-vggm"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-29T05:27:24.000Z",
@@ -1994,7 +2076,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-ldn"
+      "nl-zh-ldn",
+      "vr-vrhm"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T06:21:22.000Z",
@@ -2031,7 +2114,7 @@
     "channel_hash": "82946545B890B9490DAE54C304154A09",
     "category": "Regional",
     "subcategory": "City",
-    "region": "Gelderland",
+    "region": "Zuid-Holland",
     "language": [
       "NL",
       "EN"
@@ -2048,7 +2131,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-dlf"
+      "nl-zh-dlf",
+      "vr-vrh"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-25T12:44:33.000Z",
@@ -2122,7 +2206,8 @@
     "scopes": [
       "nl",
       "nl-fr",
-      "nl-fr-lwr"
+      "nl-fr-lwr",
+      "vr-vrf"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-11T12:49:30.000Z",
@@ -2221,7 +2306,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-vld"
+      "nl-zh-vld",
+      "vr-vrr"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-20T22:41:28.000Z",
@@ -2298,7 +2384,8 @@
     "scopes": [
       "nl",
       "nl-ge",
-      "nl-ge-apd"
+      "nl-ge-apd",
+      "vr-vnog"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:22:01.000Z",
@@ -2548,7 +2635,8 @@
     "scopes": [
       "nl",
       "nl-li",
-      "nl-li-maa"
+      "nl-li-maa",
+      "vr-vrzl"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-07T22:28:02.000Z",
@@ -3042,7 +3130,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-zh"
+      "nl-zh",
+      "vr-vrh"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-26T06:14:27.000Z",
@@ -3140,37 +3229,6 @@
     "last_seen": "2026-04-08T17:57:05.000Z",
     "added": "2026-04-11",
     "message_amount": 6,
-    "source": "finder"
-  },
-  {
-    "channel": "#emmen",
-    "channel_hash": "74E4F65D28CA9A9D4DCCB1C1F710AC03",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Drenthe",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Emmen area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-dr",
-      "nl-dr-emm"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-08T17:55:43.000Z",
-    "last_seen": "2026-04-08T17:55:43.000Z",
-    "added": "2026-04-11",
-    "message_amount": 1,
     "source": "finder"
   },
   {
@@ -3522,7 +3580,8 @@
     "scopes": [
       "nl",
       "nl-ut",
-      "nl-ut-zst"
+      "nl-ut-zst",
+      "vr-vru"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-02T11:12:12.000Z",
@@ -3810,7 +3869,8 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-alm"
+      "nl-ov-alm",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-03T12:34:14.000Z",
@@ -4174,7 +4234,8 @@
     "scopes": [
       "nl",
       "nl-zh",
-      "nl-zh-cap"
+      "nl-zh-cap",
+      "vr-vrr"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-26T11:37:25.000Z",
@@ -4326,7 +4387,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-dhr"
+      "nl-nh-dhr",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-25T20:26:13.000Z",
@@ -4427,7 +4489,8 @@
     "scopes": [
       "nl",
       "nl-nb",
-      "nl-nb-dto"
+      "nl-nb-dto",
+      "vr-vrmwb"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -4596,7 +4659,8 @@
     "scopes": [
       "nl",
       "nl-ge",
-      "nl-ge-ede"
+      "nl-ge-ede",
+      "vr-vggm"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-29T15:32:46.000Z",
@@ -4673,7 +4737,8 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-ens"
+      "nl-ov-ens",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-27T04:26:32.000Z",
@@ -4725,7 +4790,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-fl"
+      "nl-fl",
+      "vr-vrfl"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-22T14:36:42.000Z",
@@ -4877,29 +4943,6 @@
     "added": "2026-04-11",
     "message_amount": 0,
     "source": "radio"
-  },
-  {
-    "channel": "#gsn",
-    "channel_hash": "E32DDD716C3389723E80F6637A3BE445",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T13:06:44.000Z",
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 74,
-    "source": "finder"
   },
   {
     "channel": "#gunmen",
@@ -5140,7 +5183,8 @@
     "scopes": [
       "nl",
       "nl-ut",
-      "nl-ut-htn"
+      "nl-ut-htn",
+      "vr-vru"
     ],
     "country": "Netherlands",
     "first_seen": "2026-04-02T14:58:37.000Z",
@@ -5217,7 +5261,8 @@
     "scopes": [
       "nl",
       "nl-ut",
-      "nl-ut-ijs"
+      "nl-ut-ijs",
+      "vr-vru"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -5293,7 +5338,8 @@
     "scopes": [
       "nl",
       "nl-ov",
-      "nl-ov-kmp"
+      "nl-ov-kmp",
+      "vr-vrt"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-31T23:49:29.000Z",
@@ -5445,7 +5491,8 @@
     "scopes": [
       "nl",
       "nl-ut",
-      "nl-ut-lrd"
+      "nl-ut-lrd",
+      "vr-vru"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -5722,7 +5769,8 @@
     "scopes": [
       "nl",
       "nl-ze",
-      "nl-ze-mid"
+      "nl-ze-mid",
+      "vr-vrz"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -5892,7 +5940,8 @@
     "scopes": [
       "nl",
       "nl-ge",
-      "nl-ge-nij"
+      "nl-ge-nij",
+      "vr-vrgz"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-23T21:10:43.000Z",
@@ -5991,7 +6040,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-nb"
+      "nl-nb",
+      "vr-vrmwb"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -6020,7 +6070,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-nh"
+      "nl-nh",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-24T10:36:54.000Z",
@@ -6307,7 +6358,8 @@
     ],
     "scopes": [
       "nl",
-      "nl-zh"
+      "nl-zh",
+      "vr-vrr"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -6361,7 +6413,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-sch"
+      "nl-nh-sch",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": null,
@@ -6557,7 +6610,8 @@
     "scopes": [
       "nl",
       "nl-nb",
-      "nl-nb-til"
+      "nl-nb-til",
+      "vr-vrmwb"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-23T15:30:45.000Z",
@@ -6610,7 +6664,8 @@
     "scopes": [
       "nl",
       "nl-li",
-      "nl-li-vnl"
+      "nl-li-vnl",
+      "vr-vrln"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-24T07:50:19.000Z",
@@ -6663,7 +6718,8 @@
     "scopes": [
       "nl",
       "nl-ze",
-      "nl-ze-vls"
+      "nl-ze-vls",
+      "vr-vrz"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-28T12:49:09.000Z",
@@ -6723,7 +6779,8 @@
     "scopes": [
       "nl",
       "nl-nb",
-      "nl-nb-vug"
+      "nl-nb-vug",
+      "vr-vrmwb"
     ],
     "country": "Netherlands",
     "first_seen": "2026-03-21T07:39:25.000Z",
@@ -7019,7 +7076,8 @@
     "scopes": [
       "nl",
       "nl-nh",
-      "nl-nh-hhw"
+      "nl-nh-hhw",
+      "vr-vrnhn"
     ],
     "country": "Netherlands",
     "first_seen": null,
