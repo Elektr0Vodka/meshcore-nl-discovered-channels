@@ -18,9 +18,9 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-14T13:33:55.000Z",
+    "last_seen": "2026-04-14T13:58:36.000Z",
     "added": "2026-04-11",
-    "message_amount": 6541,
+    "message_amount": 6547,
     "source": "finder"
   },
   {
@@ -41,10 +41,64 @@
     "scopes": [],
     "country": "",
     "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-14T13:32:40.000Z",
+    "last_seen": "2026-04-14T13:53:06.000Z",
     "added": "2026-04-11",
-    "message_amount": 6739,
+    "message_amount": 6741,
     "source": "radio"
+  },
+  {
+    "channel": "#zaandam",
+    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Zaandam area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-zdm",
+      "vr-vrzw"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-07T18:43:42.000Z",
+    "last_seen": "2026-04-14T13:51:46.000Z",
+    "added": "2026-04-11",
+    "message_amount": 13,
+    "source": "finder"
+  },
+  {
+    "channel": "#gwnl",
+    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T03:42:56.000Z",
+    "last_seen": "2026-04-14T13:48:49.000Z",
+    "added": "2026-04-11",
+    "message_amount": 134,
+    "source": "finder"
   },
   {
     "channel": "#mc-radar",
@@ -65,9 +119,40 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-14T13:27:10.000Z",
+    "last_seen": "2026-04-14T13:47:52.000Z",
     "added": "2026-04-11",
-    "message_amount": 4744,
+    "message_amount": 4748,
+    "source": "finder"
+  },
+  {
+    "channel": "#eindhoven",
+    "channel_hash": "ACEB8CCEAE584A3890C8DB173668AE2B",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Brabant",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Eindhoven area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-ehv",
+      "vr-vrbzo"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T07:43:52.000Z",
+    "last_seen": "2026-04-14T13:43:53.000Z",
+    "added": "2026-04-11",
+    "message_amount": 272,
     "source": "finder"
   },
   {
@@ -168,37 +253,6 @@
     "last_seen": "2026-04-14T12:52:52.000Z",
     "added": "2026-04-11",
     "message_amount": 8,
-    "source": "finder"
-  },
-  {
-    "channel": "#eindhoven",
-    "channel_hash": "ACEB8CCEAE584A3890C8DB173668AE2B",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Brabant",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Eindhoven area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nb",
-      "nl-nb-ehv",
-      "vr-vrbzo"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T07:43:52.000Z",
-    "last_seen": "2026-04-14T12:48:23.000Z",
-    "added": "2026-04-11",
-    "message_amount": 271,
     "source": "finder"
   },
   {
@@ -687,37 +741,6 @@
     "source": "finder"
   },
   {
-    "channel": "#zaandam",
-    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Zaandam area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nh",
-      "nl-nh-zdm",
-      "vr-vrzw"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-07T18:43:42.000Z",
-    "last_seen": "2026-04-14T06:47:09.000Z",
-    "added": "2026-04-11",
-    "message_amount": 12,
-    "source": "finder"
-  },
-  {
     "channel": "#limburg",
     "channel_hash": "A1354F99A1E3FB4C59212ED72A0AF9BB",
     "category": "Regional",
@@ -917,29 +940,6 @@
     "last_seen": "2026-04-14T04:25:07.000Z",
     "added": "2026-04-11",
     "message_amount": 31,
-    "source": "finder"
-  },
-  {
-    "channel": "#gwnl",
-    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-14T04:24:01.000Z",
-    "added": "2026-04-11",
-    "message_amount": 133,
     "source": "finder"
   },
   {
