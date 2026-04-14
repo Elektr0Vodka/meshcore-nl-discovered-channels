@@ -1,49 +1,50 @@
 [
   {
-    "channel": "#london",
-    "channel_hash": "9881D2B7AB9105A41A8D0F6BA449447E",
-    "category": "Regional",
-    "subcategory": "City",
+    "channel": "#mc-radar",
+    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
+    "category": "Special",
+    "subcategory": "Testing",
     "region": "",
     "language": [
+      "NL",
       "EN"
     ],
     "status": "active",
     "verified": true,
     "recommended": false,
     "alias_of": null,
-    "notes": "General London area traffic",
+    "notes": "",
     "tags": [],
     "scopes": [],
-    "country": "United-Kingdom",
-    "first_seen": "2026-03-21T07:51:16.000Z",
-    "last_seen": "2026-04-14T00:24:12.000Z",
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T19:36:26.000Z",
+    "last_seen": "2026-04-14T10:19:43.000Z",
     "added": "2026-04-11",
-    "message_amount": 32,
+    "message_amount": 4713,
     "source": "finder"
   },
   {
-    "channel": "Public",
-    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
-    "category": "MeshCore",
-    "subcategory": "Default",
+    "channel": "#grunn",
+    "channel_hash": "47A821E5B3AB0A613ACC0E92D6BBC639",
+    "category": "Regional",
+    "subcategory": "Province",
     "region": "",
-    "language": [],
+    "language": [
+      "NL"
+    ],
     "status": "active",
     "verified": true,
     "recommended": false,
     "alias_of": null,
-    "notes": "The main public channel of Meshcore.",
-    "tags": [
-      "Default Meshcore Channel"
-    ],
+    "notes": "General Groningen area traffic",
+    "tags": [],
     "scopes": [],
-    "country": "",
-    "first_seen": "2026-03-20T21:58:52.000Z",
-    "last_seen": "2026-04-14T00:04:13.000Z",
+    "country": "Netherlands",
+    "first_seen": "2026-03-22T20:56:33.000Z",
+    "last_seen": "2026-04-14T10:16:38.000Z",
     "added": "2026-04-11",
-    "message_amount": 6628,
-    "source": "radio"
+    "message_amount": 110,
+    "source": "finder"
   },
   {
     "channel": "#test",
@@ -64,16 +65,48 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-20T21:54:36.000Z",
-    "last_seen": "2026-04-13T23:46:37.000Z",
+    "last_seen": "2026-04-14T10:14:36.000Z",
     "added": "2026-04-11",
-    "message_amount": 6429,
+    "message_amount": 6493,
     "source": "finder"
   },
   {
-    "channel": "#mc-radar",
-    "channel_hash": "F27ACF0BF185C2EC4B9FD36BF12FA1EE",
+    "channel": "#denhaag",
+    "channel_hash": "84EED36F62C7B22527DBF8883585AD14",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Zuid-Holland",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Den Haag area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-dhh",
+      "vr-vrh"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T22:18:00.000Z",
+    "last_seen": "2026-04-14T10:09:04.000Z",
+    "added": "2026-04-11",
+    "message_amount": 71,
+    "source": "finder"
+  },
+  {
+    "channel": "#gunmen",
+    "channel_hash": "B3B84E0A2506049F12F0E8B5ED55A080",
     "category": "Special",
-    "subcategory": "Testing",
+    "subcategory": "topic",
     "region": "",
     "language": [
       "NL",
@@ -87,10 +120,363 @@
     "tags": [],
     "scopes": [],
     "country": "Netherlands",
-    "first_seen": "2026-03-21T19:36:26.000Z",
-    "last_seen": "2026-04-13T23:07:39.000Z",
+    "first_seen": "2026-03-24T12:03:05.000Z",
+    "last_seen": "2026-04-14T10:08:21.000Z",
     "added": "2026-04-11",
-    "message_amount": 4661,
+    "message_amount": 2,
+    "source": "finder"
+  },
+  {
+    "channel": "#local",
+    "channel_hash": "D2D35FA76BE9875ED254DB80397483A5",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-27T16:54:49.000Z",
+    "last_seen": "2026-04-14T10:08:09.000Z",
+    "added": "2026-04-11",
+    "message_amount": 5,
+    "source": "finder"
+  },
+  {
+    "channel": "#twente",
+    "channel_hash": "E050EB10ED98803B3997257074264DC7",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Overijssel",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Overijssel area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "vr-vrt"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T06:05:18.000Z",
+    "last_seen": "2026-04-14T10:02:00.000Z",
+    "added": "2026-04-11",
+    "message_amount": 68,
+    "source": "finder"
+  },
+  {
+    "channel": "Public",
+    "channel_hash": "8B3387E9C5CDEA6AC9E5EDBAA115CD72",
+    "category": "MeshCore",
+    "subcategory": "Default",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "The main public channel of Meshcore.",
+    "tags": [
+      "Default Meshcore Channel"
+    ],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-03-20T21:58:52.000Z",
+    "last_seen": "2026-04-14T09:51:20.000Z",
+    "added": "2026-04-11",
+    "message_amount": 6713,
+    "source": "radio"
+  },
+  {
+    "channel": "#hamradio",
+    "channel_hash": "83C8B01997654265938DA8765CBC7DB9",
+    "category": "Communities",
+    "subcategory": "Radio",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T22:15:41.000Z",
+    "last_seen": "2026-04-14T09:50:09.000Z",
+    "added": "2026-04-11",
+    "message_amount": 272,
+    "source": "finder"
+  },
+  {
+    "channel": "#wardriving",
+    "channel_hash": "E3C26491E9CD321E3A6BE50D57D54ACF",
+    "category": "Special",
+    "subcategory": "Mapping",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T07:03:26.000Z",
+    "last_seen": "2026-04-14T09:48:04.000Z",
+    "added": "2026-04-11",
+    "message_amount": 455,
+    "source": "finder"
+  },
+  {
+    "channel": "#wardrive",
+    "channel_hash": "4076C315C1EF385FA93F066027320FE5",
+    "category": "Special",
+    "subcategory": "Mapping",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-24T10:28:27.000Z",
+    "last_seen": "2026-04-14T09:42:24.000Z",
+    "added": "2026-04-11",
+    "message_amount": 77,
+    "source": "finder"
+  },
+  {
+    "channel": "#amsterdam",
+    "channel_hash": "D768F5A0AA65F8C54E4EA521BD49EB4F",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Amsterdam area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-ams",
+      "vr-vraa"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T11:11:14.000Z",
+    "last_seen": "2026-04-14T09:36:43.000Z",
+    "added": "2026-04-11",
+    "message_amount": 27,
+    "source": "finder"
+  },
+  {
+    "channel": "#amersfoort",
+    "channel_hash": "541BEAB0E7587095D0ECFAD330E0F630",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Utrecht",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Amersfoort area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ut",
+      "nl-ut-ame",
+      "vr-vru"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-22T14:34:13.000Z",
+    "last_seen": "2026-04-14T09:26:56.000Z",
+    "added": "2026-04-11",
+    "message_amount": 37,
+    "source": "finder"
+  },
+  {
+    "channel": "#eindhoven",
+    "channel_hash": "ACEB8CCEAE584A3890C8DB173668AE2B",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Brabant",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Eindhoven area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-ehv",
+      "vr-vrbzo"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T07:43:52.000Z",
+    "last_seen": "2026-04-14T09:13:39.000Z",
+    "added": "2026-04-11",
+    "message_amount": 268,
+    "source": "finder"
+  },
+  {
+    "channel": "#jrs",
+    "channel_hash": "8F645B624175A9523CDB021968198090",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-04-14T09:07:00.000Z",
+    "last_seen": "2026-04-14T09:09:54.000Z",
+    "added": "2026-04-14T09:08:57.963Z",
+    "message_amount": 2,
+    "source": "finder"
+  },
+  {
+    "channel": "#gj",
+    "channel_hash": "154D1B04624D110E6FA35E96F03FBBD8",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T18:36:06.000Z",
+    "last_seen": "2026-04-14T08:26:15.000Z",
+    "added": "2026-04-11",
+    "message_amount": 10,
+    "source": "finder"
+  },
+  {
+    "channel": "#goedemorgen",
+    "channel_hash": "869557C3E1CD107CA47F2152A4436C1F",
+    "category": "Communities",
+    "subcategory": "Off-topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-23T03:00:12.000Z",
+    "last_seen": "2026-04-14T07:52:07.000Z",
+    "added": "2026-04-11",
+    "message_amount": 19,
+    "source": "finder"
+  },
+  {
+    "channel": "#beylix",
+    "channel_hash": "7A143550441D083507E2C19697EC2EC0",
+    "category": "",
+    "subcategory": "",
+    "region": "",
+    "language": [],
+    "status": "active",
+    "verified": false,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "",
+    "first_seen": "2026-03-21T09:47:06.000Z",
+    "last_seen": "2026-04-14T07:47:36.000Z",
+    "added": "2026-04-14T07:41:15.733Z",
+    "message_amount": 12,
+    "source": "finder"
+  },
+  {
+    "channel": "#bemesh",
+    "channel_hash": "4E92675E10B4A5B3DF305E86A6F4F8FA",
+    "category": "Communities",
+    "subcategory": "Meshcore",
+    "region": "",
+    "language": [
+      "BE"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "https://73sbe.wordpress.com/meshcore-belgie/",
+    "tags": [],
+    "scopes": [],
+    "country": "Belgium",
+    "first_seen": "2026-03-20T22:58:49.000Z",
+    "last_seen": "2026-04-14T07:24:17.000Z",
+    "added": "2026-04-11",
+    "message_amount": 143,
     "source": "finder"
   },
   {
@@ -112,9 +498,372 @@
     "scopes": [],
     "country": "Netherlands",
     "first_seen": "2026-03-21T00:59:59.000Z",
-    "last_seen": "2026-04-13T23:00:19.000Z",
+    "last_seen": "2026-04-14T07:01:33.000Z",
     "added": "2026-04-11",
-    "message_amount": 95,
+    "message_amount": 96,
+    "source": "finder"
+  },
+  {
+    "channel": "#elburg",
+    "channel_hash": "34EE2DC5726410E54F2C81987D8069F1",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Elburg area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "nl-ge-elb"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T14:29:39.000Z",
+    "last_seen": "2026-04-14T06:57:33.000Z",
+    "added": "2026-04-11",
+    "message_amount": 184,
+    "source": "finder"
+  },
+  {
+    "channel": "#zaandam",
+    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Zaandam area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nh",
+      "nl-nh-zdm",
+      "vr-vrzw"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-07T18:43:42.000Z",
+    "last_seen": "2026-04-14T06:47:09.000Z",
+    "added": "2026-04-11",
+    "message_amount": 12,
+    "source": "finder"
+  },
+  {
+    "channel": "#limburg",
+    "channel_hash": "A1354F99A1E3FB4C59212ED72A0AF9BB",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Limburg",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Limburg area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-li",
+      "vr-vrzl"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T23:31:54.000Z",
+    "last_seen": "2026-04-14T06:39:08.000Z",
+    "added": "2026-04-11",
+    "message_amount": 88,
+    "source": "finder"
+  },
+  {
+    "channel": "#raalte",
+    "channel_hash": "15BE4625711E9F9CC0A0568A2FC695A4",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Overijssel",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Raalte area traffic",
+    "tags": [],
+    "scopes": [
+      "nl",
+      "nl-ov",
+      "nl-ov-qds"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-04-12T18:57:21.000Z",
+    "last_seen": "2026-04-14T06:22:27.000Z",
+    "added": "2026-04-12",
+    "message_amount": 6,
+    "source": "finder"
+  },
+  {
+    "channel": "#hamradionederland",
+    "channel_hash": "2E18EAEDD9EF230F88A5ECFC69999CCA",
+    "category": "Communities",
+    "subcategory": "Radio",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-24T20:30:27.000Z",
+    "last_seen": "2026-04-14T06:19:23.000Z",
+    "added": "2026-04-11",
+    "message_amount": 45,
+    "source": "finder"
+  },
+  {
+    "channel": "#zuidholland",
+    "channel_hash": "9F5752F1E25A6AD90B075A425D4CFFE5",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Zuid-Holland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Zuid-Holland area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-28T07:21:21.000Z",
+    "last_seen": "2026-04-14T05:59:19.000Z",
+    "added": "2026-04-11",
+    "message_amount": 41,
+    "source": "finder"
+  },
+  {
+    "channel": "#gelderland",
+    "channel_hash": "7C5F276B6ACE11177427BAE7F5190B61",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Gelderland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Gelderland area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ge",
+      "vr-vggm"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T22:03:04.000Z",
+    "last_seen": "2026-04-14T05:40:47.000Z",
+    "added": "2026-04-11",
+    "message_amount": 526,
+    "source": "finder"
+  },
+  {
+    "channel": "#bot",
+    "channel_hash": "EB50A1BCB3E4E5D7BF69A57C9DADA211",
+    "category": "Special",
+    "subcategory": "Bot",
+    "region": "",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-20T23:00:19.000Z",
+    "last_seen": "2026-04-14T05:12:16.000Z",
+    "added": "2026-04-11",
+    "message_amount": 477,
+    "source": "finder"
+  },
+  {
+    "channel": "#vught",
+    "channel_hash": "51D6009BEBAE9EA4A254FB31328B0B9F",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Noord-Brabant",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Vught area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-nb",
+      "nl-nb-vug",
+      "vr-vrmwb"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T07:39:25.000Z",
+    "last_seen": "2026-04-14T05:07:13.000Z",
+    "added": "2026-04-11",
+    "message_amount": 36,
+    "source": "finder"
+  },
+  {
+    "channel": "#delft",
+    "channel_hash": "82946545B890B9490DAE54C304154A09",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "Zuid-Holland",
+    "language": [
+      "NL",
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Delft area traffic",
+    "tags": [
+      "City",
+      "Local"
+    ],
+    "scopes": [
+      "nl",
+      "nl-zh",
+      "nl-zh-dlf",
+      "vr-vrh"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-25T12:44:33.000Z",
+    "last_seen": "2026-04-14T04:56:33.000Z",
+    "added": "2026-04-11",
+    "message_amount": 20,
+    "source": "finder"
+  },
+  {
+    "channel": "#zeeland",
+    "channel_hash": "D49981832E87495678AB1624FE0A6D29",
+    "category": "Regional",
+    "subcategory": "Province",
+    "region": "Zeeland",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General Zeeland area traffic",
+    "tags": [
+      "province",
+      "regional"
+    ],
+    "scopes": [
+      "nl",
+      "nl-ze",
+      "vr-vrz"
+    ],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T16:53:36.000Z",
+    "last_seen": "2026-04-14T04:25:07.000Z",
+    "added": "2026-04-11",
+    "message_amount": 31,
+    "source": "finder"
+  },
+  {
+    "channel": "#gwnl",
+    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
+    "category": "Special",
+    "subcategory": "topic",
+    "region": "",
+    "language": [
+      "NL"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "",
+    "tags": [],
+    "scopes": [],
+    "country": "Netherlands",
+    "first_seen": "2026-03-21T03:42:56.000Z",
+    "last_seen": "2026-04-14T04:24:01.000Z",
+    "added": "2026-04-11",
+    "message_amount": 133,
+    "source": "finder"
+  },
+  {
+    "channel": "#london",
+    "channel_hash": "9881D2B7AB9105A41A8D0F6BA449447E",
+    "category": "Regional",
+    "subcategory": "City",
+    "region": "",
+    "language": [
+      "EN"
+    ],
+    "status": "active",
+    "verified": true,
+    "recommended": false,
+    "alias_of": null,
+    "notes": "General London area traffic",
+    "tags": [],
+    "scopes": [],
+    "country": "United-Kingdom",
+    "first_seen": "2026-03-21T07:51:16.000Z",
+    "last_seen": "2026-04-14T00:24:12.000Z",
+    "added": "2026-04-11",
+    "message_amount": 32,
     "source": "finder"
   },
   {
@@ -198,37 +947,6 @@
     "source": "finder"
   },
   {
-    "channel": "#amersfoort",
-    "channel_hash": "541BEAB0E7587095D0ECFAD330E0F630",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Utrecht",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Amersfoort area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ut",
-      "nl-ut-ame",
-      "vr-vru"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-22T14:34:13.000Z",
-    "last_seen": "2026-04-13T21:22:21.000Z",
-    "added": "2026-04-11",
-    "message_amount": 35,
-    "source": "finder"
-  },
-  {
     "channel": "#utrecht",
     "channel_hash": "042E458DFB05B17CBDEE57F93DF4BE4C",
     "category": "Regional",
@@ -279,147 +997,6 @@
     "last_seen": "2026-04-13T20:31:21.000Z",
     "added": "2026-04-11",
     "message_amount": 12,
-    "source": "finder"
-  },
-  {
-    "channel": "#gwnl",
-    "channel_hash": "E7B09E858D745BF55288C00EB677D400",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T03:42:56.000Z",
-    "last_seen": "2026-04-13T20:24:11.000Z",
-    "added": "2026-04-11",
-    "message_amount": 132,
-    "source": "finder"
-  },
-  {
-    "channel": "#gelderland",
-    "channel_hash": "7C5F276B6ACE11177427BAE7F5190B61",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Gelderland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Gelderland area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ge",
-      "vr-vggm"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T22:03:04.000Z",
-    "last_seen": "2026-04-13T20:14:45.000Z",
-    "added": "2026-04-11",
-    "message_amount": 522,
-    "source": "finder"
-  },
-  {
-    "channel": "#elburg",
-    "channel_hash": "34EE2DC5726410E54F2C81987D8069F1",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Gelderland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Elburg area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ge",
-      "nl-ge-elb"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T14:29:39.000Z",
-    "last_seen": "2026-04-13T19:48:12.000Z",
-    "added": "2026-04-11",
-    "message_amount": 180,
-    "source": "finder"
-  },
-  {
-    "channel": "#zaandam",
-    "channel_hash": "8DC77176A7E54CCF7A048793E63927C2",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Zaandam area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nh",
-      "nl-nh-zdm",
-      "vr-vrzw"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-07T18:43:42.000Z",
-    "last_seen": "2026-04-13T19:34:21.000Z",
-    "added": "2026-04-11",
-    "message_amount": 10,
-    "source": "finder"
-  },
-  {
-    "channel": "#raalte",
-    "channel_hash": "15BE4625711E9F9CC0A0568A2FC695A4",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Overijssel",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Raalte area traffic",
-    "tags": [],
-    "scopes": [
-      "nl",
-      "nl-ov",
-      "nl-ov-qds"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-04-12T18:57:21.000Z",
-    "last_seen": "2026-04-13T19:31:53.000Z",
-    "added": "2026-04-12",
-    "message_amount": 5,
     "source": "finder"
   },
   {
@@ -492,91 +1069,6 @@
     "last_seen": "2026-04-13T18:56:04.000Z",
     "added": "2026-04-13T18:56:01.658Z",
     "message_amount": 1,
-    "source": "finder"
-  },
-  {
-    "channel": "#bot",
-    "channel_hash": "EB50A1BCB3E4E5D7BF69A57C9DADA211",
-    "category": "Special",
-    "subcategory": "Bot",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T23:00:19.000Z",
-    "last_seen": "2026-04-13T18:36:32.000Z",
-    "added": "2026-04-11",
-    "message_amount": 471,
-    "source": "finder"
-  },
-  {
-    "channel": "#zeeland",
-    "channel_hash": "D49981832E87495678AB1624FE0A6D29",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Zeeland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Zeeland area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ze",
-      "vr-vrz"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T16:53:36.000Z",
-    "last_seen": "2026-04-13T18:34:47.000Z",
-    "added": "2026-04-11",
-    "message_amount": 29,
-    "source": "finder"
-  },
-  {
-    "channel": "#eindhoven",
-    "channel_hash": "ACEB8CCEAE584A3890C8DB173668AE2B",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Brabant",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Eindhoven area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nb",
-      "nl-nb-ehv",
-      "vr-vrbzo"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T07:43:52.000Z",
-    "last_seen": "2026-04-13T18:31:35.000Z",
-    "added": "2026-04-11",
-    "message_amount": 257,
     "source": "finder"
   },
   {
@@ -710,38 +1202,6 @@
     "source": "finder"
   },
   {
-    "channel": "#denhaag",
-    "channel_hash": "84EED36F62C7B22527DBF8883585AD14",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Zuid-Holland",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Den Haag area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-zh",
-      "nl-zh-dhh",
-      "vr-vrh"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T22:18:00.000Z",
-    "last_seen": "2026-04-13T16:53:08.000Z",
-    "added": "2026-04-11",
-    "message_amount": 68,
-    "source": "finder"
-  },
-  {
     "channel": "#xr",
     "channel_hash": "30137EA30FF793A4119E26673494BEB1",
     "category": "Special",
@@ -762,58 +1222,6 @@
     "last_seen": "2026-04-13T16:41:03.000Z",
     "added": "2026-04-11",
     "message_amount": 9,
-    "source": "finder"
-  },
-  {
-    "channel": "#grunn",
-    "channel_hash": "47A821E5B3AB0A613ACC0E92D6BBC639",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Groningen area traffic",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-22T20:56:33.000Z",
-    "last_seen": "2026-04-13T16:20:54.000Z",
-    "added": "2026-04-11",
-    "message_amount": 109,
-    "source": "finder"
-  },
-  {
-    "channel": "#zuidholland",
-    "channel_hash": "9F5752F1E25A6AD90B075A425D4CFFE5",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Zuid-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Zuid-Holland area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-zh"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-28T07:21:21.000Z",
-    "last_seen": "2026-04-13T15:45:39.000Z",
-    "added": "2026-04-11",
-    "message_amount": 40,
     "source": "finder"
   },
   {
@@ -840,36 +1248,6 @@
     "source": "finder"
   },
   {
-    "channel": "#twente",
-    "channel_hash": "E050EB10ED98803B3997257074264DC7",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Overijssel",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Overijssel area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-ov",
-      "vr-vrt"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T06:05:18.000Z",
-    "last_seen": "2026-04-13T15:40:35.000Z",
-    "added": "2026-04-11",
-    "message_amount": 66,
-    "source": "finder"
-  },
-  {
     "channel": "#weer",
     "channel_hash": "BE5BF33261E93DCAF1548ECF25426810",
     "category": "Special",
@@ -890,30 +1268,6 @@
     "last_seen": "2026-04-13T15:36:09.000Z",
     "added": "2026-04-11",
     "message_amount": 7,
-    "source": "finder"
-  },
-  {
-    "channel": "#hamradio",
-    "channel_hash": "83C8B01997654265938DA8765CBC7DB9",
-    "category": "Communities",
-    "subcategory": "Radio",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T22:15:41.000Z",
-    "last_seen": "2026-04-13T15:28:51.000Z",
-    "added": "2026-04-11",
-    "message_amount": 269,
     "source": "finder"
   },
   {
@@ -948,30 +1302,6 @@
     "source": "finder"
   },
   {
-    "channel": "#wardriving",
-    "channel_hash": "E3C26491E9CD321E3A6BE50D57D54ACF",
-    "category": "Special",
-    "subcategory": "Mapping",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T07:03:26.000Z",
-    "last_seen": "2026-04-13T13:54:46.000Z",
-    "added": "2026-04-11",
-    "message_amount": 420,
-    "source": "finder"
-  },
-  {
     "channel": "#sux35",
     "channel_hash": "0FA3980F00835F9E238CA006DD1AC781",
     "category": "Special",
@@ -992,37 +1322,6 @@
     "last_seen": "2026-04-13T13:34:36.000Z",
     "added": "2026-04-13",
     "message_amount": 4,
-    "source": "finder"
-  },
-  {
-    "channel": "#amsterdam",
-    "channel_hash": "D768F5A0AA65F8C54E4EA521BD49EB4F",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Holland",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Amsterdam area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nh",
-      "nl-nh-ams",
-      "vr-vraa"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T11:11:14.000Z",
-    "last_seen": "2026-04-13T13:33:52.000Z",
-    "added": "2026-04-11",
-    "message_amount": 25,
     "source": "finder"
   },
   {
@@ -1234,59 +1533,6 @@
     "source": "finder"
   },
   {
-    "channel": "#limburg",
-    "channel_hash": "A1354F99A1E3FB4C59212ED72A0AF9BB",
-    "category": "Regional",
-    "subcategory": "Province",
-    "region": "Limburg",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Limburg area traffic",
-    "tags": [
-      "province",
-      "regional"
-    ],
-    "scopes": [
-      "nl",
-      "nl-li",
-      "vr-vrzl"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-20T23:31:54.000Z",
-    "last_seen": "2026-04-13T07:25:35.000Z",
-    "added": "2026-04-11",
-    "message_amount": 87,
-    "source": "finder"
-  },
-  {
-    "channel": "#goedemorgen",
-    "channel_hash": "869557C3E1CD107CA47F2152A4436C1F",
-    "category": "Communities",
-    "subcategory": "Off-topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-23T03:00:12.000Z",
-    "last_seen": "2026-04-13T07:18:39.000Z",
-    "added": "2026-04-11",
-    "message_amount": 17,
-    "source": "finder"
-  },
-  {
     "channel": "#kees",
     "channel_hash": "05CA87B37BE595155AE8D6ECEBA2BC8D",
     "category": "Special",
@@ -1417,52 +1663,6 @@
     "source": "finder"
   },
   {
-    "channel": "#gj",
-    "channel_hash": "154D1B04624D110E6FA35E96F03FBBD8",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T18:36:06.000Z",
-    "last_seen": "2026-04-12T21:03:29.000Z",
-    "added": "2026-04-11",
-    "message_amount": 9,
-    "source": "finder"
-  },
-  {
-    "channel": "#hamradionederland",
-    "channel_hash": "2E18EAEDD9EF230F88A5ECFC69999CCA",
-    "category": "Communities",
-    "subcategory": "Radio",
-    "region": "",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-24T20:30:27.000Z",
-    "last_seen": "2026-04-12T20:56:15.000Z",
-    "added": "2026-04-11",
-    "message_amount": 44,
-    "source": "finder"
-  },
-  {
     "channel": "#friesland",
     "channel_hash": "7D228E0AA32CE2CCEFF5480B825BA11D",
     "category": "Regional",
@@ -1580,29 +1780,6 @@
     "last_seen": "2026-04-12T19:17:09.000Z",
     "added": "2026-04-11",
     "message_amount": 79,
-    "source": "finder"
-  },
-  {
-    "channel": "#bemesh",
-    "channel_hash": "4E92675E10B4A5B3DF305E86A6F4F8FA",
-    "category": "Communities",
-    "subcategory": "Meshcore",
-    "region": "",
-    "language": [
-      "BE"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "https://73sbe.wordpress.com/meshcore-belgie/",
-    "tags": [],
-    "scopes": [],
-    "country": "Belgium",
-    "first_seen": "2026-03-20T22:58:49.000Z",
-    "last_seen": "2026-04-12T18:29:49.000Z",
-    "added": "2026-04-11",
-    "message_amount": 142,
     "source": "finder"
   },
   {
@@ -2107,38 +2284,6 @@
     "last_seen": "2026-04-12T06:28:17.000Z",
     "added": "2026-04-12",
     "message_amount": 2,
-    "source": "finder"
-  },
-  {
-    "channel": "#delft",
-    "channel_hash": "82946545B890B9490DAE54C304154A09",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Zuid-Holland",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Delft area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-zh",
-      "nl-zh-dlf",
-      "vr-vrh"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-25T12:44:33.000Z",
-    "last_seen": "2026-04-12T04:08:48.000Z",
-    "added": "2026-04-11",
-    "message_amount": 19,
     "source": "finder"
   },
   {
@@ -2825,30 +2970,6 @@
     "last_seen": "2026-04-10T13:16:30.000Z",
     "added": "2026-04-11",
     "message_amount": 10,
-    "source": "finder"
-  },
-  {
-    "channel": "#wardrive",
-    "channel_hash": "4076C315C1EF385FA93F066027320FE5",
-    "category": "Special",
-    "subcategory": "Mapping",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-24T10:28:27.000Z",
-    "last_seen": "2026-04-10T13:03:34.000Z",
-    "added": "2026-04-11",
-    "message_amount": 68,
     "source": "finder"
   },
   {
@@ -4945,30 +5066,6 @@
     "source": "radio"
   },
   {
-    "channel": "#gunmen",
-    "channel_hash": "B3B84E0A2506049F12F0E8B5ED55A080",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-24T12:03:05.000Z",
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 1,
-    "source": "finder"
-  },
-  {
     "channel": "#hackerspacenijmegen",
     "channel_hash": "F7EAEFAA8F8098F31E7FF589C54F88A6",
     "category": "Special",
@@ -5545,30 +5642,6 @@
     "last_seen": "2026-04-08",
     "added": "2026-04-11",
     "message_amount": 9,
-    "source": "finder"
-  },
-  {
-    "channel": "#local",
-    "channel_hash": "D2D35FA76BE9875ED254DB80397483A5",
-    "category": "Special",
-    "subcategory": "topic",
-    "region": "",
-    "language": [
-      "NL",
-      "EN"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "",
-    "tags": [],
-    "scopes": [],
-    "country": "Netherlands",
-    "first_seen": "2026-03-27T16:54:49.000Z",
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 2,
     "source": "finder"
   },
   {
@@ -6756,37 +6829,6 @@
     "last_seen": "2026-04-08",
     "added": "2026-04-11",
     "message_amount": 1,
-    "source": "finder"
-  },
-  {
-    "channel": "#vught",
-    "channel_hash": "51D6009BEBAE9EA4A254FB31328B0B9F",
-    "category": "Regional",
-    "subcategory": "City",
-    "region": "Noord-Brabant",
-    "language": [
-      "NL"
-    ],
-    "status": "active",
-    "verified": true,
-    "recommended": false,
-    "alias_of": null,
-    "notes": "General Vught area traffic",
-    "tags": [
-      "City",
-      "Local"
-    ],
-    "scopes": [
-      "nl",
-      "nl-nb",
-      "nl-nb-vug",
-      "vr-vrmwb"
-    ],
-    "country": "Netherlands",
-    "first_seen": "2026-03-21T07:39:25.000Z",
-    "last_seen": "2026-04-08",
-    "added": "2026-04-11",
-    "message_amount": 35,
     "source": "finder"
   },
   {
