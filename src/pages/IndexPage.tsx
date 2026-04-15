@@ -17,7 +17,7 @@ import ChannelCard from "../components/channels/ChannelCard";
 import ChannelRow from "../components/channels/ChannelRow";
 import ChannelInfoModal from "../components/channels/ChannelInfoModal";
 import Toast from "../components/ui/Toast";
-import { exportJson, exportTxt, exportRtfm } from "../utils/export";
+import { exportJson, exportTxt, exportRtfm, exportCoreScope } from "../utils/export";
 
 const LS_VIEW = "meshcore-view";
 
@@ -304,6 +304,7 @@ export default function IndexPage() {
           onExportJson={() => exportJson(filtered)}
           onExportTxt={() => exportTxt(filtered)}
           onExportRtfm={() => exportRtfm(filtered)}
+          onExportCoreScope={() => exportCoreScope(filtered)}
           categoryMap={categoryMap}
         />
 
@@ -442,6 +443,7 @@ export default function IndexPage() {
         onExportTxt={() => exportTxt(selectedChannels())}
         onExportRtfm={() => exportRtfm(selectedChannels())}
         onExportJson={() => exportJson(selectedChannels())}
+        onExportCoreScope={() => exportCoreScope(selectedChannels())}
       />
 
       {infoChannel && (

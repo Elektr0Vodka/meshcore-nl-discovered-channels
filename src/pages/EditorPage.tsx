@@ -19,7 +19,7 @@ import ChannelCard from '../components/channels/ChannelCard'
 import ChannelRow from '../components/channels/ChannelRow'
 import EditModal from '../components/channels/EditModal'
 import Toast from '../components/ui/Toast'
-import { exportJson, exportTxt, exportRtfm } from '../utils/export'
+import { exportJson, exportTxt, exportRtfm, exportCoreScope } from '../utils/export'
 
 const LS_VIEW = 'meshcore-view'
 
@@ -145,6 +145,7 @@ export default function EditorPage() {
           onExportJson={() => exportJson(filtered)}
           onExportTxt={() => exportTxt(filtered)}
           onExportRtfm={() => exportRtfm(filtered)}
+          onExportCoreScope={() => exportCoreScope(filtered)}
           isEditor
           categoryMap={categoryMap}
         />
@@ -238,6 +239,7 @@ export default function EditorPage() {
         onExportTxt={() => exportTxt(selectedChannels())}
         onExportRtfm={() => exportRtfm(selectedChannels())}
         onExportJson={() => exportJson(selectedChannels())}
+        onExportCoreScope={() => exportCoreScope(selectedChannels())}
       />
 
       {editingChannel && (

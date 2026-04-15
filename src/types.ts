@@ -46,4 +46,5 @@ export interface FilterState {
   country: string
   onlyScoped: boolean
   onlyBare: boolean
+  minMessages: number
 }

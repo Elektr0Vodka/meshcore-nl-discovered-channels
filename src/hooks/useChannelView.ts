@@ -30,7 +30,7 @@ function sortChannels(arr: Channel[], sortBy: SortField, sortDir: SortDir): Chan
 
 const EMPTY_FILTERS: FilterState = {
   search: '', category: '', subcategory: '', region: '', scope: '', country: '',
-  onlyScoped: false, onlyBare: false,
+  onlyScoped: false, onlyBare: false, minMessages: 0,
 }
 
 export function useChannelView(allChannels: Channel[]) {
@@ -60,7 +60,7 @@ export function useChannelView(allChannels: Channel[]) {
   const isFiltered = Object.values(filters).some(v => v !== '' && v !== false)
 
   const filtered = useMemo(() => {
-    const { search, category, subcategory, region, scope, country, onlyScoped, onlyBare } = filters
+    const { search, category, subcategory, region, scope, country, onlyScoped, onlyBare, minMessages } = filters
     const q = search.trim().toLowerCase()
     const base = allChannels.filter(c => {
       if (onlyScoped && !c.scopes?.length)              return false
@@ -70,6 +70,7 @@ export function useChannelView(allChannels: Channel[]) {
       if (region     && c.region      !== region)       return false
       if (scope      && !(c.scopes||[]).includes(scope)) return false
       if (country    && (c.country||'') !== country)    return false
+      if (minMessages > 0 && (c.message_amount ?? 0) < minMessages) return false
       if (q) {
         const hay = [
           c.channel, c.category, c.subcategory, c.region, c.country,

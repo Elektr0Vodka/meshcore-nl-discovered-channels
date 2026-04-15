@@ -5,6 +5,7 @@ interface Props {
   onExportTxt: () => void
   onExportRtfm: () => void
   onExportJson: () => void
+  onExportCoreScope?: () => void
 }
 
 export default function SelectionBar({
@@ -14,6 +15,7 @@ export default function SelectionBar({
   onExportTxt,
   onExportRtfm,
   onExportJson,
+  onExportCoreScope,
 }: Props) {
   return (
     <div className={`sel-bar${selectionSize > 0 ? ' visible' : ''}`}>
@@ -24,6 +26,7 @@ export default function SelectionBar({
       <button className="btn" onClick={onExportTxt}>⬇ TXT</button>
       <button className="btn" onClick={onExportRtfm}>⬇ RTfM</button>
       <button className="btn" onClick={onExportJson}>⬇ JSON</button>
+      {onExportCoreScope && <button className="btn" onClick={onExportCoreScope}>⬇ CoreScope</button>}
     </div>
   )
 }

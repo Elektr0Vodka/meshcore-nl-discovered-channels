@@ -10,6 +10,7 @@ interface Props {
   onExportJson: () => void
   onExportTxt: () => void
   onExportRtfm: () => void
+  onExportCoreScope?: () => void
   isEditor?: boolean
   categoryMap: Record<string, CategoryEntry>
 }
@@ -23,6 +24,7 @@ export default function FilterControls({
   onExportJson,
   onExportTxt,
   onExportRtfm,
+  onExportCoreScope,
   isEditor = false,
   categoryMap,
 }: Props) {
@@ -122,6 +124,18 @@ export default function FilterControls({
         <span className="toggle-label">No meta only</span>
       </label>
 
+      <div className="input-wrap">
+        <label htmlFor="min-messages">Min messages:</label>
+        <input
+          id="min-messages"
+          type="number"
+          min="0"
+          value={filters.minMessages}
+          onChange={e => setFilter('minMessages', Math.max(0, parseInt(e.target.value) || 0))}
+          placeholder="0"
+        />
+      </div>
+
       <div className="vr" />
 
       <div className="view-btns">
@@ -159,6 +173,7 @@ export default function FilterControls({
           <button className="btn" onClick={onExportJson} title="Export filtered channels as JSON">⬇ JSON</button>
           <button className="btn" onClick={onExportTxt}  title="Export filtered channel names">⬇ TXT</button>
           <button className="btn" onClick={onExportRtfm} title="Export filtered as RTfM format">⬇ RTfM</button>
+          {onExportCoreScope && <button className="btn" onClick={onExportCoreScope} title="Export filtered as CoreScope format">⬇ CoreScope</button>}
         </>
       )}
     </div>

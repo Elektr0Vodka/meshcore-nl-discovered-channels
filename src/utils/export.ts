@@ -25,3 +25,30 @@ export function exportTxt(channels: Channel[], filename = 'channels.txt') {
 export function exportJson(channels: Channel[], filename = 'channels.json') {
   dl(JSON.stringify(channels.map(stripInternal), null, 2), filename)
 }
+
+export function exportCoreScope(channels: Channel[]) {
+  // Build channelKeys object and hashChannels array
+  const channelKeys: Record<string, string> = {}
+  const hashChannelsSet = new Set<string>()
+
+  channels.forEach(c => {
+    const hash = c.channel_hash || ''
+    if (hash) {
+      channelKeys[c.channel] = hash
+      hashChannelsSet.add(c.channel)
+    }
+  })
+
+  // Sort hashChannels alphabetically
+  const hashChannels = Array.from(hashChannelsSet).sort()
+
+  // Export CoreScopeConfig.json
+  const configData = {
+    channelKeys,
+    hashChannels
+  }
+  dl(JSON.stringify(configData, null, 2), 'CoreScopeConfig.json')
+
+  // Export CoreScope-channel-rainbow.json (simple mapping)
+  dl(JSON.stringify(channelKeys, null, 2), 'CoreScope-channel-rainbow.json')
+}
