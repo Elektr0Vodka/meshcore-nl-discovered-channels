@@ -764,6 +764,7 @@ input[type=search],
 select,
 input[type=text],
 input[type=date],
+input[type=number],
 textarea {
   background: var(--bg);
   border: 1px solid var(--border);
@@ -784,6 +785,7 @@ input[type=search]:focus,
 select:focus,
 input[type=text]:focus,
 input[type=date]:focus,
+input[type=number]:focus,
 textarea:focus {
   border-color: var(--accent);
 }
@@ -842,6 +844,22 @@ select option {
 
 .toggle-label {
   font-size: 13px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.input-wrap label {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.input-wrap input[type=number] {
+  width: 80px;
 }
 
 .vr {
