@@ -32,10 +32,11 @@ export function exportCoreScope(channels: Channel[]) {
   const hashChannelsSet = new Set<string>()
 
   channels.forEach(c => {
-    const hash = c.channel_hash || ''
+    const hash = (c.channel_hash || '').toLowerCase()
+    const channelName = c.channel.toLowerCase()
     if (hash) {
-      channelKeys[c.channel] = hash
-      hashChannelsSet.add(c.channel)
+      channelKeys[channelName] = hash
+      hashChannelsSet.add(channelName)
     }
   })
 
