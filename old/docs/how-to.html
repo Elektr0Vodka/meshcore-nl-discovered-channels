@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How To - MeshCore NL</title>
+
+<!-- ✅ REUSE SAME CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar"></div>
+
+<script>
+fetch("navbar.html")
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById("navbar").innerHTML = html;
+
+    // highlight active page
+    const links = document.querySelectorAll(".nav-links a");
+    links.forEach(link => {
+      if (link.href === window.location.href) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>📘 How to use this site</h1>
+    <p>Guide for using the discovered channel list together with RTfM.</p>
+  </div>
+
+  <!-- INTRO -->
+  <div class="info-box">
+    <p>
+      This site provides <strong>discovered MeshCore channels</strong> in a format that can be directly used with
+      <strong>Remote Terminal for MeshCore (RTfM)</strong>.
+    </p>
+    <p>
+      It is designed for <strong>quick copy → import → use</strong> workflows.
+    </p>
+  </div>
+
+  <!-- IMPORT GUIDE -->
+  <details class="info-panel" open>
+    <summary>
+      <span>📥 Importing a channel into RTfM</span>
+      <span class="arrow">▼</span>
+    </summary>
+
+    <div class="info-panel-body">
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">Step-by-step</h4>
+        <ol style="margin-top:6px; padding-left:18px; line-height:1.7;">
+          <li>Go to the <strong>homepage</strong></li>
+          <li>Find a channel</li>
+          <li>Click <strong>Copy import line</strong></li>
+          <li>Open RTfM</li>
+          <li>Go to <strong>Channels → Import</strong></li>
+          <li>Paste and apply</li>
+        </ol>
+      </div>
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">What gets copied?</h4>
+        <p>
+          The import format looks like:
+        </p>
+        <pre style="margin-top:6px;">#channel-name - 32charhexkey</pre>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- EXPORT GUIDE -->
+  <details class="info-panel">
+    <summary>
+      <span>📤 Exporting channels (RTfM)</span>
+      <span class="arrow">▼</span>
+    </summary>
+
+    <div class="info-panel-body">
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">Export from RTfM</h4>
+        <ol style="margin-top:6px; padding-left:18px; line-height:1.7;">
+          <li>Select your channels</li>
+          <li>Click <strong>Export</strong></li>
+          <li>Save or copy the output</li>
+        </ol>
+      </div>
+
+      <div class="info-box warn">
+        <p>
+          Exported data can be re-imported here or shared with others.
+        </p>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- SITE FEATURES -->
+  <details class="info-panel">
+    <summary>
+      <span>🧭 Site features explained</span>
+      <span class="arrow">▼</span>
+    </summary>
+
+    <div class="info-panel-body">
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">Channel actions</h4>
+        <ul style="margin-top:6px; padding-left:18px; line-height:1.7;">
+          <li><strong>Copy name</strong> → copies channel name only</li>
+          <li><strong>Copy import line</strong> → ready for RTfM</li>
+          <li><strong>Edit / Add info</strong> → add metadata locally</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">Filters & search</h4>
+        <ul style="margin-top:6px; padding-left:18px; line-height:1.7;">
+          <li>Search by name, tags, region or notes</li>
+          <li>Filter by category, region, country</li>
+          <li>Toggle scoped / no metadata</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4 style="color:#93c5fd;">Export options</h4>
+        <ul style="margin-top:6px; padding-left:18px; line-height:1.7;">
+          <li><strong>Download JSON</strong> → filtered dataset</li>
+          <li><strong>Export RTfM</strong> → ready import file</li>
+          <li><strong>Export TXT</strong> → names only</li>
+          <li><strong>Selection export</strong> → export only selected channels</li>
+        </ul>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- LOCAL EDITS -->
+  <details class="info-panel">
+    <summary>
+      <span>💾 Local edits (important)</span>
+      <span class="arrow">▼</span>
+    </summary>
+
+    <div class="info-panel-body">
+
+      <div class="info-box warn">
+        <p>
+          Edits made on this site are stored <strong>only in your browser (localStorage)</strong>.
+        </p>
+      </div>
+
+      <div class="info-box danger">
+        <p>
+          ⚠ If you refresh or switch devices, your edits may be lost.
+        </p>
+        <p style="margin-top:6px;">
+          Always use <strong>Export metadata</strong> to back up your changes.
+        </p>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- NOTES -->
+  <details class="info-panel">
+    <summary>
+      <span>⚠ Important notes</span>
+      <span class="arrow">▼</span>
+    </summary>
+
+    <div class="info-panel-body">
+
+      <div class="info-box">
+        <ul style="padding-left:18px; line-height:1.7;">
+          <li>This is not a live scanner</li>
+          <li>Channels may be outdated or inactive</li>
+          <li>Some channels require matching settings</li>
+        </ul>
+      </div>
+
+    </div>
+  </details>
+
+</div>
+
+</body>
+</html>
